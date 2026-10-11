@@ -11,5 +11,5 @@ npm run preview   # http://localhost:4175 (python3 static server)
 
 - Content: `src/config/site.ts` (company facts), `src/data/*.json` (branches, services, articles, industries, pages).
 - Docs: `docs/` — start with `deployment-guide.md`, `integrations-and-owner-inputs.md`, `qa-report.md`.
-- GitHub Pages preview (noindex): https://krish-bhanushali.github.io/vidhi-transport-website/
+- GitHub Pages preview (noindex): https://krish-bhanushali.github.io/vidhi-transport-website/ — activate by copying `deploy/github-workflows/*.yml` into `.github/workflows/` (see that folder's README).
 - Previous repository state: tag `pre-redesign-backup`.

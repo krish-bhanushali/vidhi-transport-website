@@ -48,4 +48,7 @@ All copy lives in data files — edit, rebuild, upload:
 - Navigation: `src/config/nav.ts`
 
 ## GitHub Pages preview
+
+> **Pending one manual step:** the new workflow lives in `deploy/github-workflows/` (see its README) because the push token lacked the `workflow` scope. Until it is copied into `.github/workflows/`, the old Pages job fails and the preview is not updated.
+
 Every push to `main` runs `.github/workflows/pages.yml`, which builds with `BASE_PATH=/vidhi-transport-website/` (all links prefixed, every page `noindex`) and publishes to `https://krish-bhanushali.github.io/vidhi-transport-website/`. That preview is for review only; **never upload a preview build to public_html** — the committed `publish/` folder is always the production build (no base path, indexable).
