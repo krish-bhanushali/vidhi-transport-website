@@ -1,0 +1,15 @@
+# Optional: add to public_html/.htaccess on Apache/LiteSpeed hosting (cPanel). Owner action.
+# These old URLs return 404 on the live site today but still appear in search results.
+ErrorDocument 404 /404.html
+
+# Canonical host: force https + www (verify current hosting behaviour first; do not add if the panel already does this)
+# RewriteEngine On
+# RewriteCond %{HTTPS} off [OR]
+# RewriteCond %{HTTP_HOST} !^www\. [NC]
+# RewriteRule ^(.*)$ https://www.vidhitransport.com/$1 [R=301,L]
+
+Redirect 301 /credentials.html /certifications.html
+Redirect 301 /areas/ankleshwar.html /areas/transporter-in-ankleshwar.html
+Redirect 301 /areas/dahej.html /areas/transporter-in-dahej.html
+Redirect 301 /areas/vapi.html /areas/transporter-in-vapi.html
+Redirect 301 /services/part-load.html /services/part-truck-load.html
