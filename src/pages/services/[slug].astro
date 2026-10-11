@@ -1,0 +1,113 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import CredStrip from '../../components/CredStrip.astro';
+import OptionsGrid from '../../components/OptionsGrid.astro';
+import FaqList from '../../components/FaqList.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import Icon from '../../components/Icon.astro';
+import { services, serviceBySlug, branches } from '../../lib/data';
+import { serviceNode } from '../../lib/schema';
+import { site } from '../../config/site';
+import { u } from '../../lib/url';
+import truck from '../../assets/images/vidhi-truck-highway.jpg';
+import dock from '../../assets/images/loading-dock.jpg';
+import yard from '../../assets/images/fleet-yard.jpg';
+
+export function getStaticPaths() { return services.map((s) => ({ params: { slug: s.slug } })); }
+const s = serviceBySlug(Astro.params.slug as string);
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Services', path: '/services.html' }, { name: s.crumb || s.h1, path: s.path }];
+const heroImg: Record<string, [any, string]> = {
+  'full-truck-load': [truck, 'Vidhi Transport Co. container truck on a highway'],
+  'part-truck-load': [dock, 'Mixed industrial cargo secured on a truck at a loading dock (illustrative image)'],
+  warehousing: [yard, 'Trucks parked at a freight yard (illustrative image)'],
+  'first-mile-last-mile': [yard, 'Trucks parked at a freight yard (illustrative image)'],
+};
+// Branch capability labels published on the live branch locator.
+const capMap: Record<string, string> = { 'full-truck-load': 'Full Truckload Transport', 'part-truck-load': 'Part Load Transport', 'port-container-transport': 'Container transport', warehousing: 'Warehousing support' };
+const cap = capMap[s.slug];
+const relBranches = cap ? branches.filter((b) => b.capabilities.includes(cap)) : branches;
+const related = s.related.map((r: string) => serviceBySlug(r)).filter(Boolean);
+const hi = heroImg[s.slug];
+---
+<Base title={s.title} description={s.description} path={s.path} crumbs={crumbs} navActive="Services" schema={[serviceNode(s)]}>
+  <PageHero kicker={s.kicker} title={s.h1} lede={s.lede} crumbs={crumbs} ctas={[{ text: 'Request a quote', href: '/contact_us.html#quote' }, { text: `Call ${site.phone}`, href: site.phoneHref }]} image={hi?.[0]} imageAlt={hi?.[1]} mark={hi ? undefined : s.mark} />
+  <dl class="facts-bar container" aria-label={`${s.h1} at a glance`}>
+    {s.facts.map((f: any) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}
+  </dl>
+  <section class="section tone-white">
+    <div class="container detail-layout">
+      <article class="reveal">
+        <p class="kicker">{s.detail.kicker}</p>
+        <h2 class="section-title">{s.detail.title}</h2>
+        <div class="stack mt-2" style="font-size:1.05rem">{s.detail.paragraphs.map((p: string, i: number) => <p class={i === 0 ? 'lead' : ''}>{p}</p>)}</div>
+        <h3 class="sub">{s.detail.includesTitle}</h3>
+        <ul class="check-list two">{s.detail.includes.map((x: string) => <li>{x}</li>)}</ul>
+        <h3 class="sub">{s.detail.suitableTitle}</h3>
+        <ul class="tag-list">{s.detail.suitable.map((x: string) => <li>{x}</li>)}</ul>
+      </article>
+      <aside class="side-card" aria-labelledby="brief-title">
+        <p class="kicker" style="margin:0">{s.brief.kicker}</p>
+        <h2 id="brief-title">{s.brief.title}</h2>
+        <p style="margin:0">{s.brief.intro}</p>
+        <ul class="check-list">{s.brief.items.map((x: string) => <li>{x}</li>)}</ul>
+        <a class="btn btn-red btn-block" href={u('/contact_us.html#quote')}>Request a quote<Icon name="arrow" /></a>
+        <p style="margin:0;font-size:.92rem"><a class="text-link" href={site.phoneHref}>{site.phone}</a><br /><a href={`mailto:${site.email}`}>{site.email}</a></p>
+      </aside>
+    </div>
+  </section>
+  <CredStrip />
+  <section class="section tone-warm">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">{s.process.kicker}</p><h2 class="section-title">{s.process.title}</h2></div>
+        <p class="lead">{s.process.description}</p>
+      </div>
+      <ol class="card-grid" style="list-style:none;padding:0">
+        {s.process.steps.map((st: any, i: number) => (
+          <li class="card reveal" style={`--d:${i * 0.07}s`}><span class="num">{String(i + 1).padStart(2, '0')}</span><h3>{st.title}</h3><p>{st.text}</p></li>
+        ))}
+      </ol>
+      {s.process.note && <p class="callout mt-2"><strong>Important:</strong> {s.process.note}</p>}
+    </div>
+  </section>
+  <section class="section tone-white">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">{s.options.kicker}</p><h2 class="section-title">{s.options.title}</h2></div>
+        <p class="lead">{s.options.description}</p>
+      </div>
+      <OptionsGrid groups={s.options.groups} />
+    </div>
+  </section>
+  <section class="section-sm tone-dark">
+    <div class="container">
+      <div class="section-head reveal" style="margin-bottom:2rem">
+        <div><p class="kicker">Branch coordination</p><h2 class="section-title" style="font-size:clamp(1.6rem,2.8vw,2.6rem)">{cap ? `Branches listing ${cap.toLowerCase()}` : 'Plan it with the nearest branch'}</h2></div>
+        <p class="lead">{cap ? `These branches list ${cap.toLowerCase()} among their published capabilities. Availability still depends on cargo, route, documentation and vehicle availability.` : 'Requirements are reviewed by the operations team with the branch closest to the pickup point.'}</p>
+      </div>
+      <ul class="tag-list">{relBranches.map((b) => <li><a href={u(b.areaPage)} style="text-decoration:none">{b.city}</a></li>)}</ul>
+      <div class="btn-row mt-2"><a class="btn btn-light" href={u('/branch-locator.html')}>Open the branch locator<Icon name="arrow" /></a></div>
+    </div>
+  </section>
+  <FaqList items={s.faq.items} kicker={s.faq.kicker} title={s.faq.title} intro={s.faq.description} tone="warm" />
+  <section class="section tone-white">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">Continue exploring</p><h2 class="section-title">Related logistics services.</h2></div>
+        <div class="section-head-actions"><a class="btn btn-outline" href={u('/services.html')}>See all services<Icon name="arrow" /></a></div>
+      </div>
+      <div class="card-grid">
+        {related.map((r: any, i: number) => (
+          <article class="card reveal" style={`--d:${i * 0.07}s`}>
+            <span class="card-kicker">{r.card.tag}</span>
+            <h3><a class="card-link" href={u(r.path)}>{r.card.name}</a></h3>
+            <p>{r.card.summary}</p>
+            <div class="card-foot"><span class="text-link">Explore service<Icon name="arrow" /></span></div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+  <CtaBand kicker="Plan this shipment" title={`Request a ${s.crumb || s.h1} quotation.`} text="Share pickup and delivery locations, cargo description, packaging, approximate weight, dimensions and dispatch date." />
+</Base>

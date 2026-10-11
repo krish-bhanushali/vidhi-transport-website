@@ -1,0 +1,86 @@
+---
+// Corporate, responsibility and support pages whose copy lives in src/data/pages/<name>.json
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import GenericSections from '../components/GenericSections.astro';
+import CredStrip from '../components/CredStrip.astro';
+import CtaBand from '../components/CtaBand.astro';
+import TrackForm from '../components/TrackForm.astro';
+import { page } from '../lib/data';
+import yard from '../assets/images/fleet-yard.jpg';
+import dock from '../assets/images/loading-dock.jpg';
+import truck from '../assets/images/vidhi-truck-highway.jpg';
+
+type Cfg = { nav: string; group: string; groupPath: string; crumb: string; hero?: any; heroAlt?: string; band?: { after: number; img: any; quote: string; note?: string }; cred?: boolean; track?: boolean; pageType?: string };
+const CFG: Record<string, Cfg> = {
+  'about-us': { nav: 'Company', group: 'Company', groupPath: '/about-us.html', crumb: 'About us', hero: truck, heroAlt: 'Vidhi Transport Co. container truck on an industrial highway', cred: true, pageType: 'AboutPage',
+    band: { after: 2, img: yard, quote: 'Be the trusted corridor partner businesses call first.', note: 'Our vision. Illustrative image of a freight yard.' } },
+  'our-infrastructure': { nav: 'Company', group: 'Company', groupPath: '/about-us.html', crumb: 'Infrastructure', hero: yard, heroAlt: 'Row of trucks at a freight yard at sunrise (illustrative image)', track: true },
+  certifications: { nav: 'Company', group: 'Company', groupPath: '/about-us.html', crumb: 'Credentials' },
+  careers: { nav: 'Company', group: 'Company', groupPath: '/about-us.html', crumb: 'Careers', band: { after: 1, img: dock, quote: 'The shipment moves because people notice the details.', note: 'Illustrative image of cargo being secured at a loading dock.' } },
+  csr: { nav: 'Company', group: 'Company', groupPath: '/about-us.html', crumb: 'CSR & responsibility', cred: true, band: { after: 1, img: truck, quote: 'Responsibility belongs in everyday logistics decisions.' } },
+  governance: { nav: 'Company', group: 'Company', groupPath: '/about-us.html', crumb: 'Governance', cred: true },
+  'group-companies': { nav: 'Company', group: 'Company', groupPath: '/about-us.html', crumb: 'Group of Companies' },
+  Clientele: { nav: 'Industries', group: 'Industries', groupPath: '/Clientele.html', crumb: 'Industries we serve', hero: dock, heroAlt: 'Crated machinery and wrapped pallets secured on a truck (illustrative image)', cred: true },
+  'help-desk': { nav: 'Tools', group: 'Customer tools', groupPath: '/tools.html', crumb: 'Help desk', track: true },
+  tools: { nav: 'Tools', group: 'Customer tools', groupPath: '/tools.html', crumb: 'Customer tools', track: true },
+  'tax-forms': { nav: 'Tools', group: 'Customer tools', groupPath: '/tools.html', crumb: 'GST & e-way bill guidance' },
+};
+export function getStaticPaths() {
+  return ['about-us', 'our-infrastructure', 'certifications', 'careers', 'csr', 'governance', 'group-companies', 'Clientele', 'help-desk', 'tools', 'tax-forms'].map((p) => ({ params: { page: p } }));
+}
+const { page: name } = Astro.params as { page: string };
+const cfg = CFG[name];
+const d = page(name);
+const path = `/${name}.html`;
+const crumbs = [{ name: 'Home', path: '/' }, ...(cfg.groupPath !== path ? [{ name: cfg.group, path: cfg.groupPath }] : []), { name: cfg.crumb, path }];
+const heroCtas = (d.hero.ctas || []).filter((c: any) => !c.href.startsWith('#') || true);
+const before = cfg.band ? d.sections.slice(0, cfg.band.after) : d.sections;
+const after = cfg.band ? d.sections.slice(cfg.band.after) : [];
+const closing = d.closing;
+const sectors = name === 'Clientele' ? (industries as any[]).map((x) => ({ ...x, svc: x.services.map((sl: string) => serviceBySlug(sl)).filter(Boolean) })) : [];
+import industries from '../data/industries.json';
+import { serviceBySlug } from '../lib/data';
+import { u } from '../lib/url';
+---
+<Base title={d.title} description={d.description} path={path} crumbs={crumbs} navActive={cfg.nav} pageType={cfg.pageType}>
+  <PageHero kicker={d.hero.kicker} title={d.hero.title} lede={d.hero.intro} points={d.hero.list} crumbs={crumbs} ctas={heroCtas} image={cfg.hero} imageAlt={cfg.heroAlt} />
+  {cfg.cred && <CredStrip />}
+  {cfg.track && (
+    <section class="section-sm tone-grey">
+      <div class="container grid-2" style="align-items:center">
+        <div><p class="kicker">Live shipment status</p><h2 class="section-title" style="font-size:clamp(1.6rem,2.6vw,2.4rem)">Have an LR number? Check it first.</h2><p class="mt-1">The tracking page requests the latest available record directly from the Vidhi Transport ERP.</p></div>
+        <TrackForm mini id={`track-${name}`} />
+      </div>
+    </section>
+  )}
+  <GenericSections sections={before} />
+  {sectors.length > 0 && (
+    <section class="section tone-white" id="sectors">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="kicker">Sector guide</p><h2 class="section-title">Which service to discuss for your cargo</h2></div>
+          <p class="lead">A starting point for the conversation, not a capability guarantee. Acceptance of regulated, hazardous or oversized cargo is always assessed case by case.</p>
+        </div>
+        <ul class="sector-rows">
+          {sectors.map((x: any, i: number) => (
+            <li class="sector-row reveal">
+              <span class="num">{String(i + 1).padStart(2, '0')}</span>
+              <div><h3>{x.name}</h3><p class="muted">{x.cargo}</p></div>
+              <div class="links">{x.svc.map((v: any) => <a class="chip-link" href={u(v.path)}>{v.crumb || v.h1}</a>)}</div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+  {cfg.band && (
+    <section class="image-band">
+      <Image src={cfg.band.img} alt="" widths={[800, 1280, 1920]} sizes="100vw" loading="lazy" />
+      <div class="container"><blockquote class="reveal">{cfg.band.quote}</blockquote>{cfg.band.note && <p class="band-note">{cfg.band.note}</p>}</div>
+    </section>
+  )}
+  {after.length > 0 && <GenericSections sections={after} start={before.length} />}
+  {closing ? <CtaBand kicker={closing.kicker} title={closing.title} text={closing.intro?.[0]} /> : <CtaBand />}
+</Base>

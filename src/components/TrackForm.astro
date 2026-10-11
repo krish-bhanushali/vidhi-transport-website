@@ -1,0 +1,52 @@
+---
+import Icon from './Icon.astro';
+import { site, waLink } from '../config/site';
+import { u } from '../lib/url';
+interface Props { mini?: boolean; id?: string }
+const { mini = false, id = 'track' } = Astro.props;
+const t = site.tracking;
+---
+{mini ? (
+  <form class="track-card" action={u('/lr-track.html')} method="get" data-tracking-form data-results-page={u('/lr-track.html')} data-whatsapp={site.whatsapp}>
+    <label class="field" for={`${id}-lr`}><span style="font-weight:600;color:var(--ink)">Track a consignment by LR number</span></label>
+    <div class="track-row">
+      <input id={`${id}-lr`} name="lr" inputmode="numeric" autocomplete="off" pattern="[0-9]+" required placeholder="Enter LR number" />
+      <button class="btn btn-dark" type="submit">Track LR<Icon name="arrow" /></button>
+    </div>
+    <div class="track-state" data-track-loading hidden></div>
+    <div class="track-error mt-1" data-track-error role="alert" hidden><strong></strong><span></span><a href={waLink('Hello Vidhi Transport, please help me track an LR.')} target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+    <div data-track-result hidden></div>
+  </form>
+) : (
+  <form class="track-card" id={id} action={u('/lr-track.html')} method="get" data-tracking-form data-api-url={t.apiUrl} data-api-version={t.apiVersion} data-device-id={t.deviceId} data-app-id={t.appId} data-control={t.control} data-timeout={t.timeout} data-whatsapp={site.whatsapp}>
+    <label for={`${id}-lr`} style="display:block;font-weight:600;color:var(--ink);margin-bottom:.6rem">LR number <span class="req" aria-hidden="true" style="color:var(--brand-red-text)">*</span></label>
+    <div class="track-row">
+      <input id={`${id}-lr`} name="lr" inputmode="numeric" autocomplete="off" pattern="[0-9]+" required placeholder="Example: 232323" aria-describedby={`${id}-help`} />
+      <button class="btn btn-red" type="submit">Check shipment status<Icon name="arrow" /></button>
+    </div>
+    <p id={`${id}-help`} class="hint" style="font-size:.85rem;color:var(--muted);margin-top:.6rem">Enter the numeric LR number from your consignment receipt. Results come directly from the Vidhi Transport ERP.</p>
+    <noscript><p class="noscript-note">Live LR tracking needs JavaScript. Without it, call <a href={site.phoneHref}>{site.phone}</a> or <a href={waLink('Hello Vidhi Transport, please share the latest status of my LR.')}>ask on WhatsApp</a> with your LR number.</p></noscript>
+    <div class="track-state" aria-live="polite">
+      <p class="track-loading" data-track-loading hidden>Checking the live shipment record…</p>
+      <div class="track-error" data-track-error role="alert" hidden><strong>Live tracking is temporarily unavailable.</strong><span>Retry, or ask customer care to check this LR.</span><a href={waLink('Hello Vidhi Transport, please share the latest status of my LR.')} target="_blank" rel="noopener">Ask customer care on WhatsApp</a></div>
+    </div>
+    <section class="track-result" data-track-result tabindex="-1" hidden aria-labelledby={`${id}-rt`}>
+      <div class="track-status">
+        <div><span class="kicker" id={`${id}-rt`} style="margin-bottom:.4rem">Live ERP record · LR <span data-r-lr></span></span><br /><strong data-r-status></strong></div>
+      </div>
+      <p data-r-status-copy style="margin:0"></p>
+      <ol class="track-steps">
+        <li data-step="0">Booked</li><li data-step="1">On the way</li><li data-step="2">Delivered</li>
+      </ol>
+      <dl>
+        <div><dt>From</dt><dd data-r-from></dd></div>
+        <div><dt>To</dt><dd data-r-to></dd></div>
+        <div><dt>LR date</dt><dd data-r-date></dd></div>
+        <div><dt>Estimated delivery</dt><dd data-r-eta></dd></div>
+        <div><dt>Status updated</dt><dd data-r-updated></dd></div>
+        <div data-r-contact-row hidden><dt>Contact</dt><dd data-r-contact></dd></div>
+      </dl>
+    </section>
+  </form>
+)}
+<script>import '../scripts/tracking.ts';</script>

@@ -1,0 +1,58 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/images/vidhi-logo-light.png';
+import { site } from '../config/site';
+import { u } from '../lib/url';
+import { services, serviceShort, branches } from '../lib/data';
+const year = new Date().getFullYear();
+const cols = [
+  { title: 'Services', links: [{ label: 'All services', href: '/services.html' }, ...services.map((s) => ({ label: serviceShort[s.slug], href: s.path }))] },
+  { title: 'Company', links: [
+    { label: 'About us', href: '/about-us.html' }, { label: 'Industries we serve', href: '/Clientele.html' }, { label: 'Infrastructure', href: '/our-infrastructure.html' },
+    { label: 'Credentials', href: '/certifications.html' }, { label: 'Careers', href: '/careers.html' }, { label: 'CSR & Go Green', href: '/csr.html' },
+    { label: 'Governance', href: '/governance.html' }, { label: 'Group of Companies', href: '/group-companies.html' } ] },
+  { title: 'Customer tools', links: [
+    { label: 'Track LR', href: '/lr-track.html' }, { label: 'Get a quote', href: '/contact_us.html#quote' }, { label: 'Freight inquiry', href: '/inquiry.html' },
+    { label: 'Pickup request', href: '/pickup-request.html' }, { label: 'Help desk', href: '/help-desk.html' }, { label: 'Service complaint', href: '/service-complaint.html' },
+    { label: 'GST & e-way bill', href: '/tax-forms.html' }, { label: 'All tools', href: '/tools.html' } ] },
+  { title: 'Network & insights', links: [
+    { label: 'Branch locator', href: '/branch-locator.html' }, { label: 'Contact us', href: '/contact_us.html' }, { label: 'Insights', href: '/content.html' },
+    { label: 'FTL vs PTL guide', href: '/blog/ftl-vs-ptl-industrial-freight.html' }, { label: 'Drum & carboy checklist', href: '/blog/drum-carboy-transport-checklist.html' },
+    { label: 'Dispatch checklist', href: '/blog/gujarat-maharashtra-dispatch-checklist.html' } ] },
+];
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <Image src={logo} alt="Vidhi Transport Co." width={210} height={36} widths={[210, 420]} sizes="210px" loading="lazy" />
+        <p>Industrial road logistics across Gujarat and Maharashtra: full truckload, part load, chemical and industrial freight, project cargo, port containers and warehousing.</p>
+        <div class="footer-contact">
+          <a href={site.phoneHref}>{site.phone}</a>
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+          <address>{site.headOffice.label}: {site.headOffice.full}</address>
+          <span>{site.hours}</span>
+        </div>
+      </div>
+      <div class="footer-cols">
+        {cols.map((c) => (
+          <nav aria-label={c.title}>
+            <h2>{c.title}</h2>
+            <ul>{c.links.map((l) => <li><a href={u(l.href)}>{l.label}</a></li>)}</ul>
+          </nav>
+        ))}
+      </div>
+    </div>
+    <div class="footer-branches">
+      <h2>Branch network</h2>
+      <ul>{branches.map((b) => <li><a href={u(b.areaPage)}>{b.city}</a></li>)}</ul>
+    </div>
+    <div class="footer-bottom">
+      <p>© {year} {site.legalName}. All rights reserved.</p>
+      <ul>
+        {site.social.map((s) => <li><a href={s.href} rel="noopener" target="_blank">{s.label}</a></li>)}
+        <li><a href={u('/privacy.html')}>Website privacy notice</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

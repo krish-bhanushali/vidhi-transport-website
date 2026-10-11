@@ -1,0 +1,12 @@
+---
+interface Props { groups: { title: string; items: string[] }[] }
+const { groups } = Astro.props;
+---
+<div class="options-grid">
+  {groups.map((g, i) => (
+    <div>
+      <h3><span>{String(i + 1).padStart(2, '0')}</span>{g.title}</h3>
+      <ul class="check-list">{g.items.map((x) => <li>{x}</li>)}</ul>
+    </div>
+  ))}
+</div>

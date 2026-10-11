@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { u } from '../lib/url';
+---
+<Base title="Page not found | Vidhi Transport" description="The Vidhi Transport page you requested could not be found. Use these links to reach services, branches, LR tracking or contact." path="/404.html" noindex>
+  <section class="section tone-warm notfound">
+    <div class="container">
+      <p class="kicker">Error 404</p>
+      <h1 class="page-title">This page has moved or no longer exists.</h1>
+      <p class="lead mt-1">Try one of these routes instead.</p>
+      <div class="btn-row mt-2">
+        <a class="btn btn-red" href={u('/')}>Homepage<Icon name="arrow" /></a>
+        <a class="btn btn-outline" href={u('/services.html')}>Services</a>
+        <a class="btn btn-outline" href={u('/branch-locator.html')}>Branch locator</a>
+        <a class="btn btn-outline" href={u('/lr-track.html')}>Track LR</a>
+        <a class="btn btn-outline" href={u('/contact_us.html')}>Contact</a>
+      </div>
+    </div>
+  </section>
+</Base>

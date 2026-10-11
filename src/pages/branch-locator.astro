@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import NetworkMap from '../components/NetworkMap.astro';
+import BranchCard from '../components/BranchCard.astro';
+import FaqList from '../components/FaqList.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import { page, branches, gujaratBranches, maharashtraBranches } from '../lib/data';
+const d = page('branch-locator');
+const faq = d.sections.find((s: any) => s.faqs);
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Branch network', path: '/branch-locator.html' }];
+const schema = [{ '@type': 'ItemList', name: 'Vidhi Transport branch locations', itemListElement: branches.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: b.name, url: 'https://www.vidhitransport.com' + (b.branchPage || b.areaPage) })) }];
+---
+<Base title={d.title} description={d.description} path="/branch-locator.html" crumbs={crumbs} navActive="Network" schema={schema} pageType="CollectionPage">
+  <PageHero kicker={d.hero.kicker} title={d.hero.title} lede={d.hero.intro} crumbs={crumbs} ctas={[{ text: 'Choose a branch', href: '#branch-directory' }, { text: 'Plan a route', href: '/contact_us.html#quote' }]} tone="dark" />
+  <section class="section tone-dark" style="padding-top:0">
+    <div class="container network">
+      <div>
+        <p class="kicker">Network at a glance</p>
+        <h2 class="section-title">{branches.length} branch locations</h2>
+        <p class="lead mt-1">Nine locations in Gujarat and five in Maharashtra, with branch-backed area pages for useful local route information.</p>
+        <div class="network-list" data-network-list="locator-map">
+          <div><h3>Gujarat · {gujaratBranches.length}</h3><ul>{gujaratBranches.map((b) => <li><a href={`#branch-${b.id}`} data-branch={b.id}>{b.city}<Icon name="arrow" class="text-red" /></a></li>)}</ul></div>
+          <div><h3>Maharashtra · {maharashtraBranches.length}</h3><ul>{maharashtraBranches.map((b) => <li><a href={`#branch-${b.id}`} data-branch={b.id}>{b.city}<Icon name="arrow" class="text-red" /></a></li>)}</ul></div>
+        </div>
+      </div>
+      <NetworkMap id="locator-map" />
+    </div>
+  </section>
+  <section class="section tone-warm" id="branch-directory">
+    <div class="container">
+      <div class="section-head">
+        <div><p class="kicker">Branch directory</p><h2 class="section-title">Addresses, direct phones and capabilities.</h2></div>
+        <p class="lead">Every address and service-area reference is present in this page. Filter by state or search a town, industrial area or service.</p>
+      </div>
+      <div class="branch-filter" data-branch-filter role="search" hidden>
+        <button type="button" data-state="all" aria-pressed="true">All ({branches.length})</button>
+        <button type="button" data-state="Gujarat" aria-pressed="false">Gujarat ({gujaratBranches.length})</button>
+        <button type="button" data-state="Maharashtra" aria-pressed="false">Maharashtra ({maharashtraBranches.length})</button>
+        <label class="sr-only" for="branch-search">Search branches</label>
+        <input id="branch-search" type="search" placeholder="Search: e.g. Jhagadia, JNPT, warehousing" autocomplete="off" />
+        <span class="muted" data-filter-status aria-live="polite" style="font-size:.88rem"></span>
+      </div>
+      <h3 class="kicker" style="margin-top:1rem">Gujarat network · {gujaratBranches.length} listed locations</h3>
+      <div class="branch-grid">{gujaratBranches.map((b) => <BranchCard b={b} />)}</div>
+      <h3 class="kicker" style="margin-top:3rem">Maharashtra network · {maharashtraBranches.length} listed locations</h3>
+      <div class="branch-grid">{maharashtraBranches.map((b) => <BranchCard b={b} />)}</div>
+      <p class="callout mt-3"><strong>Service-area tags are coverage references.</strong> They identify nearby or connected localities coordinated by the listed branch; they do not always indicate a separate physical office. Confirm availability for the exact PIN code, cargo and date.</p>
+    </div>
+  </section>
+  <FaqList items={faq.faqs} kicker={faq.kicker} title={faq.title} tone="white" />
+  <CtaBand kicker="Need help choosing?" title="Send the route. We’ll connect the team." text="Share origin, destination, cargo and timing for a branch or service recommendation." />
+</Base>

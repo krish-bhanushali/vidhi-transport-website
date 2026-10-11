@@ -1,0 +1,20 @@
+---
+import Icon from './Icon.astro';
+import { site } from '../config/site';
+import { u } from '../lib/url';
+interface Props { kicker?: string | null; title?: string | null; text?: string | null; primary?: { text: string; href: string } }
+const { kicker = 'Get your freight moving', title = 'Tell us what needs to move.', text = 'Share the route, cargo and timing. The operations team will review the practical movement option.', primary = { text: 'Get a freight quote', href: '/contact_us.html#quote' } } = Astro.props;
+---
+<section class="cta-band">
+  <div class="container">
+    <div class="reveal">
+      {kicker && <p class="kicker">{kicker}</p>}
+      <h2>{title}</h2>
+      {text && <p>{text}</p>}
+    </div>
+    <div class="btn-row reveal" style="--d:.1s">
+      <a class="btn btn-light" href={u(primary.href)}>{primary.text}<Icon name="arrow" /></a>
+      <a class="btn btn-ghost-light" href={site.phoneHref}><Icon name="phone" />{site.phone}</a>
+    </div>
+  </div>
+</section>

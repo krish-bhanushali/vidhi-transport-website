@@ -1,0 +1,27 @@
+---
+import Icon from './Icon.astro';
+import { telHref } from '../config/site';
+import { u } from '../lib/url';
+import type { Branch } from '../lib/data';
+const { b, heading = 'h3' } = Astro.props as { b: Branch; heading?: string };
+const H = heading as any;
+const search = [b.name, b.city, b.region, b.address, ...b.serviceAreas, ...b.capabilities].join(' ').toLowerCase();
+---
+<article class="branch-card" id={`branch-${b.id}`} data-branch-card data-state={b.state} data-search={search}>
+  <header>
+    <div><span class="region">{b.region}</span><H>{b.name}</H></div>
+    <span class="state">{b.state}</span>
+  </header>
+  <address>{b.address}</address>
+  <div class="phones">{b.phones.map((p) => <a href={telHref(p)}><Icon name="phone" class="sr-only" />{p}</a>)}</div>
+  <div class="branch-cols">
+    <div><h4>Capabilities</h4><ul class="check-list" style="gap:.3rem">{b.capabilities.map((c) => <li>{c}</li>)}</ul></div>
+    <div><h4>Nearby service areas</h4><ul class="tag-list">{b.serviceAreas.map((a) => <li>{a}</li>)}</ul></div>
+  </div>
+  <div class="actions">
+    <a class="btn btn-dark btn-sm" href={u(b.areaPage)}>Area and route details</a>
+    {b.branchPage && <a class="text-link" href={u(b.branchPage)}>Branch page</a>}
+    <a class="text-link" href={b.mapUrl} target="_blank" rel="noopener">Map<Icon name="arrow-up-right" /></a>
+    <a class="text-link" href={u('/contact_us.html#quote')}>Request a quote</a>
+  </div>
+</article>

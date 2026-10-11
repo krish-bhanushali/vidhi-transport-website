@@ -1,0 +1,100 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import FaqList from '../../components/FaqList.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import Icon from '../../components/Icon.astro';
+import { branches, page } from '../../lib/data';
+import { localBusiness } from '../../lib/schema';
+import { site, telHref } from '../../config/site';
+import { u } from '../../lib/url';
+export function getStaticPaths() { return branches.map((b) => ({ params: { slug: b.areaPage.replace('/areas/', '').replace('.html', '') } })); }
+const slug = Astro.params.slug as string;
+const b = branches.find((x) => x.areaPage === `/areas/${slug}.html`)!;
+const d = page(`areas__${slug}`);
+const prep = d.sections.find((s: any) => s.kicker === 'Prepare your enquiry');
+const LABELS = ['Exact locations', 'Cargo', 'Packages', 'Equipment', 'Timing', 'Terms'];
+const prepItems = (prep?.list || []).map((t: string) => { const l = LABELS.find((x) => t.startsWith(x)); return l ? { l, t: t.slice(l.length).trim() } : { l: '', t }; });
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Network', path: '/branch-locator.html' }, { name: b.city, path: b.areaPage }];
+// LocalBusiness lives on /branches/<id>.html where that page exists; otherwise on this page.
+const schema = b.branchPage ? [] : [localBusiness(b, b.areaPage)];
+const corridorTargets = (c: string) => branches.filter((x) => x.id !== b.id && c.includes(x.city.split(' ')[0])).slice(0, 3);
+---
+<Base title={b.areaTitle} description={b.areaDescription} path={b.areaPage} crumbs={crumbs} navActive="Network" schema={schema}>
+  <PageHero kicker={b.region} title={b.areaH1} lede={b.areaIntro} crumbs={crumbs} ctas={[{ text: `Call ${b.city} branch`, href: telHref(b.phones[0]) }, { text: 'Request a freight quote', href: '/contact_us.html#quote' }]}>
+  </PageHero>
+  <section class="section tone-white">
+    <div class="container office">
+      <div>
+        <div class="reveal">
+          <p class="kicker">Branch capabilities</p>
+          <h2 class="section-title">Road freight coordinated from {b.city}</h2>
+          <p class="lead mt-1">Capabilities vary by cargo, route, vehicle availability and branch approval. Share complete shipment details before arranging dispatch.</p>
+        </div>
+        <ol class="card-grid cols-2 mt-2" style="list-style:none;padding:0">
+          {b.capabilities.map((c, i) => <li class="card reveal" style={`--d:${(i % 2) * 0.06}s`}><span class="num">{String(i + 1).padStart(2, '0')}</span><h3>{c}</h3><p>Ask the branch to assess this service for the exact cargo, route and schedule.</p></li>)}
+        </ol>
+      </div>
+      <aside class="office-card" aria-label="Local coordination point">
+        <div><span class="label">Local coordination point</span><h2 style="font-size:1.6rem">{b.name}</h2></div>
+        <div><span class="label">Address</span><address>{b.address}</address></div>
+        <div><span class="label">Phone</span>{b.phones.map((p) => <div><a class="big" href={telHref(p)}>{p}</a></div>)}</div>
+        <div><span class="label">Customer care</span>{site.hoursShort}</div>
+        <hr />
+        <div class="btn-row">
+          {b.branchPage ? <a class="btn btn-red" href={u(b.branchPage)}>View detailed branch page<Icon name="arrow" /></a> : <a class="btn btn-red" href={u('/contact_us.html#quote')}>Request a quote<Icon name="arrow" /></a>}
+          <a class="btn btn-ghost-light" href={b.mapUrl} target="_blank" rel="noopener">Map</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <section class="section tone-warm">
+    <div class="container grid-2">
+      <div class="reveal">
+        <p class="kicker">Nearby coverage</p>
+        <h2 class="section-title" style="font-size:clamp(1.7rem,2.8vw,2.6rem)">Industrial areas coordinated by this branch</h2>
+        <p class="mt-1">These labels describe nearby or connected service areas. They do not claim a separate physical branch or guarantee automatic pickup in every locality.</p>
+        <ul class="tag-list mt-1">{b.serviceAreas.map((x) => <li>{x}</li>)}</ul>
+      </div>
+      <div class="reveal" style="--d:.08s">
+        <p class="kicker">Common sectors</p>
+        <h2 class="section-title" style="font-size:clamp(1.7rem,2.8vw,2.6rem)">Industrial supply chains we understand</h2>
+        <p class="mt-1">Material acceptance is assessed case by case, especially for regulated, hazardous, oversized or specialised cargo.</p>
+        <ul class="tag-list mt-1">{b.sectors.map((x) => <li>{x}</li>)}</ul>
+      </div>
+    </div>
+  </section>
+  <section class="section tone-white">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">Connected corridors</p><h2 class="section-title">{b.corridorsTitle}</h2></div>
+        <p class="lead">Ask for the exact origin and destination PIN codes so the team can confirm the operational route.</p>
+      </div>
+      <ul class="svc-rows">
+        {b.corridors.map((c, i) => {
+          const t = corridorTargets(c);
+          return (
+            <li class="svc-row corridor-row">
+              <span class="num">{String(i + 1).padStart(2, '0')}</span>
+              <h3>{c}</h3>
+              <span class="links">{t.map((x) => <a class="chip-link" href={u(x.areaPage)} aria-label={`Transport in ${x.city}`}>{x.city}<Icon name="arrow" /></a>)}</span>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  </section>
+  <section class="section tone-grey">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">Prepare your enquiry</p><h2 class="section-title">Six details that lead to a useful freight response</h2></div>
+        <p class="lead">A precise request lets the team assess PTL, FTL, container or specialised movement without unnecessary back-and-forth.</p>
+      </div>
+      <div class="card-grid">
+        {prepItems.map((p: any, i: number) => <article class="card reveal" style={`--d:${(i % 3) * 0.06}s`}><span class="num">{String(i + 1).padStart(2, '0')}</span><h3>{p.l}</h3><p>{p.t}</p></article>)}
+      </div>
+    </div>
+  </section>
+  <FaqList items={b.areaFaqs} title={`Questions about transport in ${b.city}`} tone="white" />
+  <CtaBand kicker={`Move from ${b.city}`} title="Tell us what needs to move." text="Share the shipment profile and our team will review the appropriate route and service." />
+</Base>

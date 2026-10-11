@@ -1,0 +1,15 @@
+---
+import { site } from '../config/site';
+import { u } from '../lib/url';
+---
+<section class="cred-strip" aria-label="Credentials">
+  <div class="container">
+    <p class="cred-strip-title">Trust, documented.<span>Built on accountability.</span></p>
+    <ul class="cred-list">
+      {site.credentials.map((c) => (
+        <li><a href={u('/certifications.html#' + c.id)}><img src={u(c.icon)} alt="" width="44" height="44" loading="lazy" /><span><strong>{c.name}</strong><span>{c.label}</span></span></a></li>
+      ))}
+    </ul>
+    <a class="text-link" href={u('/certifications.html')}>Explore credentials</a>
+  </div>
+</section>

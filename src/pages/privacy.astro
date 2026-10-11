@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { site } from '../config/site';
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Website privacy notice', path: '/privacy.html' }];
+---
+<Base title="Website Privacy Notice | Vidhi Transport Co." description="How the Vidhi Transport website handles enquiry details, LR tracking requests and embedded forms. The site itself does not store personal data." path="/privacy.html" crumbs={crumbs}>
+  <PageHero kicker="Legal" title="Website privacy notice" lede="A plain description of what this website does with information you enter. Last updated 11 October 2026." crumbs={crumbs} />
+  <section class="section tone-white">
+    <div class="container container-narrow prose">
+      <h2 id="scope">Scope</h2>
+      <p>This notice covers the website at www.vidhitransport.com operated for {site.legalName}. It describes how the website's pages and tools behave. It does not replace any contract, quotation or company policy agreed with Vidhi Transport.</p>
+      <h2 id="forms">Enquiry, pickup and complaint forms</h2>
+      <p>The website is a static site and does not have a server that receives or stores form entries. When you use the inquiry, quotation, pickup or complaint forms, your browser formats the details into a WhatsApp message or email draft. Nothing reaches Vidhi Transport until you send that message yourself through WhatsApp or your email application. Those services handle your message under their own terms and privacy policies.</p>
+      <h2 id="tracking">LR tracking</h2>
+      <p>When you check an LR number, your browser sends that number directly to the Vidhi Transport ERP tracking service (vidhierp.in) to request the latest consignment record. No other personal details are sent with the request.</p>
+      <h2 id="cookies">Cookies and analytics</h2>
+      <p>The website itself does not set cookies and does not include analytics or advertising scripts at the time of this update. Fonts and images are served from this website.</p>
+      <h2 id="contact">Questions</h2>
+      <p>Contact customer care at <a href={`mailto:${site.email}`}>{site.email}</a> or <a href={site.phoneHref}>{site.phone}</a>.</p>
+      <p class="note">This notice describes website behaviour only and is pending review by Vidhi Transport before publication as a formal policy.</p>
+    </div>
+  </section>
+</Base>

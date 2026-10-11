@@ -1,0 +1,47 @@
+---
+import Icon from './Icon.astro';
+import { site, waLink } from '../config/site';
+import type { Fieldset } from '../config/forms';
+interface Props { id: string; type: string; fieldsets: Fieldset[]; consent?: string; numbered?: boolean; copyLabel?: string }
+const { id, type, fieldsets, consent = 'I consent to Vidhi Transport using these details to respond to this enquiry.', numbered = true, copyLabel = 'Copy details' } = Astro.props;
+---
+<form class="form-shell" id={id} data-message-form data-message-type={type} data-whatsapp={site.whatsapp} data-email={site.email} novalidate>
+  <noscript>
+    <p class="noscript-note">JavaScript is off, so this form cannot prepare a message. Please call <a href={site.phoneHref}>{site.phone}</a>, email <a href={`mailto:${site.email}?subject=${encodeURIComponent(type)}`}>{site.email}</a> or <a href={waLink(`Hello Vidhi Transport, ${type}:`)}>message us on WhatsApp</a>.</p>
+  </noscript>
+  {fieldsets.map((fs, fi) => (
+    <fieldset>
+      <legend>{numbered && fieldsets.length > 1 && <span class="step">{fi + 1}</span>}{fs.legend}</legend>
+      <div class="form-grid">
+        {fs.fields.map((f) => {
+          const fid = `${id}-${f.name}`;
+          return (
+            <div class={`field${f.full ? ' full' : ''}`}>
+              <label for={fid}>{f.label}{f.required && <span class="req" aria-hidden="true"> *</span>}</label>
+              {f.options ? (
+                <select id={fid} name={f.name} required={f.required} data-label={f.label}>
+                  {f.required && <option value="">Select…</option>}
+                  {f.options.map((o) => <option>{o}</option>)}
+                </select>
+              ) : f.textarea ? (
+                <textarea id={fid} name={f.name} required={f.required} placeholder={f.placeholder} autocomplete={f.autocomplete as any} data-label={f.label} rows="4"></textarea>
+              ) : (
+                <input id={fid} name={f.name} type={(f.type || 'text') as any} required={f.required} placeholder={f.placeholder} autocomplete={f.autocomplete as any} inputmode={f.inputmode as any} min={f.min} pattern={f.pattern} data-label={f.label} />
+              )}
+              {f.hint && <span class="hint">{f.hint}</span>}
+            </div>
+          );
+        })}
+      </div>
+    </fieldset>
+  ))}
+  <label class="consent"><input type="checkbox" name="consent" required />{consent} The website does not store your details; they are only shared when you send the prepared message yourself.</label>
+  <div class="form-actions">
+    <button class="btn btn-red" type="button" data-form-action="whatsapp"><Icon name="whatsapp" />Prepare WhatsApp message</button>
+    <button class="btn btn-dark" type="button" data-form-action="email"><Icon name="mail" />Prepare email</button>
+    <button class="btn btn-outline" type="button" data-form-action="copy"><Icon name="copy" />{copyLabel}</button>
+  </div>
+  <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+  <p class="form-note">Nothing is sent until you review and send the prepared WhatsApp message or email. A quotation, booking, pickup or complaint is only confirmed when the Vidhi Transport team replies.</p>
+</form>
+<script>import '../scripts/forms.ts';</script>

@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import GenericSections from '../components/GenericSections.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import { page, articles, fmtDate } from '../lib/data';
+import { u } from '../lib/url';
+const d = page('content');
+const topics = d.sections.filter((s: any) => s.kicker === 'Topics we cover');
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Insights', path: '/content.html' }];
+const schema = [{ '@type': 'ItemList', itemListElement: articles.map((a, i) => ({ '@type': 'ListItem', position: i + 1, url: 'https://www.vidhitransport.com' + a.path, name: a.h1 })) }];
+const [first, ...rest] = articles;
+---
+<Base title={d.title} description={d.description} path="/content.html" crumbs={crumbs} navActive="Insights" schema={schema} pageType="CollectionPage">
+  <PageHero kicker={d.hero.kicker} title={d.hero.title} lede={d.hero.intro} crumbs={crumbs} />
+  <section class="section tone-white">
+    <div class="container">
+      <div class="section-head"><div><p class="kicker">Latest articles</p><h2 class="section-title">Plan the next dispatch with better information</h2></div><p class="lead">Practical guidance for dispatch teams, without invented rules or rates. Always confirm cargo-specific and regulatory requirements before dispatch.</p></div>
+      <a class="article-card feature reveal" href={u(first.path)}>
+        <div><span class="meta"><span>{first.category}</span><span>{first.readTime}</span><time datetime={first.datePublished}>{fmtDate(first.datePublished)}</time></span><h3 style="font-size:clamp(1.7rem,3vw,2.6rem);margin-top:1rem">{first.h1}</h3></div>
+        <div><p class="lead">{first.lede}</p><span class="text-link mt-1">Read the guide<Icon name="arrow" /></span></div>
+      </a>
+      <div class="card-grid cols-2">
+        {rest.map((a) => (
+          <a class="article-card reveal" href={u(a.path)}><span class="meta"><span>{a.category}</span><span>{a.readTime}</span></span><h3>{a.h1}</h3><p>{a.lede}</p><span class="muted" style="font-size:.85rem"><time datetime={a.datePublished}>{fmtDate(a.datePublished)}</time></span></a>
+        ))}
+      </div>
+    </div>
+  </section>
+  <GenericSections sections={topics} start={1} />
+  <CtaBand kicker={d.closing?.kicker} title={d.closing?.title} text={d.closing?.intro?.[0]} />
+</Base>

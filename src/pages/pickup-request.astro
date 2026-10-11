@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import EnquiryForm from '../components/EnquiryForm.astro';
+import FaqList from '../components/FaqList.astro';
+import Icon from '../components/Icon.astro';
+import { pickupForm } from '../config/forms';
+import { page } from '../lib/data';
+import { u } from '../lib/url';
+const d = page('pickup-request');
+const next = d.sections.find((s: any) => s.kicker === 'What happens next');
+const faq = d.sections.find((s: any) => s.faqs);
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Customer tools', path: '/tools.html' }, { name: 'Pickup request', path: '/pickup-request.html' }];
+const steps = next.list.map((t: string) => { const m = t.match(/^(Send the prepared request|Operations review|Clarification if needed|Pickup confirmation)\s+(.*)$/); return m ? { t: m[1], p: m[2] } : { t, p: '' }; });
+---
+<Base title={d.title} description={d.description} path="/pickup-request.html" crumbs={crumbs} navActive="Tools">
+  <PageHero kicker={d.hero.kicker} title={d.hero.title} lede={d.hero.intro} points={d.hero.list} crumbs={crumbs} ctas={[{ text: 'Go to the form', href: '#pickup-form' }, ...d.hero.ctas]} />
+  <section class="section tone-warm">
+    <div class="container detail-layout">
+      <div>
+        <p class="kicker">Shipment details</p>
+        <h2 class="section-title" style="margin-bottom:2rem">Prepare pickup request</h2>
+        <EnquiryForm id="pickup-form" type="Pickup Request" fieldsets={pickupForm} consent="I confirm that the information supplied is accurate and understand that the pickup is confirmed only after the operations team accepts it." copyLabel="Copy request" />
+      </div>
+      <aside class="side-card">
+        <p class="kicker" style="margin:0">{next.kicker}</p>
+        <ol class="process-steps" style="gap:.6rem">
+          {steps.map((s: any, i: number) => <li style="display:grid;grid-template-columns:34px 1fr;gap:.8rem"><span class="num" style="font:800 .9rem var(--font-display);color:var(--brand-red-text)">{String(i + 1).padStart(2, '0')}</span><div><strong style="color:var(--ink)">{s.t}</strong><br /><span class="muted">{s.p}</span></div></li>)}
+        </ol>
+        <a class="text-link" href={u('/branch-locator.html')}>Find a direct branch contact<Icon name="arrow" /></a>
+      </aside>
+    </div>
+  </section>
+  <FaqList items={faq.faqs} kicker={faq.kicker} title={faq.title} tone="white" />
+</Base>

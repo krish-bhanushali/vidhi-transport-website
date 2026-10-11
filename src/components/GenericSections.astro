@@ -1,0 +1,67 @@
+---
+import FaqList from './FaqList.astro';
+import Icon from './Icon.astro';
+import { u } from '../lib/url';
+interface Props { sections: any[]; start?: number; tones?: string[] }
+const { sections, start = 0, tones = ['white', 'warm'] } = Astro.props;
+const colsFor = (n: number) => (n === 2 ? 'cols-2' : n === 4 ? 'cols-4' : '');
+const isInternal = (h?: string) => !!h && h.startsWith('/');
+---
+{sections.map((s, idx) => {
+  const tone = tones[(idx + start) % tones.length];
+  if (s.faqs?.length) return <FaqList items={s.faqs} kicker={s.kicker} title={s.title} intro={s.intro?.[0]} tone={tone} id={s.id || `faq-${idx}`} />;
+  const intro: string[] = s.intro || [];
+  if (s.cards?.length) {
+    return (
+      <section class={`section tone-${tone}`} id={s.id}>
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              {s.kicker && <p class="kicker">{s.kicker}</p>}
+              <h2 class="section-title">{s.title}</h2>
+            </div>
+            {intro.length > 0 && <div class="stack">{intro.map((p, i) => <p class={i === 0 ? 'lead' : ''}>{p}</p>)}</div>}
+          </div>
+          {s.list?.length > 0 && <ul class="check-list two" style="margin-bottom:2.5rem">{s.list.map((l: string) => <li>{l}</li>)}</ul>}
+          <div class={`card-grid ${colsFor(s.cards.length)}`}>
+            {s.cards.map((c: any, ci: number) => (
+              <article class="card reveal" id={c.id} style={`--d:${(ci % 4) * 0.06}s`}>
+                {(c.num || s.cards.length > 2) && <span class="num">{c.num || String(ci + 1).padStart(2, '0')}</span>}
+                {c.kicker && <span class="card-kicker">{c.kicker}</span>}
+                <h3>{c.title}</h3>
+                {c.body?.map((p: string) => <p>{p}</p>)}
+                {c.list?.length > 0 && <ul class="check-list">{c.list.map((l: string) => <li>{l}</li>)}</ul>}
+                {c.chips?.length > 0 && <ul class="tag-list">{c.chips.map((l: string) => <li>{l}</li>)}</ul>}
+                {c.href && (
+                  <div class="card-foot">
+                    <a class="text-link" href={u(c.href)} rel={isInternal(c.href) ? undefined : 'noopener'}>{c.linkText || 'Learn more'}<Icon name="arrow" /></a>
+                  </div>
+                )}
+              </article>
+            ))}
+          </div>
+          {s.ctas?.length > 0 && <div class="btn-row mt-2">{s.ctas.map((c: any, i: number) => <a class={`btn ${i ? 'btn-outline' : 'btn-dark'}`} href={u(c.href)}>{c.text}</a>)}</div>}
+        </div>
+      </section>
+    );
+  }
+  return (
+    <section class={`section tone-${tone}`} id={s.id}>
+      <div class="container editorial">
+        <div class="reveal">
+          {s.kicker && <p class="kicker">{s.kicker}</p>}
+          <h2 class="section-title">{s.title}</h2>
+          {s.subtitle && <p class="lead mt-1" style="font-family:var(--font-display);font-weight:700;color:var(--ink)">{s.subtitle}</p>}
+        </div>
+        <div class="editorial-body reveal" style="--d:.08s">
+          {intro.length > 2 ? <div class="cols">{intro.map((p) => <p>{p}</p>)}</div> : intro.map((p, i) => <p class={i === 0 ? 'lead' : ''}>{p}</p>)}
+          {s.list?.length > 0 && <ul class="check-list">{s.list.map((l: string) => <li>{l}</li>)}</ul>}
+          {s.chips?.length > 0 && <ul class="tag-list">{s.chips.map((l: string) => <li>{l}</li>)}</ul>}
+          {s.callout && <div class="callout"><strong style="font:800 1.4rem var(--font-display);color:var(--ink);display:block">{s.callout.title}</strong>{s.callout.text}</div>}
+          {s.facts?.length > 0 && <dl class="facts-bar" style="border:1px solid var(--border);border-radius:10px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">{s.facts.map((f: any) => <div style="padding-left:1.4rem"><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
+          {s.ctas?.length > 0 && <div class="btn-row">{s.ctas.map((c: any, i: number) => <a class={`btn ${i ? 'btn-outline' : 'btn-dark'}`} href={u(c.href)} rel={c.href.startsWith('http') ? 'noopener' : undefined}>{c.text}</a>)}</div>}
+        </div>
+      </div>
+    </section>
+  );
+})}

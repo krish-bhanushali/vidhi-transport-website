@@ -1,0 +1,24 @@
+---
+// Abstract vector artwork (no third-party imagery). Variant number shifts the route geometry.
+interface Props { label?: string; variant?: number }
+const { label = '', variant = 0 } = Astro.props;
+const v = variant % 4;
+const paths = [
+  'M-20 300 C 80 260, 120 160, 220 150 S 360 60, 440 40',
+  'M-20 120 C 90 140, 140 260, 240 250 S 380 330, 440 300',
+  'M-20 220 C 60 220, 110 90, 200 100 S 330 260, 440 210',
+  'M40 420 C 60 300, 180 300, 200 200 S 330 80, 380 -20',
+];
+---
+<svg class="tile-pattern" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <pattern id={`grid-${variant}`} width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="rgba(255,255,255,.06)" /></pattern>
+    <linearGradient id={`fade-${variant}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A323B" /><stop offset="1" stop-color="#15191E" /></linearGradient>
+  </defs>
+  <rect width="400" height="500" fill={`url(#fade-${variant})`} />
+  <rect width="400" height="500" fill={`url(#grid-${variant})`} />
+  <path d={paths[v]} fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1.5" stroke-dasharray="4 6" transform="translate(0 40)" />
+  <path d={paths[v]} fill="none" stroke="#ED3A32" stroke-width="2.5" stroke-linecap="round" />
+  <circle cx={[220, 240, 200, 200][v]} cy={[150, 250, 100, 200][v]} r="7" fill="#fff" stroke="#ED3A32" stroke-width="3" />
+  <text x="24" y="78" fill="transparent" stroke="rgba(237,58,50,.55)" stroke-width="1.2" font-family="Manrope, sans-serif" font-weight="800" font-size={label.length > 7 ? 46 : label.length > 4 ? 60 : 84} letter-spacing="-3">{label}</text>
+</svg>

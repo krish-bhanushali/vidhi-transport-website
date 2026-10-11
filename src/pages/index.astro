@@ -1,0 +1,276 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import CredStrip from '../components/CredStrip.astro';
+import NetworkMap from '../components/NetworkMap.astro';
+import FaqList from '../components/FaqList.astro';
+import EnquiryForm from '../components/EnquiryForm.astro';
+import TrackForm from '../components/TrackForm.astro';
+import PatternArt from '../components/PatternArt.astro';
+import { quickForm } from '../config/forms';
+import { site } from '../config/site';
+import { u } from '../lib/url';
+import { page, services, serviceBySlug, branches, gujaratBranches, maharashtraBranches, articles, fmtDate } from '../lib/data';
+import truck from '../assets/images/vidhi-truck-highway.jpg';
+import dock from '../assets/images/loading-dock.jpg';
+import yard from '../assets/images/fleet-yard.jpg';
+
+const d = page('index');
+const sec = (k: string) => d.sections.find((s: any) => s.kicker === k);
+const faqs = sec('Useful before you book');
+const featured = [
+  { s: serviceBySlug('full-truck-load'), img: truck, alt: 'Vidhi Transport Co. branded container truck on a highway' },
+  { s: serviceBySlug('part-truck-load'), img: dock, alt: 'Crated machinery, wrapped pallets and rolls secured on a truck at a loading dock (illustrative)' },
+  { s: serviceBySlug('chemical-industrial-freight') },
+  { s: serviceBySlug('warehousing') },
+];
+const industries = sec('Industries we serve');
+const steps = [
+  { t: 'Share the requirement', p: 'Tell us the pickup point, destination, cargo type, packaging, approximate weight and desired dispatch date. Exact PIN codes and site constraints help the team answer usefully.' },
+  { t: 'Plan the movement', p: 'The operating team checks the suitable service (PTL, FTL or specialised), vehicle suitability, route coverage, documentation and commercial terms before acceptance.' },
+  { t: 'Pickup and loading', p: 'We lift immediately, or schedule the movement for the next available dispatch window, depending on your requirement and vehicle availability.' },
+  { t: 'Movement and communication', p: 'Dispatch and branch contacts remain available throughout the movement, and the LR number can be checked against the live ERP record on our tracking page.' },
+  { t: 'Delivery and documentation', p: 'Delivery follows the agreed arrangement: door, godown, DACC or COD where agreed. Shipment reports and MIS reports are available to help customers monitor freight activity.' },
+];
+const why = [
+  { t: 'Credibility that matters', p: 'IBA approval and ISO certification help support customer confidence. Current documents are available on request for vendor onboarding.', href: '/certifications.html', l: 'Review credentials' },
+  { t: 'Industrial corridor fluency', p: 'Hands-on familiarity with GIDC and MIDC manufacturing clusters, branch coordination and factory dispatch windows.', href: '/branch-locator.html', l: 'See the network' },
+  { t: 'A more conscious approach', p: 'Our Go Green initiative supports thoughtful route planning, load consolidation and the reduction of avoidable movement where operationally possible.', href: '/csr.html', l: 'Responsible logistics' },
+];
+---
+<Base title={d.title} description={d.description} path="/" navActive="">
+  <section class="hero" data-hero>
+    <div class="hero-media">
+      <Image src={truck} alt="Vidhi Transport Co. container truck travelling on an industrial highway at dusk" widths={[640, 960, 1280, 1672]} sizes="100vw" loading="eager" fetchpriority="high" />
+    </div>
+    <div class="container hero-content">
+      <div class="hero-copy">
+        <p class="kicker light">Gujarat ↔ Maharashtra industrial road freight</p>
+        <h1 class="hero-title"><span class="line"><span style="--d:.05s">Chemical and industrial freight.</span></span> <span class="line"><span style="--d:.18s">Delivered with <em>certainty.</em></span></span></h1>
+        <p class="hero-lede reveal" style="--d:.3s">Part load (PTL) and full truckload (FTL) transport for chemical and industrial freight across the GIDC and MIDC manufacturing corridors of Gujarat and Maharashtra, coordinated from 14 listed branches.</p>
+        <div class="btn-row reveal" style="--d:.4s">
+          <a class="btn btn-red" href={u('/contact_us.html#quote')}>Get a freight quote<Icon name="arrow" /></a>
+          <a class="btn btn-ghost-light" href={u('/branch-locator.html')}>Explore our network</a>
+        </div>
+      </div>
+      <dl class="hero-facts reveal" style="--d:.5s">
+        <div class="hero-fact"><dt class="sr-only">Experience</dt><dd style="margin:0"><strong>{site.facts.yearsLabel} years</strong><span>Chemical and industrial freight experience</span></dd></div>
+        <div class="hero-fact"><dt class="sr-only">Branches</dt><dd style="margin:0"><strong>{branches.length} branches</strong><span>{gujaratBranches.length} in Gujarat, {maharashtraBranches.length} in Maharashtra</span></dd></div>
+        <div class="hero-fact"><dt class="sr-only">Movement</dt><dd style="margin:0"><strong>PTL + FTL</strong><span>Part load and dedicated vehicles</span></dd></div>
+        <div class="hero-fact"><dt class="sr-only">Customer care</dt><dd style="margin:0"><strong>8 AM–10 PM</strong><span>Customer care, every day (IST)</span></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <CredStrip />
+
+  <section class="section tone-white">
+    <div class="container editorial">
+      <div class="reveal">
+        <p class="kicker">Vidhi Transport Co.</p>
+        <h2 class="section-title">Built around the industrial corridors we know.</h2>
+      </div>
+      <div class="editorial-body reveal" style="--d:.08s">
+        <p class="lead">For more than 25 years, Vidhi Transport Co. has supported industrial freight movement across Gujarat and Maharashtra through practical planning, direct coordination and dependable road logistics.</p>
+        <div class="cols">
+          <p>Our work begins with the shipment itself: where it must be collected, how it should be handled, which movement type fits, and who needs a clear update. From packaged chemical drums, carboys and IBCs to pharmaceutical cartons, industrial packaging and machinery, we plan movement around real dispatch requirements.</p>
+          <p>The network combines local branch contacts with full truckload, part load and specialised freight coordination. That corridor familiarity helps us discuss real operating constraints around industrial estates, plant schedules, delivery points, ports and warehouses.</p>
+        </div>
+        <div class="btn-row"><a class="btn btn-outline" href={u('/about-us.html')}>About Vidhi Transport<Icon name="arrow" /></a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tone-warm" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">Our services</p><h2 class="section-title">End-to-end logistics built for the chemical industry.</h2></div>
+        <p class="lead">Practical freight solutions for part loads, dedicated full truckloads, reverse logistics, chemical distribution, other transport booking, warehousing and last-mile delivery.</p>
+      </div>
+      <div class="card-grid cols-4">
+        {featured.map(({ s, img, alt }, i) => (
+          <a class={`tile reveal${img ? '' : ' pattern'}`} style={`--d:${i * 0.07}s`} href={u(s.path)}>
+            {img ? <Image src={img} alt={alt!} widths={[400, 640, 800]} sizes="(max-width: 640px) 100vw, (max-width: 1080px) 50vw, 25vw" loading="lazy" /> : <PatternArt label={s.mark} variant={i} />}
+            <span class="tile-arrow"><Icon name="arrow-up-right" /></span>
+            <div class="tile-body">
+              <span class="kicker light" style="margin:0">{s.card.tag}</span>
+              <h3>{s.card.name}</h3>
+              <p>{s.card.summary}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+      <h3 class="sr-only">All services</h3>
+      <ul class="svc-rows mt-3">
+        {services.filter((s) => !featured.some((f) => f.s.slug === s.slug)).map((s) => (
+          <li class="svc-row reveal">
+            <a href={u(s.path)}>
+              <span class="num">{String(services.indexOf(s) + 1).padStart(2, '0')}</span>
+              <h3>{s.card.name}</h3>
+              <p>{s.card.summary}</p>
+              <span class="arrow"><Icon name="arrow" /></span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <div class="btn-row mt-2"><a class="btn btn-dark" href={u('/services.html')}>Compare all nine services<Icon name="arrow" /></a></div>
+    </div>
+  </section>
+
+  <section class="section tone-dark" id="network">
+    <div class="container network">
+      <div>
+        <div class="reveal">
+          <p class="kicker">Western India network</p>
+          <h2 class="section-title">A stronger link between industry and movement.</h2>
+          <p class="lead mt-1">Our branch network connects key GIDC and MIDC estates across Gujarat and Maharashtra with practical lane-level coordination.</p>
+          <ul class="check-list mt-1">
+            <li>South Gujarat chemical, pharma and manufacturing clusters.</li>
+            <li>Mumbai-region warehousing, MIDC and industrial dispatch hubs.</li>
+            <li>Direct branch contacts for pickup, delivery and local support.</li>
+          </ul>
+        </div>
+        <div class="network-list reveal" data-network-list="home-map">
+          <div><h3>Gujarat · {gujaratBranches.length}</h3><ul>{gujaratBranches.map((b) => <li><a href={u(b.areaPage)} data-branch={b.id}>{b.city}<Icon name="arrow" class="text-red" /></a></li>)}</ul></div>
+          <div><h3>Maharashtra · {maharashtraBranches.length}</h3><ul>{maharashtraBranches.map((b) => <li><a href={u(b.areaPage)} data-branch={b.id}>{b.city}<Icon name="arrow" class="text-red" /></a></li>)}</ul></div>
+        </div>
+        <div class="btn-row mt-2"><a class="btn btn-light" href={u('/branch-locator.html')}>Open the branch locator<Icon name="arrow" /></a></div>
+      </div>
+      <div class="reveal" style="--d:.1s"><NetworkMap id="home-map" /></div>
+    </div>
+  </section>
+
+  <section class="section tone-white" id="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">Experience that shows up</p><h2 class="section-title">Built around the realities of chemical and industrial transport.</h2></div>
+        <p class="lead">Industrial dispatch requires responsive coordination, practical documentation and teams that understand factory schedules, including support beyond standard working hours. That is the operating mindset behind Vidhi Transport.</p>
+      </div>
+      <div class="stats reveal">
+        <div class="stat"><strong><span data-count={site.facts.years}>{site.facts.years}</span><sup>+</sup></strong><span>Years in industrial road logistics</span></div>
+        <div class="stat"><strong><span data-count={branches.length}>{branches.length}</span></strong><span>Listed branch locations</span></div>
+        <div class="stat"><strong><span data-count={services.length}>{services.length}</span></strong><span>Service categories</span></div>
+        <div class="stat"><strong><span data-count="2">2</span></strong><span>Core operating states</span></div>
+      </div>
+      <div class="card-grid mt-3">
+        {why.map((w, i) => (
+          <article class="card reveal" style={`--d:${i * 0.07}s`}>
+            <span class="num">{String(i + 1).padStart(2, '0')}</span>
+            <h3>{w.t}</h3><p>{w.p}</p>
+            <div class="card-foot"><a class="text-link" href={u(w.href)}>{w.l}<Icon name="arrow" /></a></div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section tone-warm" id="industries">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">Industries we serve</p><h2 class="section-title">Logistics that understands your cargo.</h2></div>
+        <div class="stack"><p class="lead">{industries.intro[0]}</p><div><a class="text-link" href={u('/Clientele.html')}>Industries we serve<Icon name="arrow" /></a></div></div>
+      </div>
+      <div class="card-grid">
+        {industries.chips.map((name: string, i: number) => (
+          <article class="card reveal" style={`--d:${(i % 3) * 0.06}s`}>
+            <span class="num">{String(i + 1).padStart(2, '0')}</span>
+            <h3>{name}</h3>
+          </article>
+        ))}
+      </div>
+      <p class="muted mt-2" style="font-size:.9rem">Material acceptance is assessed case by case, especially for regulated, hazardous, oversized or specialised cargo.</p>
+    </div>
+  </section>
+
+  <section class="section tone-white" id="process" data-process>
+    <div class="container process">
+      <div class="process-sticky reveal">
+        <p class="kicker">How it works</p>
+        <h2 class="section-title">From requirement to movement.</h2>
+        <p class="lead mt-1">A short, accountable sequence: every enquiry begins with verified shipment details.</p>
+        <div class="process-progress" aria-hidden="true"><span></span></div>
+        <div class="btn-row mt-2"><a class="btn btn-red" href={u('/contact_us.html#quote')}>Start with step one<Icon name="arrow" /></a></div>
+      </div>
+      <ol class="process-steps">
+        {steps.map((s, i) => (
+          <li class="process-step">
+            <span class="step-num">{String(i + 1).padStart(2, '0')}</span>
+            <div><h3>{s.t}</h3><p>{s.p}</p></div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section tone-grey" id="infrastructure">
+    <div class="container media-split">
+      <div class="reveal">
+        <div class="media-frame"><Image src={yard} alt="Row of trucks parked at a freight yard at sunrise (illustrative image)" widths={[480, 800, 1280]} sizes="(max-width: 900px) 100vw, 50vw" loading="lazy" /></div>
+      </div>
+      <div class="reveal" style="--d:.08s">
+        <p class="kicker">Infrastructure</p>
+        <h2 class="section-title">Infrastructure is the system behind every dispatch.</h2>
+        <p class="lead mt-1">Branches, vehicle planning, handling interfaces, documentation and shipment visibility work together to support industrial movement across Gujarat and Maharashtra.</p>
+        <ul class="check-list mt-1">
+          <li>Vehicle and route matched to the actual cargo</li>
+          <li>Loading, handling and site responsibilities agreed early</li>
+          <li>Branch contacts and live LR support kept accessible</li>
+        </ul>
+        <div class="btn-row mt-2"><a class="btn btn-dark" href={u('/our-infrastructure.html')}>Our infrastructure<Icon name="arrow" /></a><a class="btn btn-outline" href={u('/lr-track.html')}>Track an LR</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="image-band">
+    <Image src={dock} alt="" widths={[800, 1280, 1920]} sizes="100vw" loading="lazy" />
+    <div class="container">
+      <p class="kicker light">Responsible logistics · Go Green</p>
+      <blockquote class="reveal">Responsibility belongs in everyday logistics decisions: suitable movement, less avoidable travel and clear information.</blockquote>
+      <p class="band-note reveal">We publish environmental progress only when it is supported by approved evidence. <a href={u('/csr.html')} style="color:#fff;font-weight:600">Read our CSR approach →</a></p>
+    </div>
+  </section>
+
+  <section class="section tone-white" id="insights">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="kicker">Logistics insights</p><h2 class="section-title">Useful road-freight guidance for dispatch teams.</h2></div>
+        <div class="section-head-actions"><a class="btn btn-outline" href={u('/content.html')}>All insights<Icon name="arrow" /></a></div>
+      </div>
+      <div class="card-grid">
+        {articles.map((a, i) => (
+          <a class="article-card reveal" style={`--d:${i * 0.07}s`} href={u(a.path)}>
+            <span class="meta"><span>{a.category}</span><span>{a.readTime}</span></span>
+            <h3>{a.h1}</h3>
+            <p>{a.lede}</p>
+            <span class="muted" style="font-size:.85rem"><time datetime={a.datePublished}>{fmtDate(a.datePublished)}</time></span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <FaqList items={faqs.faqs} kicker={faqs.kicker} title={faqs.title} intro={faqs.intro?.[0]} tone="warm" id="faq" />
+
+  <section class="section tone-white" id="quote">
+    <div class="container detail-layout">
+      <div>
+        <div class="reveal" style="margin-bottom:2rem">
+          <p class="kicker">Get your freight moving</p>
+          <h2 class="section-title">Tell us what needs to move.</h2>
+          <p class="lead mt-1">Share your requirement and we will prepare a ready-to-send WhatsApp or email enquiry. Nothing is sent until you choose to send it.</p>
+        </div>
+        <EnquiryForm id="home-quote" type="Quick freight enquiry" fieldsets={quickForm} numbered={false} />
+      </div>
+      <aside class="side-card">
+        <h2>Speak with the team</h2>
+        <div><span class="kicker" style="margin-bottom:.3rem">Customer care</span><p style="margin:0"><a class="text-link" href={site.phoneHref}>{site.phone}</a></p></div>
+        <div><span class="kicker" style="margin-bottom:.3rem">Email</span><p style="margin:0"><a class="text-link" href={`mailto:${site.email}`}>{site.email}</a></p></div>
+        <div><span class="kicker" style="margin-bottom:.3rem">Head office</span><address>{site.headOffice.full}</address><p class="muted" style="margin:.4rem 0 0">{site.hours}</p></div>
+        <hr class="divider" />
+        <TrackForm mini id="home-track" />
+        <p class="muted" style="font-size:.85rem;margin:0">Serving GIDC and MIDC clusters around Ahmedabad, Vadodara, Dahej, Ankleshwar, Surat, Vapi, Bhiwandi and Navi Mumbai.</p>
+      </aside>
+    </div>
+  </section>
+</Base>

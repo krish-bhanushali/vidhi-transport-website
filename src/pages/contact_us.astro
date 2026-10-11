@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import EnquiryForm from '../components/EnquiryForm.astro';
+import FaqList from '../components/FaqList.astro';
+import Icon from '../components/Icon.astro';
+import { quoteForm } from '../config/forms';
+import { page, branches } from '../lib/data';
+import { site, waLink } from '../config/site';
+import { u } from '../lib/url';
+const d = page('contact_us');
+const tips = d.sections.find((s: any) => s.id === 'quote');
+const faq = d.sections.find((s: any) => s.faqs);
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Contact', path: '/contact_us.html' }];
+---
+<Base title={d.title} description={d.description} path="/contact_us.html" crumbs={crumbs} pageType="ContactPage">
+  <PageHero kicker={d.hero.kicker} title={d.hero.title} lede={d.hero.intro} crumbs={crumbs} ctas={[{ text: 'Prepare a quotation request', href: '#quote' }, { text: `Call ${site.phone}`, href: site.phoneHref }]} />
+  <section class="section-sm tone-white">
+    <div class="container contact-cards">
+      <div class="contact-card"><span class="label">Call customer care</span><a class="value" href={site.phoneHref}>{site.phone}</a><p class="muted" style="margin:0">Use your LR number for status enquiries. {site.hours}.</p></div>
+      <div class="contact-card"><span class="label">Email</span><a class="value" href={`mailto:${site.email}`}>{site.email}</a><p class="muted" style="margin:0">Include origin, destination and cargo in the subject.</p></div>
+      <div class="contact-card"><span class="label">Contact a branch</span><a class="value" href={u('/branch-locator.html')}>All {branches.length} locations →</a><p class="muted" style="margin:0">Find direct numbers and nearby service areas.</p></div>
+    </div>
+    <div class="container mt-2"><div class="callout"><strong style="color:var(--ink)">{site.headOffice.label}:</strong> {site.headOffice.full} · <a href={'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(site.headOffice.full)} target="_blank" rel="noopener">Map</a> · <a href={waLink('Hello Vidhi Transport, I would like to connect with your team.')} target="_blank" rel="noopener">WhatsApp</a></div></div>
+  </section>
+  <section class="section tone-warm" id="quote">
+    <div class="container detail-layout">
+      <div>
+        <p class="kicker">Freight quotation</p>
+        <h2 class="section-title">Prepare a business enquiry</h2>
+        <p class="lead mt-1" style="margin-bottom:2rem">Complete the brief below. We format it into a WhatsApp message or email for you to review and send. A quotation is confirmed only when the team replies.</p>
+        <EnquiryForm id="quote-form" type="Freight Quotation Enquiry" fieldsets={quoteForm} />
+      </div>
+      <aside class="side-card">
+        <p class="kicker" style="margin:0">{tips.kicker}</p>
+        <h2>{tips.title}</h2>
+        <ul class="check-list">{tips.list.map((x: string) => <li>{x}</li>)}</ul>
+        <a class="text-link" href={u('/content.html')}>Read dispatch planning guides<Icon name="arrow" /></a>
+      </aside>
+    </div>
+  </section>
+  <FaqList items={faq.faqs} kicker={faq.kicker} title={faq.title} tone="white" />
+</Base>

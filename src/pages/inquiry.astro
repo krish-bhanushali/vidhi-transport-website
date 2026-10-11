@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import GenericSections from '../components/GenericSections.astro';
+import FaqList from '../components/FaqList.astro';
+import Icon from '../components/Icon.astro';
+import EnquiryForm from '../components/EnquiryForm.astro';
+import { quickForm } from '../config/forms';
+import { page } from '../lib/data';
+import { site } from '../config/site';
+import { u } from '../lib/url';
+const d = page('inquiry');
+const prep = d.sections.filter((s: any) => s.kicker === 'Prepare before sending');
+const faq = d.sections.find((s: any) => s.faqs);
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Customer tools', path: '/tools.html' }, { name: 'Freight inquiry', path: '/inquiry.html' }];
+---
+<Base title={d.title} description={d.description} path="/inquiry.html" crumbs={crumbs} navActive="Tools">
+  <PageHero kicker={d.hero.kicker} title={d.hero.title} lede={d.hero.intro} points={d.hero.list} crumbs={crumbs} ctas={[{ text: 'Open the inquiry form', href: '#inquiry-form' }, { text: 'Use detailed quote form', href: '/contact_us.html#quote' }]} />
+  <GenericSections sections={prep} />
+  <section class="section tone-warm" id="inquiry-form">
+    <div class="container container-narrow">
+      <p class="kicker">Freight inquiry form</p>
+      <h2 class="section-title">Send an inquiry</h2>
+      <p class="lead mt-1" style="margin-bottom:2rem">Fill in the essentials. Your browser formats them into a WhatsApp message or email for you to review and send to customer care. Nothing is stored by this website, and an inquiry is confirmed only when the team replies.</p>
+      <EnquiryForm id="inquiry" type="Freight Inquiry" fieldsets={quickForm} />
+    </div>
+  </section>
+  <section class="section tone-white">
+    <div class="container editorial">
+      <div><p class="kicker">Alternative enquiry route</p><h2 class="section-title">Need to share full shipment details?</h2></div>
+      <div class="editorial-body">
+        <p class="lead">The detailed contact page prepares a structured business message containing the route, cargo, packaging, weight, service, billing and delivery choices. You stay in control and review it before sending.</p>
+        <div class="btn-row"><a class="btn btn-red" href={u('/contact_us.html#quote')}>Prepare a detailed quote request<Icon name="arrow" /></a><a class="btn btn-outline" href={site.phoneHref}>Call {site.phone}</a></div>
+      </div>
+    </div>
+  </section>
+  <FaqList items={faq.faqs} kicker={faq.kicker} title={faq.title} tone="warm" />
+</Base>

@@ -1,0 +1,11 @@
+---
+import { u } from '../lib/url';
+const { items } = Astro.props as { items: { name: string; path: string }[] };
+---
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    {items.map((it, i) => (
+      <li>{i < items.length - 1 ? <a href={u(it.path)}>{it.name}</a> : <span aria-current="page">{it.name}</span>}</li>
+    ))}
+  </ol>
+</nav>

@@ -1,0 +1,52 @@
+---
+import { branches } from '../lib/data';
+import { u } from '../lib/url';
+interface Props { id?: string; compact?: boolean }
+const { id = 'network-map' } = Astro.props;
+// Illustrative projection: longitude is stretched ~2x so the narrow coastal corridor stays legible.
+// Marker positions are approximate and the diagram is NOT a tracking map.
+const nudge: Record<string, [number, number]> = { bhiwandi: [0.09, 0], rabale: [0.02, 0], 'navi-mumbai': [-0.02, -0.02], panoli: [0, -0.09], ankleshwar: [0, 0.03] };
+const side: Record<string, 'l' | 'r'> = { ahmedabad: 'r', nandesari: 'l', vadodara: 'r', dahej: 'l', ankleshwar: 'r', panoli: 'r', sachin: 'l', vapi: 'r', sarigam: 'l', tarapur: 'l', vasai: 'l', bhiwandi: 'r', rabale: 'r', 'navi-mumbai': 'l' };
+const X = (lon: number) => 70 + (lon - 72.4) * 400;
+const Y = (lat: number) => 40 + ((23.2 - lat) / 4.3) * 680;
+const pts = Object.fromEntries(branches.map((b) => {
+  const [dl, dn] = nudge[b.id] || [0, 0];
+  return [b.id, { x: +X(b.geo.lon + dl).toFixed(1), y: +Y(b.geo.lat + dn).toFixed(1), b }];
+}));
+const spine = ['ahmedabad', 'vadodara', 'ankleshwar', 'sachin', 'vapi', 'sarigam', 'tarapur', 'vasai', 'bhiwandi', 'rabale', 'navi-mumbai'];
+function smooth(ids: string[]) {
+  const p = ids.map((i) => pts[i]);
+  let d = `M${p[0].x},${p[0].y}`;
+  for (let i = 0; i < p.length - 1; i++) {
+    const p0 = p[i - 1] || p[i], p1 = p[i], p2 = p[i + 1], p3 = p[i + 2] || p2;
+    const c1x = p1.x + (p2.x - p0.x) / 6, c1y = p1.y + (p2.y - p0.y) / 6;
+    const c2x = p2.x - (p3.x - p1.x) / 6, c2y = p2.y - (p3.y - p1.y) / 6;
+    d += ` C${c1x.toFixed(1)},${c1y.toFixed(1)} ${c2x.toFixed(1)},${c2y.toFixed(1)} ${p2.x},${p2.y}`;
+  }
+  return d;
+}
+const spurs = [['vadodara', 'nandesari'], ['ankleshwar', 'dahej'], ['ankleshwar', 'panoli']];
+const borderY = Y(20.15);
+---
+<div class="network-map" id={id} data-network>
+  <svg viewBox="0 0 560 760" role="img" aria-labelledby={`${id}-t ${id}-d`}>
+    <title id={`${id}-t`}>Illustrative Vidhi Transport branch network, Gujarat to Maharashtra</title>
+    <desc id={`${id}-d`}>Schematic diagram of 14 listed branch locations from Ahmedabad in Gujarat to Navi Mumbai in Maharashtra. Positions are approximate and not to scale.</desc>
+    <text class="sea-label" x="40" y="430" transform="rotate(-90 40 430)">ARABIAN SEA</text>
+    <line class="border-line" x1="90" x2="540" y1={borderY} y2={borderY} />
+    <text class="state-label" x="530" y={borderY - 12} text-anchor="end">GUJARAT</text>
+    <text class="state-label" x="530" y={borderY + 24} text-anchor="end">MAHARASHTRA</text>
+    <path class="route-ghost" d={smooth(spine)} />
+    <path class="route" d={smooth(spine)} />
+    {spurs.map(([a, b]) => <path class="route" d={`M${pts[a].x},${pts[a].y} L${pts[b].x},${pts[b].y}`} />)}
+    {Object.values(pts).map(({ x, y, b }) => (
+      <a class="node" href={u(b.areaPage)} data-branch={b.id} data-name={b.name} data-region={b.region} data-phone={b.phones[0]} data-href={u(b.areaPage)} aria-label={`${b.city} — ${b.name}, ${b.region}`}>
+        <circle class="halo" cx={x} cy={y} r="16" />
+        <circle class="dot" cx={x} cy={y} r="6.5" />
+        <text x={side[b.id] === 'l' ? x - 14 : x + 14} y={y + 4.5} text-anchor={side[b.id] === 'l' ? 'end' : 'start'}>{b.city}</text>
+      </a>
+    ))}
+  </svg>
+  <div class="map-card" data-map-card aria-live="polite"></div>
+  <p class="map-note">Illustrative network diagram. Marker positions are approximate; this is not a live tracking map.</p>
+</div>
