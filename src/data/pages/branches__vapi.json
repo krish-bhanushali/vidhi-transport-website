@@ -1,0 +1,62 @@
+{
+ "path": "/branches/vapi.html",
+ "title": "Vapi Industrial Transport Branch | Vidhi Transport",
+ "description": "Contact the Vidhi Transport Vapi branch for industrial freight, FTL, PTL, and dispatch support in Gujarat. Phone +91 63598 93351.",
+ "hero": {
+  "kicker": "Gujarat industrial transport branch",
+  "title": "Vapi transport branch.",
+  "subtitle": null,
+  "intro": [
+   "Direct local coordination for industrial freight, full truckload, and part truckload requirements."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Your local dispatch contact",
+   "title": "Industrial freight support in Vapi.",
+   "subtitle": "Vapi",
+   "intro": [
+    "Our Vapi branch supports freight conversations for industrial businesses operating in and around the Gujarat manufacturing corridor. Contact the branch directly to discuss pickup, delivery, route availability, and movement requirements."
+   ],
+   "cards": [
+    {
+     "title": "Industrial areas and nearby locations",
+     "body": [],
+     "list": [],
+     "chips": [
+      "Vapi GIDC",
+      "Sarigam",
+      "Daman",
+      "Silvassa"
+     ]
+    },
+    {
+     "title": "Services to discuss with the branch",
+     "body": [
+      "Gala No. 1, Industrial Plot No. 901/1/10, 3rd Phase, Shree Shyam Complex, GIDC Area, Vapi, Gujarat 396195"
+     ],
+     "list": [
+      "Full truckload movement and dedicated vehicle requirements",
+      "Part truckload and consolidated industrial freight",
+      "Dispatch coordination, documentation, and local branch support",
+      "Specialised cargo enquiries, subject to operational suitability"
+     ],
+     "chips": [],
+     "kicker": "Gujarat contact",
+     "href": "tel:+916359893351",
+     "linkText": "Call branch"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 63598 93351",
+     "href": "tel:+916359893351"
+    },
+    {
+     "text": "View approximate location",
+     "href": "https://www.google.com/maps/search/?api=1&query=Gala+No.+1%2C+Industrial+Plot+No.+901%2F1%2F10%2C+3rd+Phase%2C+Shree+Shyam+Complex%2C+GIDC+Area%2C+Vapi%2C+Gujarat+396195"
+    }
+   ]
+  }
+ ]
+}

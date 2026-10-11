@@ -1,0 +1,181 @@
+{
+ "path": "/areas/transporter-in-bhiwandi.html",
+ "title": "Transporter in Bhiwandi | PTL, FTL & Distribution",
+ "description": "Contact Vidhi Transport's Bhiwandi branch for PTL, FTL, urgent freight and distribution support across Anjur, Wadpe, Wada, Vasai and Palghar.",
+ "hero": {
+  "kicker": "Mumbai Metropolitan Region",
+  "title": "Industrial transporter in Bhiwandi",
+  "subtitle": "Bhiwandi Branch",
+  "intro": [
+   "Bhiwandi is a major warehousing and distribution location within the Mumbai Metropolitan Region. The Anjur-side branch supports part-load and dedicated movements between Bhiwandi, Navi Mumbai, Vasai, Palghar and Gujarat industrial corridors, with final planning based on cargo, schedule and access constraints.",
+   "Customer care: 8:00 AM–10:00 PM IST, daily"
+  ],
+  "ctas": [
+   {
+    "text": "Call Bhiwandi Branch",
+    "href": "tel:+916359893366"
+   },
+   {
+    "text": "Request a freight quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "+91 63598 93366",
+    "href": "tel:+916359893366"
+   },
+   {
+    "text": "View detailed branch page",
+    "href": "/branch-locator.html#branch-bhiwandi"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Branch capabilities",
+   "title": "Road freight coordinated from Bhiwandi",
+   "subtitle": null,
+   "intro": [
+    "Capabilities vary by cargo, route, vehicle availability and branch approval. Share complete shipment details before arranging dispatch."
+   ],
+   "cards": [
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Urgent freight coordination",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    },
+    {
+     "title": "E-commerce support",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "04"
+    },
+    {
+     "title": "Warehousing support",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "05"
+    }
+   ],
+   "id": "services"
+  },
+  {
+   "kicker": "Nearby coverage",
+   "title": "Industrial areas coordinated by this branch",
+   "subtitle": "Industrial supply chains we understand",
+   "intro": [
+    "These labels describe nearby or connected service areas. They do not claim a separate physical branch or guarantee automatic pickup in every locality.",
+    "Material acceptance is assessed case by case, especially for regulated, hazardous, oversized or specialised cargo."
+   ],
+   "list": [
+    "Bhiwandi",
+    "Anjur",
+    "Wadpe",
+    "Wada",
+    "Vasai",
+    "Palghar",
+    "Consumer goods",
+    "Engineering",
+    "E-commerce",
+    "Packaging",
+    "Industrial distribution"
+   ],
+   "id": "coverage"
+  },
+  {
+   "kicker": "Connected corridors",
+   "title": "Common route enquiries from Bhiwandi",
+   "subtitle": null,
+   "intro": [
+    "Ask for the exact origin and destination PIN codes so the team can confirm the operational route."
+   ],
+   "list": [
+    "01 Bhiwandi to Navi Mumbai and Rabale",
+    "02 Bhiwandi to Vasai, Palghar and Tarapur",
+    "03 Bhiwandi to Vapi, Surat and Gujarat"
+   ],
+   "id": "routes"
+  },
+  {
+   "kicker": "Prepare your enquiry",
+   "title": "Six details that lead to a useful freight response",
+   "subtitle": null,
+   "intro": [
+    "A precise request lets the team assess PTL, FTL, container or specialised movement without unnecessary back-and-forth."
+   ],
+   "list": [
+    "Exact locations Origin, destination, industrial area and PIN codes.",
+    "Cargo Material description and any classification or handling requirement.",
+    "Packages Type, count, dimensions, weight and stackability.",
+    "Equipment Forklift, crane, dock or labour available at both ends.",
+    "Timing Ready date, receiving hours and delivery appointment.",
+    "Terms Paid, to-pay or billing; door, godown, DACC or COD options."
+   ],
+   "id": "prepare"
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Questions about transport in Bhiwandi",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "Does Vidhi Transport have a branch serving Bhiwandi?",
+     "a": "Yes. Bhiwandi Branch is listed at Gala No. 1, New Madhvi Compound, Near Narayan Talpatriwala, Anjur Road, Anjur Phata, Bhiwandi, Maharashtra 421302. Call +91 63598 93366 to confirm the exact pickup, delivery, cargo and timing requirement."
+    },
+    {
+     "q": "Which nearby areas are coordinated from Bhiwandi Branch?",
+     "a": "The listed service areas include Bhiwandi, Anjur, Wadpe, Wada, Vasai, Palghar. These are coverage references, not claims of a separate physical office in every locality."
+    },
+    {
+     "q": "Which transport services can I request in Bhiwandi?",
+     "a": "The branch can assess requirements for Part Load Transport, Full Truckload Transport, Urgent freight coordination, E-commerce support, Warehousing support. Availability and acceptance depend on the cargo, route, documentation, schedule and operational approval."
+    },
+    {
+     "q": "What should I share for a freight quote from Bhiwandi?",
+     "a": "Share exact origin and destination with PIN codes, material description, packaging, package count, actual weight and dimensions, dispatch date, loading method, delivery option and any special handling or regulatory information."
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "kicker": "Move from Bhiwandi",
+  "title": "Tell us what needs to move.",
+  "subtitle": null,
+  "intro": [
+   "Share the shipment profile and our team will review the appropriate route and service."
+  ],
+  "ctas": [
+   {
+    "text": "Prepare an enquiry",
+    "href": "/contact_us.html#quote"
+   }
+  ]
+ }
+}

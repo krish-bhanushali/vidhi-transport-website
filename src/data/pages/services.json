@@ -1,0 +1,269 @@
+{
+ "path": "/services.html",
+ "title": "Transport Services: FTL, PTL, ODC & Containers | Vidhi",
+ "description": "Explore Vidhi Transport's FTL, PTL, project cargo, reverse logistics, chemical freight, ODC, port-container, warehousing and distribution services.",
+ "hero": {
+  "kicker": "Industrial freight solutions",
+  "title": "The right movement for every industrial dispatch.",
+  "subtitle": null,
+  "intro": [
+   "Dedicated full truckloads, flexible part loads, reverse movement, ODC and construction cargo, port-container coordination, warehousing and distribution across Gujarat and Maharashtra."
+  ],
+  "ctas": [
+   {
+    "text": "Get a freight quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Explore all services",
+    "href": "#services-list"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Choose the right movement",
+   "title": "Nine services. One coordinated network.",
+   "subtitle": null,
+   "intro": [
+    "The right freight option depends on shipment volume, route, cargo type, handling requirements and dispatch schedule. Our operations team helps match those details to a practical movement plan."
+   ],
+   "cards": [
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "A dedicated vehicle for high-volume, scheduled or time-sensitive industrial consignments requiring direct movement planning."
+     ],
+     "list": [
+      "Dedicated vehicle for one consignment",
+      "Suitable for plant and warehouse dispatch",
+      "Planned point-to-point coordination"
+     ],
+     "chips": [],
+     "num": "01",
+     "href": "/services/full-truck-load.html",
+     "linkText": "View FTL details",
+     "kicker": "Flexible consolidation"
+    },
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Consolidated road freight for smaller and recurring industrial consignments that do not require an entire vehicle."
+     ],
+     "list": [
+      "Cost-conscious shared vehicle capacity",
+      "Useful for regular smaller dispatches",
+      "Lane-based consolidation planning"
+     ],
+     "chips": [],
+     "num": "02",
+     "href": "/services/part-truck-load.html",
+     "linkText": "View PTL details",
+     "kicker": "Return movement"
+    },
+    {
+     "title": "Reverse Logistics",
+     "body": [
+      "Coordinated return movement for rejected goods, reusable packaging and industrial materials, subject to cargo and route requirements."
+     ],
+     "list": [
+      "Rejected and return-goods coordination",
+      "Reusable packaging return support",
+      "Route-appropriate movement planning"
+     ],
+     "chips": [],
+     "num": "03",
+     "href": "/services/reverse-logistics.html",
+     "linkText": "Explore Reverse Logistics",
+     "kicker": "Industrial cargo focus"
+    },
+    {
+     "title": "Chemical & Industrial Freight",
+     "body": [
+      "Road freight coordination for packaged chemical drums, carboys, IBCs, industrial inputs, packaging, machinery and finished goods."
+     ],
+     "list": [
+      "Packaged drums, carboys and IBCs",
+      "Industrial inputs and finished goods",
+      "Documentation-led cargo coordination"
+     ],
+     "chips": [],
+     "num": "04",
+     "href": "/services/chemical-industrial-freight.html",
+     "linkText": "Explore Industrial Freight",
+     "kicker": "End-to-end coordination"
+    },
+    {
+     "title": "First-Mile & Last-Mile Support",
+     "body": [
+      "Pickup and delivery coordination between factories, warehouses, branches and final industrial destinations where operationally available."
+     ],
+     "list": [
+      "Factory and warehouse pickup support",
+      "Branch and network handoff coordination",
+      "Destination delivery where available"
+     ],
+     "chips": [],
+     "num": "05",
+     "href": "/services/first-mile-last-mile.html",
+     "linkText": "Explore First & Last Mile",
+     "kicker": "Milestone-led coordination"
+    },
+    {
+     "title": "Project Cargo Transport",
+     "body": [
+      "Planned movement of industrial machinery, equipment and multi-stage project consignments with route, lifting, site-access and schedule coordination."
+     ],
+     "list": [
+      "Item-wise cargo and movement planning",
+      "Site, vehicle and lifting coordination",
+      "Phased dispatch and milestone support"
+     ],
+     "chips": [],
+     "num": "06",
+     "href": "/services/project-cargo.html",
+     "linkText": "Explore Project Cargo",
+     "kicker": "Specialised movement planning"
+    },
+    {
+     "title": "ODC & Construction Cargo",
+     "body": [
+      "Movement planning for over-dimensional equipment, construction machinery, fabricated structures and project-related industrial cargo."
+     ],
+     "list": [
+      "Route and access assessment",
+      "Vehicle and equipment planning",
+      "Permit coordination where required"
+     ],
+     "chips": [],
+     "num": "07",
+     "href": "/services/odc-construction-cargo.html",
+     "linkText": "Explore ODC Transport",
+     "kicker": "Port-linked movement"
+    },
+    {
+     "title": "Container Transport to Ports",
+     "body": [
+      "Container movement coordination between industrial locations and JNPT (Nhava Sheva), Hazira and Mundra, subject to terminal conditions and vehicle availability."
+     ],
+     "list": [
+      "Factory-to-port and port-to-factory movement",
+      "Loaded or empty container coordination",
+      "Schedule and document coordination"
+     ],
+     "chips": [],
+     "num": "08",
+     "href": "/services/port-container-transport.html",
+     "linkText": "Explore Container Transport",
+     "kicker": "Storage and onward dispatch"
+    },
+    {
+     "title": "Warehousing & Distribution",
+     "body": [
+      "Practical warehousing, consolidation, inventory staging and onward distribution for accepted packaged industrial goods."
+     ],
+     "list": [
+      "Inward receipt and agreed storage support",
+      "Consolidation and dispatch staging",
+      "FTL and PTL distribution coordination"
+     ],
+     "chips": [],
+     "num": "09",
+     "href": "/services/warehousing.html",
+     "linkText": "Explore Warehousing"
+    }
+   ],
+   "id": "services-list"
+  },
+  {
+   "kicker": "Flexible commercial support",
+   "title": "Billing and delivery options built around your process.",
+   "subtitle": null,
+   "intro": [
+    "Choose an agreed freight-payment method and delivery arrangement to match your purchase, dispatch and consignee process."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment & billing",
+     "body": [
+      "Select the commercial arrangement agreed for your shipment or customer account."
+     ],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangements",
+     "body": [
+      "Plan pickup and delivery around factory, branch, godown and consignee requirements."
+     ],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery options",
+     "body": [
+      "Use consignee-document or collection instructions where they are agreed in advance.",
+      "Need a combination? Options can be combined—for example, To Pay with Door-to-Door delivery or Account Billing with DACC—subject to customer agreement, cargo, route, documentation and operational confirmation."
+     ],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "value-added-options"
+  },
+  {
+   "kicker": "Better planning from the start",
+   "title": "The right service starts with the right details.",
+   "subtitle": null,
+   "intro": [
+    "Share the route, cargo description, approximate weight, packaging, dimensions where relevant, and preferred dispatch date. Our operations team will suggest the most practical next step."
+   ],
+   "cards": [
+    {
+     "title": "Route & coverage",
+     "body": [
+      "Pickup, destination and branch availability determine the movement plan."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Cargo & handling",
+     "body": [
+      "Material type, packaging and documentation guide cargo coordination."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Volume & timing",
+     "body": [
+      "Shipment size and dispatch urgency help determine whether FTL or PTL fits best."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03",
+     "href": "/contact_us.html#quote",
+     "linkText": "Discuss your requirement"
+    }
+   ]
+  }
+ ]
+}

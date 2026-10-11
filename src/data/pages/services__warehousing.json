@@ -1,0 +1,247 @@
+{
+ "path": "/services/warehousing.html",
+ "title": "Industrial Warehousing & Distribution | Vidhi Transport",
+ "description": "Industrial warehousing, consolidation and distribution support for accepted packaged goods in Gujarat and Maharashtra, subject to facility availability.",
+ "hero": {
+  "kicker": "Storage and dispatch coordination",
+  "title": "Warehousing & Distribution",
+  "subtitle": null,
+  "intro": [
+   "Practical warehousing, consolidation, inventory staging and onward distribution for accepted packaged industrial goods."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Call +91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "Warehousing & Distribution at a glance",
+   "subtitle": null,
+   "chips": [
+    "Function",
+    "Storage and dispatch",
+    "Flow",
+    "Inward ↔ Outward",
+    "Availability",
+    "Facility dependent",
+    "Connects with",
+    "FTL and PTL"
+   ]
+  },
+  {
+   "kicker": "Connect storage with transport",
+   "title": "Warehousing organised around inward and outward movement.",
+   "subtitle": "Share the operating details.",
+   "intro": [
+    "Warehousing and distribution can help businesses stage accepted inventory closer to customers, combine consignments and coordinate outward dispatches. The operating scope is agreed around the product, packaging, volume, expected storage period and movement frequency.",
+    "Vidhi Transport can review storage and distribution requirements at operationally available facilities. Every enquiry is subject to space, handling suitability, documentation, commercial terms and the exact characteristics of the goods."
+   ],
+   "cards": [
+    {
+     "title": "What this service can include",
+     "body": [],
+     "list": [
+      "Inward receipt and package-count coordination",
+      "Agreed storage for accepted packaged industrial goods",
+      "Consolidation and dispatch staging support",
+      "Basic stock and dispatch records where agreed",
+      "FTL or PTL distribution planning from the facility",
+      "Godown-to-Door and Godown-to-Godown coordination"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Often suitable for",
+     "body": [
+      "A useful quotation starts with these basics:"
+     ],
+     "list": [
+      "Product and material description",
+      "Packaging type, quantity and dimensions",
+      "Approximate inventory volume and weight",
+      "Expected storage period and turnover",
+      "Inward and outward movement frequency"
+     ],
+     "chips": [
+      "Packaged industrial goods",
+      "Cartons, bags and pallets",
+      "Accepted drums and carboys",
+      "Regional inventory staging"
+     ],
+     "kicker": "Plan this shipment",
+     "href": "/contact_us.html#quote",
+     "linkText": "Request a quote"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "subtitle": null,
+   "intro": [
+    "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Define the requirement",
+     "body": [
+      "Share the goods, packaging, quantity, storage period, inward plan and expected outward frequency."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Confirm suitability",
+     "body": [
+      "The team reviews facility space, material acceptance, handling, documentation and commercial scope."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Coordinate inventory flow",
+     "body": [
+      "Once agreed, inward receipt, storage records, dispatch instructions and onward transport are coordinated.",
+      "Important: Warehousing is subject to facility and space availability, accepted material classification, suitable packaging, documentation, handling requirements, insurance terms and an agreed operating scope. Temperature-controlled storage is not implied."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "subtitle": null,
+   "intro": [
+    "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment",
+     "body": [],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangement",
+     "body": [],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery",
+     "body": [],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "billing-delivery-options"
+  },
+  {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response."
+   ],
+   "faqs": [
+    {
+     "q": "What does the warehousing service include?",
+     "a": "The agreed scope may include inward receipt, packaged-goods storage, consolidation, dispatch staging, basic records and onward FTL or PTL distribution."
+    },
+    {
+     "q": "Can drums and carboys be stored?",
+     "a": "Properly packaged drums or carboys may be considered only after the exact material, classification, packaging condition, documents and facility suitability are reviewed."
+    },
+    {
+     "q": "Can Vidhi Transport distribute goods from the warehouse?",
+     "a": "Accepted inventory can be reviewed for onward FTL, PTL, Godown-to-Door or Godown-to-Godown movement, subject to route and service availability."
+    },
+    {
+     "q": "What information is required for a warehousing quotation?",
+     "a": "Share the product description, classification, packaging, quantity, dimensions, weight, expected storage period, inward plan and outward dispatch frequency."
+    }
+   ]
+  },
+  {
+   "kicker": "Continue exploring",
+   "title": "Related logistics services.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Flexible transport for smaller and recurring industrial consignments that do not require an entire vehicle."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/part-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "Dedicated vehicles for high-volume loads, scheduled plant dispatches and time-sensitive industrial consignments across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/full-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "First-Mile & Last-Mile Support",
+     "body": [
+      "Coordinated movement between factories, warehouses, branches, godowns and industrial consignee locations where service is available."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/first-mile-last-mile.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "See all services",
+     "href": "/services.html"
+    }
+   ]
+  }
+ ]
+}

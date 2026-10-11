@@ -1,0 +1,247 @@
+{
+ "path": "/services/chemical-industrial-freight.html",
+ "title": "Chemical & Industrial Freight Transport | Vidhi Transport",
+ "description": "Packaged chemical and industrial freight transport across Gujarat and Maharashtra, subject to material classification, packaging and document approval.",
+ "hero": {
+  "kicker": "Packaged industrial cargo",
+  "title": "Chemical & Industrial Freight",
+  "subtitle": null,
+  "intro": [
+   "Transport coordination for accepted packaged chemicals, industrial inputs, machinery and finished goods across Gujarat and Maharashtra."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Call +91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "Chemical & Industrial Freight at a glance",
+   "subtitle": null,
+   "chips": [
+    "Cargo",
+    "Packaged industrial",
+    "Modes",
+    "FTL and PTL",
+    "Core region",
+    "Gujarat–Maharashtra",
+    "Priority",
+    "Classification and packing"
+   ]
+  },
+  {
+   "kicker": "Cargo details come first",
+   "title": "Industrial freight planned around material and packaging.",
+   "subtitle": "Share the operating details.",
+   "intro": [
+    "Chemical and industrial cargo requires accurate material identification, appropriate packaging and complete documents before movement. Vidhi Transport reviews those details to determine whether a consignment can be accepted and how it should be routed.",
+    "Possible packaging formats include sealed drums, carboys, IBCs, bags, cartons, pallets and equipment. Acceptance always depends on the exact classification, packaging condition, route and operational capability."
+   ],
+   "cards": [
+    {
+     "title": "What this service can include",
+     "body": [],
+     "list": [
+      "Review of material description and transport documents",
+      "Packaged drums, carboys, IBCs, bags, cartons and pallets",
+      "Industrial raw-material and finished-goods coordination",
+      "FTL or PTL planning according to load and compatibility",
+      "Factory, godown and branch movement support",
+      "Consignee and delivery-instruction coordination"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Often suitable for",
+     "body": [
+      "A useful quotation starts with these basics:"
+     ],
+     "list": [
+      "Exact material or product name",
+      "Classification and applicable documents",
+      "Packaging type, count and condition",
+      "Weight, dimensions and handling needs",
+      "Pickup, destination and dispatch date"
+     ],
+     "chips": [
+      "Packaged chemical products",
+      "Industrial raw materials",
+      "Packaging and polymer goods",
+      "Machinery and finished goods"
+     ],
+     "kicker": "Plan this shipment",
+     "href": "/contact_us.html#quote",
+     "linkText": "Request a quote"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "subtitle": null,
+   "intro": [
+    "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Identify the material",
+     "body": [
+      "Provide the exact cargo description, classification, packaging and applicable documents."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Review movement needs",
+     "body": [
+      "The team checks acceptance, compatibility, vehicle, route and delivery requirements."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Coordinate accepted freight",
+     "body": [
+      "Once approved, pickup and delivery are planned through the appropriate FTL or PTL movement.",
+      "Important: No chemical consignment is assumed acceptable from its trade name alone. Exact classification, compliant packaging, documents and operational approval are required."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "subtitle": null,
+   "intro": [
+    "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment",
+     "body": [],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangement",
+     "body": [],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery",
+     "body": [],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "billing-delivery-options"
+  },
+  {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response."
+   ],
+   "faqs": [
+    {
+     "q": "Which chemical packaging formats can be considered?",
+     "a": "Depending on the material and acceptance review, packaging may include properly sealed drums, carboys, IBCs, bags, cartons and pallets."
+    },
+    {
+     "q": "Is every chemical accepted for transport?",
+     "a": "No. Acceptance depends on exact material classification, packaging, documents, route, vehicle requirements and operational capability."
+    },
+    {
+     "q": "Can chemical freight move as Part Load?",
+     "a": "Compatible packaged cargo may be considered for PTL after classification, packaging, documentation and consolidation requirements are reviewed."
+    },
+    {
+     "q": "What information should be shared for a quotation?",
+     "a": "Provide the exact material name and classification, packaging type, package count, weight, dimensions, route and required dispatch date."
+    }
+   ]
+  },
+  {
+   "kicker": "Continue exploring",
+   "title": "Related logistics services.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "Dedicated vehicles for high-volume loads, scheduled plant dispatches and time-sensitive industrial consignments across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/full-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Flexible transport for smaller and recurring industrial consignments that do not require an entire vehicle."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/part-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Reverse Logistics",
+     "body": [
+      "Coordinated return movement for rejected goods, reusable packaging and industrial materials across the operating network."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/reverse-logistics.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "See all services",
+     "href": "/services.html"
+    }
+   ]
+  }
+ ]
+}

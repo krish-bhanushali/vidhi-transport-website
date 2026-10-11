@@ -1,0 +1,79 @@
+{
+ "path": "/lr-track.html",
+ "title": "Track LR Online & Check Shipment Status | Vidhi Transport",
+ "description": "Track a Vidhi Transport LR online to view its route, booking date, latest ERP status update and estimated delivery, with direct customer-care support.",
+ "hero": {
+  "kicker": "Live shipment status",
+  "title": "Track with your LR number.",
+  "subtitle": null,
+  "intro": [
+   "Enter the numeric lorry receipt number to request its latest record from the Vidhi Transport ERP."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Tracking support",
+   "title": "Keep the transport reference close.",
+   "subtitle": null,
+   "intro": [
+    "Your LR number is the fastest way for a branch or customer-care team to identify the consignment."
+   ],
+   "cards": [
+    {
+     "title": "Locate the LR",
+     "body": [
+      "Check the lorry receipt issued for the shipment."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Enter it exactly",
+     "body": [
+      "Use only the numeric LR reference shown on the receipt."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Contact support",
+     "body": [
+      "Keep the LR number ready if the live service cannot answer your request."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "LR tracking questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "Where can I find the LR number?",
+     "a": "The LR or lorry receipt number appears on the transport receipt issued for the consignment. Enter only the numeric LR number printed on that receipt."
+    },
+    {
+     "q": "What information does online LR tracking show?",
+     "a": "When a matching record is available, the page shows the LR number, route, booking date, consignment status, last status update and estimated delivery date returned by Vidhi Transport's tracking service."
+    },
+    {
+     "q": "What do the LR tracking statuses mean?",
+     "a": "Booked means the consignment has been registered, On the way means it is moving through the transport network, and Delivered means the ERP record marks the consignment as delivered."
+    },
+    {
+     "q": "What should I do if live tracking is unavailable?",
+     "a": "Retry after checking the LR number. If the service still cannot be reached, contact customer care by phone, WhatsApp or email and include the LR number."
+    },
+    {
+     "q": "What should I share for a delivery issue?",
+     "a": "Share the LR number, consignor and consignee, destination, issue description and an authorised contact number. Avoid posting invoices or confidential documents in public channels."
+    }
+   ]
+  }
+ ]
+}

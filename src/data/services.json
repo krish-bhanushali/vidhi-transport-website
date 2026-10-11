@@ -1,0 +1,1399 @@
+[
+ {
+  "slug": "full-truck-load",
+  "path": "/services/full-truck-load.html",
+  "title": "Full Truckload Transport Gujarat & Maharashtra | Vidhi",
+  "description": "Dedicated full truckload transport for industrial freight between Gujarat and Maharashtra, with vehicle, route, pickup and delivery coordination.",
+  "kicker": "Dedicated vehicle transport",
+  "h1": "Full Truckload Transport",
+  "lede": "Dedicated vehicles for high-volume loads, scheduled plant dispatches and time-sensitive industrial consignments across Gujarat and Maharashtra.",
+  "mark": "FTL",
+  "crumb": "Full Truckload",
+  "facts": [
+   {
+    "label": "Movement",
+    "value": "Dedicated vehicle"
+   },
+   {
+    "label": "Best suited",
+    "value": "Larger consignments"
+   },
+   {
+    "label": "Core region",
+    "value": "Gujarat–Maharashtra"
+   },
+   {
+    "label": "Support",
+    "value": "Pickup to delivery"
+   }
+  ],
+  "detail": {
+   "kicker": "Capacity aligned to your consignment",
+   "title": "Dedicated capacity for larger industrial dispatches.",
+   "paragraphs": [
+    "Full Truckload transport gives one consignment the planned carrying capacity of a dedicated vehicle. It is commonly used when shipment volume, weight, handling needs or dispatch timing makes consolidation impractical.",
+    "Vidhi Transport coordinates the vehicle, pickup, route and delivery plan with the consignor and consignee. Final vehicle placement depends on cargo details, route conditions and operational availability."
+   ],
+   "includes": [
+    "Dedicated vehicle aligned to the accepted consignment",
+    "Vehicle selection based on cargo weight and dimensions",
+    "Plant-to-plant, warehouse and godown movement planning",
+    "Pickup and delivery coordination across the branch network",
+    "Dispatch-document and consignee instruction coordination",
+    "Movement updates through the operating team"
+   ],
+   "suitable": [
+    "High-volume industrial loads",
+    "Scheduled factory dispatches",
+    "Bulk packaged goods",
+    "Time-sensitive full-vehicle movement"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this shipment",
+   "title": "Share the operating details.",
+   "intro": "A useful quotation starts with these basics:",
+   "items": [
+    "Pickup and delivery locations",
+    "Cargo description and packaging",
+    "Approximate weight and dimensions",
+    "Preferred vehicle or body type",
+    "Expected dispatch date"
+   ]
+  },
+  "process": {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "description": "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details.",
+   "steps": [
+    {
+     "title": "Share the load",
+     "text": "Provide origin, destination, cargo, weight, dimensions and dispatch timing."
+    },
+    {
+     "title": "Confirm the plan",
+     "text": "The operating team checks vehicle suitability, route coverage and commercial terms."
+    },
+    {
+     "title": "Coordinate movement",
+     "text": "After acceptance, pickup, transit communication and delivery are coordinated with both parties."
+    }
+   ],
+   "note": "FTL acceptance and vehicle placement are subject to exact cargo details, documentation, route feasibility and vehicle availability."
+  },
+  "options": {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "description": "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation.",
+   "groups": [
+    {
+     "title": "Freight payment",
+     "items": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ]
+    },
+    {
+     "title": "Delivery arrangement",
+     "items": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ]
+    },
+    {
+     "title": "Controlled delivery",
+     "items": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "description": "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response.",
+   "items": [
+    {
+     "q": "What is Full Truckload transport?",
+     "a": "Full Truckload, or FTL, uses a dedicated vehicle for an accepted consignment instead of combining it with other customers’ freight."
+    },
+    {
+     "q": "When should a business choose FTL instead of Part Load?",
+     "a": "FTL is usually more practical for larger loads, dedicated schedules, special handling requirements or consignments that use most of a vehicle’s capacity."
+    },
+    {
+     "q": "Which details are needed for an FTL quotation?",
+     "a": "Share pickup and delivery locations, cargo description, packaging, approximate weight, dimensions, preferred vehicle and dispatch date."
+    },
+    {
+     "q": "Does Vidhi Transport provide FTL between Gujarat and Maharashtra?",
+     "a": "Vidhi Transport coordinates accepted FTL movements across its Gujarat and Maharashtra industrial network, subject to route and vehicle availability."
+    }
+   ]
+  },
+  "related": [
+   "part-truck-load",
+   "chemical-industrial-freight",
+   "port-container-transport"
+  ],
+  "card": {
+   "tag": "Dedicated capacity",
+   "name": "Full Truckload Transport",
+   "summary": "A dedicated vehicle for high-volume, scheduled or time-sensitive industrial consignments requiring direct movement planning.",
+   "highlights": [
+    "Dedicated vehicle for one consignment",
+    "Suitable for plant and warehouse dispatch",
+    "Planned point-to-point coordination"
+   ],
+   "linkText": "View FTL details"
+  }
+ },
+ {
+  "slug": "part-truck-load",
+  "path": "/services/part-truck-load.html",
+  "title": "Part Load Transport Gujarat & Maharashtra | Vidhi",
+  "description": "Part load transport for smaller industrial consignments across Gujarat and Maharashtra, including packaged drums, carboys, cartons and pallets.",
+  "kicker": "Consolidated industrial freight",
+  "h1": "Part Load Transport",
+  "lede": "Flexible transport for smaller and recurring industrial consignments that do not require an entire vehicle.",
+  "mark": "PTL",
+  "crumb": "Part Load",
+  "facts": [
+   {
+    "label": "Movement",
+    "value": "Consolidated freight"
+   },
+   {
+    "label": "Best suited",
+    "value": "Smaller loads"
+   },
+   {
+    "label": "Core region",
+    "value": "Gujarat–Maharashtra"
+   },
+   {
+    "label": "Packaging",
+    "value": "Drums to pallets"
+   }
+  ],
+  "detail": {
+   "kicker": "Pay for practical load space",
+   "title": "Consolidated movement for smaller industrial loads.",
+   "paragraphs": [
+    "Part Load Transport combines compatible accepted consignments moving through the network. It helps businesses move smaller quantities without booking the full carrying capacity of a vehicle.",
+    "The operating plan considers packaging, cargo compatibility, route, handling requirements and delivery instructions. Transit and delivery timing can differ from dedicated FTL because the movement is consolidated."
+   ],
+   "includes": [
+    "Consolidated movement for smaller accepted consignments",
+    "Support for packaged drums, carboys, cartons, bags and pallets",
+    "Recurring factory and distributor dispatch coordination",
+    "Godown and door-delivery arrangements where available",
+    "Freight Paid, To Pay or agreed account billing",
+    "Consignment-level documentation and delivery instructions"
+   ],
+   "suitable": [
+    "Smaller industrial consignments",
+    "Recurring distributor dispatches",
+    "Packaged drums and carboys",
+    "Cartons, bags and pallets"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this shipment",
+   "title": "Share the operating details.",
+   "intro": "A useful quotation starts with these basics:",
+   "items": [
+    "Pickup and delivery locations",
+    "Number and type of packages",
+    "Total approximate weight",
+    "Cargo classification and documents",
+    "Delivery and billing instructions"
+   ]
+  },
+  "process": {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "description": "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details.",
+   "steps": [
+    {
+     "title": "Describe the consignment",
+     "text": "Share package count, packaging type, weight, route and cargo description."
+    },
+    {
+     "title": "Check compatibility",
+     "text": "The team reviews network coverage, handling needs, cargo compatibility and delivery terms."
+    },
+    {
+     "title": "Book and coordinate",
+     "text": "Once accepted, the consignment is booked into the suitable network movement and tracked to delivery."
+    }
+   ],
+   "note": "PTL schedules depend on consolidation, branch connectivity, cargo compatibility, documentation and destination-service availability."
+  },
+  "options": {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "description": "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation.",
+   "groups": [
+    {
+     "title": "Freight payment",
+     "items": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ]
+    },
+    {
+     "title": "Delivery arrangement",
+     "items": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ]
+    },
+    {
+     "title": "Controlled delivery",
+     "items": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "description": "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response.",
+   "items": [
+    {
+     "q": "What is Part Load Transport?",
+     "a": "Part Load Transport, also called PTL, consolidates compatible consignments so a customer can move a smaller load without booking a complete vehicle."
+    },
+    {
+     "q": "What packaging can be considered for PTL?",
+     "a": "Depending on cargo acceptance and route, PTL may include properly packaged drums, carboys, cartons, bags, pallets and other industrial packages."
+    },
+    {
+     "q": "Can PTL be delivered Door to Door?",
+     "a": "Door-to-Door, Godown-to-Door and Godown-to-Godown arrangements may be available depending on the route, destination and agreed booking terms."
+    },
+    {
+     "q": "How is PTL different from FTL?",
+     "a": "PTL shares network capacity with compatible freight, while FTL allocates a dedicated vehicle to one accepted consignment."
+    }
+   ]
+  },
+  "related": [
+   "full-truck-load",
+   "chemical-industrial-freight",
+   "first-mile-last-mile"
+  ],
+  "card": {
+   "tag": "Flexible consolidation",
+   "name": "Part Load Transport",
+   "summary": "Consolidated road freight for smaller and recurring industrial consignments that do not require an entire vehicle.",
+   "highlights": [
+    "Cost-conscious shared vehicle capacity",
+    "Useful for regular smaller dispatches",
+    "Lane-based consolidation planning"
+   ],
+   "linkText": "View PTL details"
+  }
+ },
+ {
+  "slug": "reverse-logistics",
+  "path": "/services/reverse-logistics.html",
+  "title": "Reverse Logistics Gujarat & Maharashtra | Vidhi Transport",
+  "description": "Reverse logistics for accepted rejected goods, returns and reusable industrial packaging across Gujarat and Maharashtra, with document-led coordination.",
+  "kicker": "Returns and recovery movement",
+  "h1": "Reverse Logistics",
+  "lede": "Coordinated return movement for rejected goods, reusable packaging and industrial materials across the operating network.",
+  "mark": "RETURN",
+  "crumb": "Reverse Logistics",
+  "facts": [
+   {
+    "label": "Direction",
+    "value": "Consignee to origin"
+   },
+   {
+    "label": "Typical use",
+    "value": "Returns and recovery"
+   },
+   {
+    "label": "Core region",
+    "value": "Gujarat–Maharashtra"
+   },
+   {
+    "label": "Priority",
+    "value": "Clear documentation"
+   }
+  ],
+  "detail": {
+   "kicker": "Plan the return route clearly",
+   "title": "Reverse movement with documented instructions.",
+   "paragraphs": [
+    "Reverse Logistics moves accepted goods or packaging back from the consignee, distributor, branch or project location to a nominated facility. Typical requirements include rejected consignments, returnable packaging and reusable industrial containers.",
+    "Return movements require clear ownership, condition, documentation and delivery instructions. Vidhi Transport coordinates the agreed route after reviewing the material, packaging and acceptance requirements."
+   ],
+   "includes": [
+    "Return movement for accepted rejected or undelivered goods",
+    "Reusable drum, carboy, pallet and packaging return support",
+    "Pickup coordination from consignee or nominated location",
+    "Return-document and delivery-instruction checks",
+    "Branch-network coordination across supported routes",
+    "Linkage with forward freight planning where agreed"
+   ],
+   "suitable": [
+    "Rejected consignments",
+    "Returnable industrial packaging",
+    "Distributor and consignee returns",
+    "Reusable transport materials"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this shipment",
+   "title": "Share the operating details.",
+   "intro": "A useful quotation starts with these basics:",
+   "items": [
+    "Return pickup and destination",
+    "Material and package condition",
+    "Package count and weight",
+    "Return authorization or instructions",
+    "Contact person at both locations"
+   ]
+  },
+  "process": {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "description": "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details.",
+   "steps": [
+    {
+     "title": "Confirm return authority",
+     "text": "Share the reason for return, material condition and instructions from the responsible parties."
+    },
+    {
+     "title": "Plan pickup",
+     "text": "The team reviews packaging, documents, route, pickup access and delivery acceptance."
+    },
+    {
+     "title": "Complete the return",
+     "text": "After booking approval, collection and return delivery are coordinated against the agreed instructions."
+    }
+   ],
+   "note": "Returned goods and packaging must meet agreed acceptance, packaging, documentation and safe-handling requirements before pickup."
+  },
+  "options": {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "description": "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation.",
+   "groups": [
+    {
+     "title": "Freight payment",
+     "items": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ]
+    },
+    {
+     "title": "Delivery arrangement",
+     "items": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ]
+    },
+    {
+     "title": "Controlled delivery",
+     "items": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "description": "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response.",
+   "items": [
+    {
+     "q": "What can reverse logistics include?",
+     "a": "It can include accepted rejected goods, undelivered consignments, reusable packaging and industrial return materials moving back to an agreed destination."
+    },
+    {
+     "q": "Can empty drums or carboys be returned?",
+     "a": "Properly prepared reusable drums, carboys or other packaging may be considered after the material history, condition, documentation and route are reviewed."
+    },
+    {
+     "q": "What documents are required for a return shipment?",
+     "a": "Requirements vary by material and transaction. Share the return authorization, invoice or delivery references and any cargo-specific documents for review."
+    },
+    {
+     "q": "Can forward and return movements be planned together?",
+     "a": "Where route and operational conditions permit, the team can review forward and reverse requirements as one coordinated movement plan."
+    }
+   ]
+  },
+  "related": [
+   "part-truck-load",
+   "first-mile-last-mile",
+   "chemical-industrial-freight"
+  ],
+  "card": {
+   "tag": "Return movement",
+   "name": "Reverse Logistics",
+   "summary": "Coordinated return movement for rejected goods, reusable packaging and industrial materials, subject to cargo and route requirements.",
+   "highlights": [
+    "Rejected and return-goods coordination",
+    "Reusable packaging return support",
+    "Route-appropriate movement planning"
+   ],
+   "linkText": "Explore Reverse Logistics"
+  }
+ },
+ {
+  "slug": "chemical-industrial-freight",
+  "path": "/services/chemical-industrial-freight.html",
+  "title": "Chemical & Industrial Freight Transport | Vidhi Transport",
+  "description": "Packaged chemical and industrial freight transport across Gujarat and Maharashtra, subject to material classification, packaging and document approval.",
+  "kicker": "Packaged industrial cargo",
+  "h1": "Chemical & Industrial Freight",
+  "lede": "Transport coordination for accepted packaged chemicals, industrial inputs, machinery and finished goods across Gujarat and Maharashtra.",
+  "mark": "INDUSTRIAL",
+  "crumb": "Chemical Freight",
+  "facts": [
+   {
+    "label": "Cargo",
+    "value": "Packaged industrial"
+   },
+   {
+    "label": "Modes",
+    "value": "FTL and PTL"
+   },
+   {
+    "label": "Core region",
+    "value": "Gujarat–Maharashtra"
+   },
+   {
+    "label": "Priority",
+    "value": "Classification and packing"
+   }
+  ],
+  "detail": {
+   "kicker": "Cargo details come first",
+   "title": "Industrial freight planned around material and packaging.",
+   "paragraphs": [
+    "Chemical and industrial cargo requires accurate material identification, appropriate packaging and complete documents before movement. Vidhi Transport reviews those details to determine whether a consignment can be accepted and how it should be routed.",
+    "Possible packaging formats include sealed drums, carboys, IBCs, bags, cartons, pallets and equipment. Acceptance always depends on the exact classification, packaging condition, route and operational capability."
+   ],
+   "includes": [
+    "Review of material description and transport documents",
+    "Packaged drums, carboys, IBCs, bags, cartons and pallets",
+    "Industrial raw-material and finished-goods coordination",
+    "FTL or PTL planning according to load and compatibility",
+    "Factory, godown and branch movement support",
+    "Consignee and delivery-instruction coordination"
+   ],
+   "suitable": [
+    "Packaged chemical products",
+    "Industrial raw materials",
+    "Packaging and polymer goods",
+    "Machinery and finished goods"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this shipment",
+   "title": "Share the operating details.",
+   "intro": "A useful quotation starts with these basics:",
+   "items": [
+    "Exact material or product name",
+    "Classification and applicable documents",
+    "Packaging type, count and condition",
+    "Weight, dimensions and handling needs",
+    "Pickup, destination and dispatch date"
+   ]
+  },
+  "process": {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "description": "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details.",
+   "steps": [
+    {
+     "title": "Identify the material",
+     "text": "Provide the exact cargo description, classification, packaging and applicable documents."
+    },
+    {
+     "title": "Review movement needs",
+     "text": "The team checks acceptance, compatibility, vehicle, route and delivery requirements."
+    },
+    {
+     "title": "Coordinate accepted freight",
+     "text": "Once approved, pickup and delivery are planned through the appropriate FTL or PTL movement."
+    }
+   ],
+   "note": "No chemical consignment is assumed acceptable from its trade name alone. Exact classification, compliant packaging, documents and operational approval are required."
+  },
+  "options": {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "description": "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation.",
+   "groups": [
+    {
+     "title": "Freight payment",
+     "items": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ]
+    },
+    {
+     "title": "Delivery arrangement",
+     "items": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ]
+    },
+    {
+     "title": "Controlled delivery",
+     "items": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "description": "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response.",
+   "items": [
+    {
+     "q": "Which chemical packaging formats can be considered?",
+     "a": "Depending on the material and acceptance review, packaging may include properly sealed drums, carboys, IBCs, bags, cartons and pallets."
+    },
+    {
+     "q": "Is every chemical accepted for transport?",
+     "a": "No. Acceptance depends on exact material classification, packaging, documents, route, vehicle requirements and operational capability."
+    },
+    {
+     "q": "Can chemical freight move as Part Load?",
+     "a": "Compatible packaged cargo may be considered for PTL after classification, packaging, documentation and consolidation requirements are reviewed."
+    },
+    {
+     "q": "What information should be shared for a quotation?",
+     "a": "Provide the exact material name and classification, packaging type, package count, weight, dimensions, route and required dispatch date."
+    }
+   ]
+  },
+  "related": [
+   "full-truck-load",
+   "part-truck-load",
+   "reverse-logistics"
+  ],
+  "card": {
+   "tag": "Industrial cargo focus",
+   "name": "Chemical & Industrial Freight",
+   "summary": "Road freight coordination for packaged chemical drums, carboys, IBCs, industrial inputs, packaging, machinery and finished goods.",
+   "highlights": [
+    "Packaged drums, carboys and IBCs",
+    "Industrial inputs and finished goods",
+    "Documentation-led cargo coordination"
+   ],
+   "linkText": "Explore Industrial Freight"
+  }
+ },
+ {
+  "slug": "first-mile-last-mile",
+  "path": "/services/first-mile-last-mile.html",
+  "title": "First-Mile & Last-Mile Transport Support | Vidhi",
+  "description": "First-mile pickup and last-mile industrial delivery support between factories, warehouses, branches and consignees in Gujarat and Maharashtra.",
+  "kicker": "Pickup and destination support",
+  "h1": "First-Mile & Last-Mile Support",
+  "lede": "Coordinated movement between factories, warehouses, branches, godowns and industrial consignee locations where service is available.",
+  "mark": "MILE",
+  "crumb": "First & Last Mile",
+  "facts": [
+   {
+    "label": "Origin",
+    "value": "Factory or warehouse"
+   },
+   {
+    "label": "Destination",
+    "value": "Branch or consignee"
+   },
+   {
+    "label": "Core region",
+    "value": "Gujarat–Maharashtra"
+   },
+   {
+    "label": "Availability",
+    "value": "Route dependent"
+   }
+  ],
+  "detail": {
+   "kicker": "Connect each end of the route",
+   "title": "Pickup and delivery support around the main movement.",
+   "paragraphs": [
+    "First-mile support coordinates an accepted consignment from the origin facility to the relevant branch, hub or onward movement. Last-mile support coordinates the final leg from the network to the agreed consignee location.",
+    "Availability depends on local coverage, vehicle access, cargo, timing and delivery conditions. Clear contact details and site instructions help prevent avoidable delays at either end."
+   ],
+   "includes": [
+    "Factory and warehouse pickup coordination",
+    "Branch, hub and godown handoff support",
+    "Industrial consignee delivery where available",
+    "Door-to-Door and Godown-to-Door planning",
+    "Contact and site-access instruction coordination",
+    "Connection with accepted FTL, PTL or return freight"
+   ],
+   "suitable": [
+    "Factory pickups",
+    "Warehouse dispatches",
+    "Branch-connected freight",
+    "Industrial consignee delivery"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this shipment",
+   "title": "Share the operating details.",
+   "intro": "A useful quotation starts with these basics:",
+   "items": [
+    "Complete pickup and delivery addresses",
+    "Site contact names and numbers",
+    "Loading and unloading access details",
+    "Package count, weight and dimensions",
+    "Required appointment or timing"
+   ]
+  },
+  "process": {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "description": "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details.",
+   "steps": [
+    {
+     "title": "Check both locations",
+     "text": "Share complete addresses, contacts, timings and vehicle-access information."
+    },
+    {
+     "title": "Connect the movement",
+     "text": "The team aligns pickup or delivery with the relevant FTL, PTL, branch or hub plan."
+    },
+    {
+     "title": "Coordinate handover",
+     "text": "Collection and final delivery are managed against agreed site and consignee instructions."
+    }
+   ],
+   "note": "First-mile and last-mile service is subject to local coverage, cargo acceptance, vehicle access, time restrictions and operational availability."
+  },
+  "options": {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "description": "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation.",
+   "groups": [
+    {
+     "title": "Freight payment",
+     "items": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ]
+    },
+    {
+     "title": "Delivery arrangement",
+     "items": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ]
+    },
+    {
+     "title": "Controlled delivery",
+     "items": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "description": "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response.",
+   "items": [
+    {
+     "q": "What is first-mile transport support?",
+     "a": "First-mile support covers the accepted pickup leg from a factory, warehouse or shipper location into the planned logistics movement."
+    },
+    {
+     "q": "What is last-mile industrial delivery?",
+     "a": "Last-mile support covers the final accepted delivery leg from a branch, hub or godown to the industrial consignee location."
+    },
+    {
+     "q": "Is Door-to-Door delivery available everywhere?",
+     "a": "Availability varies by route, locality, cargo, vehicle access and service conditions. Share the full addresses so the team can check coverage."
+    },
+    {
+     "q": "Which location details help with planning?",
+     "a": "Provide addresses, landmarks, contact people, operating hours, loading or unloading access and any appointment restrictions."
+    }
+   ]
+  },
+  "related": [
+   "part-truck-load",
+   "reverse-logistics",
+   "port-container-transport"
+  ],
+  "card": {
+   "tag": "End-to-end coordination",
+   "name": "First-Mile & Last-Mile Support",
+   "summary": "Pickup and delivery coordination between factories, warehouses, branches and final industrial destinations where operationally available.",
+   "highlights": [
+    "Factory and warehouse pickup support",
+    "Branch and network handoff coordination",
+    "Destination delivery where available"
+   ],
+   "linkText": "Explore First & Last Mile"
+  }
+ },
+ {
+  "slug": "project-cargo",
+  "path": "/services/project-cargo.html",
+  "title": "Project Cargo Transport Gujarat & Maharashtra | Vidhi",
+  "description": "Plan industrial machinery and project cargo transport across Gujarat and Maharashtra with route, vehicle, lifting, site-access and milestone coordination.",
+  "kicker": "Planned industrial project movement",
+  "h1": "Project Cargo Transport",
+  "lede": "Coordinated road movement for industrial machinery, equipment and multi-stage project consignments across Gujarat and Maharashtra.",
+  "mark": "PROJECT",
+  "crumb": "Project Cargo",
+  "facts": [
+   {
+    "label": "Cargo",
+    "value": "Machinery & equipment"
+   },
+   {
+    "label": "Planning",
+    "value": "Phased & site-led"
+   },
+   {
+    "label": "Core region",
+    "value": "Gujarat & Maharashtra"
+   },
+   {
+    "label": "Review",
+    "value": "Route, lifting & access"
+   }
+  ],
+  "detail": {
+   "kicker": "One movement plan, many dependencies",
+   "title": "Project cargo succeeds when every handoff is planned before dispatch.",
+   "paragraphs": [
+    "Industrial project cargo is more than booking a truck. A machinery movement can depend on equipment dimensions, lifting points, site-entry restrictions, vehicle selection, loading windows, unloading readiness and the order in which individual units must reach the destination.",
+    "Vidhi Transport reviews accepted project requirements as a coordinated operating scope. The team aligns the route, vehicle or trailer, responsible contacts and movement milestones for Gujarat–Maharashtra industrial corridors. When a unit is over-dimensional, its ODC feasibility and statutory requirements are reviewed separately within the wider project plan.",
+    "Every quotation remains specific to the actual cargo. Route surveys, permits, escorts, cranes, rigging, labour, transit commitments and site work are included only when expressly confirmed in the agreed scope."
+   ],
+   "includes": [
+    "Cargo list, verified dimensions, weights and support points",
+    "Origin, destination, route and site-access review",
+    "Vehicle, trailer and load-securing requirement planning",
+    "Lifting, crane, rigging and labour responsibility alignment",
+    "Phased dispatch, delivery sequence and milestone coordination",
+    "Project contacts, reporting points and exception communication"
+   ],
+   "suitable": [
+    "Industrial machinery",
+    "Plant equipment",
+    "Fabricated assemblies",
+    "Electrical equipment",
+    "Construction-project dispatches"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this project",
+   "title": "Send the technical movement brief.",
+   "intro": "A useful feasibility review starts with:",
+   "items": [
+    "Item-wise cargo list and dimensions",
+    "Weights, drawings and clear photographs",
+    "Loading, lifting and unloading arrangements",
+    "Exact site addresses and access conditions",
+    "Dispatch sequence and target milestones"
+   ]
+  },
+  "process": {
+   "kicker": "A milestone-led operating sequence",
+   "title": "How a project movement is prepared.",
+   "description": "The sequence is tailored to the cargo and site, but the movement should not begin until the operating inputs and responsibilities are clear.",
+   "steps": [
+    {
+     "title": "Define the scope",
+     "text": "Confirm every cargo unit, dimension, weight, sequence, site, target date and responsible project contact."
+    },
+    {
+     "title": "Engineer the movement",
+     "text": "Review route and access feasibility, vehicles, load support, lifting interfaces and requirements for any ODC unit."
+    },
+    {
+     "title": "Execute milestones",
+     "text": "Coordinate accepted dispatch stages, operating contacts, progress updates and destination readiness against the agreed plan."
+    }
+   ],
+   "note": "Service is subject to verified technical details, route and site feasibility, statutory requirements, equipment availability and a written, agreed operating scope."
+  },
+  "options": {
+   "kicker": "Before requesting a vehicle",
+   "title": "Three parts of a complete project brief.",
+   "description": "Early, accurate information reduces avoidable changes once a vehicle, lifting team or site slot has been planned.",
+   "groups": [
+    {
+     "title": "Cargo profile",
+     "items": [
+      "Item-wise dimensions and weights",
+      "Drawings, photographs and support points",
+      "Packaging and load-securing considerations"
+     ]
+    },
+    {
+     "title": "Site readiness",
+     "items": [
+      "Gate, road and turning access",
+      "Crane, forklift, rigging or labour scope",
+      "Loading and receiving time windows"
+     ]
+    },
+    {
+     "title": "Project sequence",
+     "items": [
+      "Required dispatch and delivery order",
+      "Milestones and authorised contacts",
+      "Documentation and reporting expectations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Helpful answers",
+   "title": "Project cargo questions",
+   "description": "",
+   "items": [
+    {
+     "q": "What is project cargo transport?",
+     "a": "Project cargo transport is a planned movement for industrial machinery, equipment or multiple related consignments where vehicle selection, site readiness, lifting responsibilities, schedules and milestones must be coordinated as one operating scope."
+    },
+    {
+     "q": "What information is needed for a project cargo quotation?",
+     "a": "Share the cargo list, dimensions and weight of every unit, drawings or photographs, lifting points, origin and destination access, loading and unloading arrangements, target dates and any phased-delivery sequence."
+    },
+    {
+     "q": "Can a project cargo movement include ODC items?",
+     "a": "Yes, an accepted project movement can include over-dimensional cargo. ODC items require a separate review of exact dimensions, route feasibility, vehicle or trailer needs, permits, escorts and applicable operating requirements."
+    },
+    {
+     "q": "Does Vidhi Transport arrange cranes and lifting equipment?",
+     "a": "Lifting, crane, rigging and labour responsibilities are agreed before booking. Availability and responsibility depend on the cargo, site, location and confirmed project scope; they should never be assumed from the transport quotation alone."
+    }
+   ]
+  },
+  "related": [
+   "odc-construction-cargo",
+   "full-truck-load",
+   "first-mile-last-mile"
+  ],
+  "card": {
+   "tag": "Milestone-led coordination",
+   "name": "Project Cargo Transport",
+   "summary": "Planned movement of industrial machinery, equipment and multi-stage project consignments with route, lifting, site-access and schedule coordination.",
+   "highlights": [
+    "Item-wise cargo and movement planning",
+    "Site, vehicle and lifting coordination",
+    "Phased dispatch and milestone support"
+   ],
+   "linkText": "Explore Project Cargo"
+  }
+ },
+ {
+  "slug": "odc-construction-cargo",
+  "path": "/services/odc-construction-cargo.html",
+  "title": "ODC & Construction Cargo Transport | Vidhi Transport",
+  "description": "ODC and construction cargo transport planning for equipment, machinery and fabricated structures, subject to route, permit and vehicle feasibility.",
+  "kicker": "Specialised project movement",
+  "h1": "ODC & Construction Cargo",
+  "lede": "Route-led movement planning for over-dimensional equipment, construction machinery, fabricated structures and project cargo.",
+  "mark": "ODC",
+  "crumb": "ODC Cargo",
+  "facts": [
+   {
+    "label": "Cargo",
+    "value": "Oversized or project"
+   },
+   {
+    "label": "Planning",
+    "value": "Route and equipment"
+   },
+   {
+    "label": "Core region",
+    "value": "Subject to feasibility"
+   },
+   {
+    "label": "Requirements",
+    "value": "Permits where applicable"
+   }
+  ],
+  "detail": {
+   "kicker": "Dimensions define the movement",
+   "title": "Specialised cargo starts with route and vehicle feasibility.",
+   "paragraphs": [
+    "Over-dimensional and construction cargo cannot be planned from weight alone. Exact length, width, height, loading method, support points and route access determine the suitable vehicle and movement plan.",
+    "Vidhi Transport coordinates accepted movements after feasibility review. Permits, escorts, lifting arrangements and site preparation remain subject to the specific cargo, route and agreed scope."
+   ],
+   "includes": [
+    "Cargo-dimension, weight and support-point review",
+    "Route, turning-radius and access assessment",
+    "Trailer or specialised vehicle planning",
+    "Permit and escort coordination where required",
+    "Loading and unloading responsibility alignment",
+    "Project-site contact and schedule coordination"
+   ],
+   "suitable": [
+    "Construction machinery",
+    "Fabricated structures",
+    "Industrial equipment",
+    "Over-dimensional cargo"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this shipment",
+   "title": "Share the operating details.",
+   "intro": "A useful quotation starts with these basics:",
+   "items": [
+    "Exact cargo dimensions and weight",
+    "Technical drawing or clear photographs",
+    "Loading and unloading method",
+    "Origin and destination access details",
+    "Target movement date"
+   ]
+  },
+  "process": {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "description": "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details.",
+   "steps": [
+    {
+     "title": "Define the cargo",
+     "text": "Share verified dimensions, weight, drawings, lifting points and loading method."
+    },
+    {
+     "title": "Assess feasibility",
+     "text": "The team reviews vehicle options, route access, permits, escorts and site conditions."
+    },
+    {
+     "title": "Coordinate the project",
+     "text": "Accepted scope, schedule, responsibilities and movement communication are confirmed before dispatch."
+    }
+   ],
+   "note": "ODC movement is always subject to engineering details, route survey, statutory permissions, equipment availability and an agreed operating scope."
+  },
+  "options": {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "description": "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation.",
+   "groups": [
+    {
+     "title": "Freight payment",
+     "items": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ]
+    },
+    {
+     "title": "Delivery arrangement",
+     "items": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ]
+    },
+    {
+     "title": "Controlled delivery",
+     "items": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "description": "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response.",
+   "items": [
+    {
+     "q": "What does ODC mean in transport?",
+     "a": "ODC means over-dimensional cargo—cargo whose dimensions require special vehicle, route or permission planning beyond a standard movement."
+    },
+    {
+     "q": "Which details are essential for an ODC quotation?",
+     "a": "Verified length, width, height, weight, drawings or photographs, lifting method, route and site-access information are essential."
+    },
+    {
+     "q": "Are route surveys and permits always required?",
+     "a": "Requirements depend on cargo dimensions, selected route and applicable rules. The need for surveys, permits or escorts is assessed case by case."
+    },
+    {
+     "q": "Can construction machinery be transported?",
+     "a": "Construction machinery may be considered after its dimensions, weight, condition, loading method, route and destination access are reviewed."
+    }
+   ]
+  },
+  "related": [
+   "full-truck-load",
+   "port-container-transport",
+   "first-mile-last-mile"
+  ],
+  "card": {
+   "tag": "Specialised movement planning",
+   "name": "ODC & Construction Cargo",
+   "summary": "Movement planning for over-dimensional equipment, construction machinery, fabricated structures and project-related industrial cargo.",
+   "highlights": [
+    "Route and access assessment",
+    "Vehicle and equipment planning",
+    "Permit coordination where required"
+   ],
+   "linkText": "Explore ODC Transport"
+  }
+ },
+ {
+  "slug": "port-container-transport",
+  "path": "/services/port-container-transport.html",
+  "title": "Container Transport to JNPT, Hazira & Mundra | Vidhi",
+  "description": "Factory-to-port and port-to-factory container transport coordination for JNPT (Nhava Sheva), Hazira and Mundra, subject to terminal conditions.",
+  "kicker": "Port-linked container movement",
+  "h1": "Container Transport to Ports",
+  "lede": "Container transport coordination between industrial locations and JNPT (Nhava Sheva), Hazira and Mundra ports.",
+  "mark": "PORT",
+  "crumb": "Port Containers",
+  "facts": [
+   {
+    "label": "Ports",
+    "value": "JNPT, Hazira, Mundra"
+   },
+   {
+    "label": "Directions",
+    "value": "Factory ↔ Port"
+   },
+   {
+    "label": "Container",
+    "value": "Loaded or agreed empty"
+   },
+   {
+    "label": "Priority",
+    "value": "Schedule and documents"
+   }
+  ],
+  "detail": {
+   "kicker": "Connect plants with port gates",
+   "title": "Container movement aligned to port and factory schedules.",
+   "paragraphs": [
+    "Port-linked container transport requires alignment between the factory or warehouse, vehicle, container status, documentation and terminal schedule. Vidhi Transport coordinates accepted road movements to or from supported port locations.",
+    "JNPT and Nhava Sheva refer to the same port complex. Current service references therefore use JNPT (Nhava Sheva), together with Hazira and Mundra, without presenting Nhava Sheva as a separate port."
+   ],
+   "includes": [
+    "Factory-to-port and port-to-factory road movement",
+    "JNPT (Nhava Sheva), Hazira and Mundra coordination",
+    "Loaded or empty container movement where agreed",
+    "Container-size, weight and vehicle requirement review",
+    "Terminal schedule and document coordination",
+    "Industrial pickup and delivery communication"
+   ],
+   "suitable": [
+    "Export container movement",
+    "Import container delivery",
+    "Factory and warehouse connections",
+    "Loaded or agreed empty containers"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this shipment",
+   "title": "Share the operating details.",
+   "intro": "A useful quotation starts with these basics:",
+   "items": [
+    "Port or terminal and movement direction",
+    "Container size, type and status",
+    "Cargo and gross-weight details",
+    "Factory address and operating window",
+    "Required terminal date or slot"
+   ]
+  },
+  "process": {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "description": "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details.",
+   "steps": [
+    {
+     "title": "Share port details",
+     "text": "Provide terminal, container type, movement direction, cargo weight and required date."
+    },
+    {
+     "title": "Align the schedule",
+     "text": "The team checks vehicle, factory timing, port conditions, documentation and operating availability."
+    },
+    {
+     "title": "Coordinate road movement",
+     "text": "Once accepted, vehicle reporting, pickup or drop and stakeholder communication are managed to the agreed scope."
+    }
+   ],
+   "note": "Port transport is subject to container status, documentation, terminal or slot conditions, road restrictions, detention terms and vehicle availability. Customs clearance is not implied unless separately agreed."
+  },
+  "options": {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "description": "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation.",
+   "groups": [
+    {
+     "title": "Freight payment",
+     "items": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ]
+    },
+    {
+     "title": "Delivery arrangement",
+     "items": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ]
+    },
+    {
+     "title": "Controlled delivery",
+     "items": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "description": "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response.",
+   "items": [
+    {
+     "q": "Are JNPT and Nhava Sheva different ports?",
+     "a": "No. JNPT is commonly known as Nhava Sheva. This service page refers to the location as JNPT (Nhava Sheva)."
+    },
+    {
+     "q": "Which ports are covered by this service?",
+     "a": "Vidhi Transport can review accepted container movements linked to JNPT (Nhava Sheva), Hazira and Mundra, subject to route and operational availability."
+    },
+    {
+     "q": "Can both import and export containers be coordinated?",
+     "a": "Factory-to-port export movements and port-to-factory import movements may be considered after container, document, terminal and schedule details are reviewed."
+    },
+    {
+     "q": "What information is required for a container quote?",
+     "a": "Share the port or terminal, container size and type, loaded or empty status, cargo weight, factory address, movement direction and required date."
+    }
+   ]
+  },
+  "related": [
+   "full-truck-load",
+   "odc-construction-cargo",
+   "first-mile-last-mile"
+  ],
+  "card": {
+   "tag": "Port-linked movement",
+   "name": "Container Transport to Ports",
+   "summary": "Container movement coordination between industrial locations and JNPT (Nhava Sheva), Hazira and Mundra, subject to terminal conditions and vehicle availability.",
+   "highlights": [
+    "Factory-to-port and port-to-factory movement",
+    "Loaded or empty container coordination",
+    "Schedule and document coordination"
+   ],
+   "linkText": "Explore Container Transport"
+  }
+ },
+ {
+  "slug": "warehousing",
+  "path": "/services/warehousing.html",
+  "title": "Industrial Warehousing & Distribution | Vidhi Transport",
+  "description": "Industrial warehousing, consolidation and distribution support for accepted packaged goods in Gujarat and Maharashtra, subject to facility availability.",
+  "kicker": "Storage and dispatch coordination",
+  "h1": "Warehousing & Distribution",
+  "lede": "Practical warehousing, consolidation, inventory staging and onward distribution for accepted packaged industrial goods.",
+  "mark": "WAREHOUSE",
+  "crumb": "Warehousing",
+  "facts": [
+   {
+    "label": "Function",
+    "value": "Storage and dispatch"
+   },
+   {
+    "label": "Flow",
+    "value": "Inward ↔ Outward"
+   },
+   {
+    "label": "Availability",
+    "value": "Facility dependent"
+   },
+   {
+    "label": "Connects with",
+    "value": "FTL and PTL"
+   }
+  ],
+  "detail": {
+   "kicker": "Connect storage with transport",
+   "title": "Warehousing organised around inward and outward movement.",
+   "paragraphs": [
+    "Warehousing and distribution can help businesses stage accepted inventory closer to customers, combine consignments and coordinate outward dispatches. The operating scope is agreed around the product, packaging, volume, expected storage period and movement frequency.",
+    "Vidhi Transport can review storage and distribution requirements at operationally available facilities. Every enquiry is subject to space, handling suitability, documentation, commercial terms and the exact characteristics of the goods."
+   ],
+   "includes": [
+    "Inward receipt and package-count coordination",
+    "Agreed storage for accepted packaged industrial goods",
+    "Consolidation and dispatch staging support",
+    "Basic stock and dispatch records where agreed",
+    "FTL or PTL distribution planning from the facility",
+    "Godown-to-Door and Godown-to-Godown coordination"
+   ],
+   "suitable": [
+    "Packaged industrial goods",
+    "Cartons, bags and pallets",
+    "Accepted drums and carboys",
+    "Regional inventory staging"
+   ],
+   "includesTitle": "What this service can include",
+   "suitableTitle": "Often suitable for"
+  },
+  "brief": {
+   "kicker": "Plan this shipment",
+   "title": "Share the operating details.",
+   "intro": "A useful quotation starts with these basics:",
+   "items": [
+    "Product and material description",
+    "Packaging type, quantity and dimensions",
+    "Approximate inventory volume and weight",
+    "Expected storage period and turnover",
+    "Inward and outward movement frequency"
+   ]
+  },
+  "process": {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "description": "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details.",
+   "steps": [
+    {
+     "title": "Define the requirement",
+     "text": "Share the goods, packaging, quantity, storage period, inward plan and expected outward frequency."
+    },
+    {
+     "title": "Confirm suitability",
+     "text": "The team reviews facility space, material acceptance, handling, documentation and commercial scope."
+    },
+    {
+     "title": "Coordinate inventory flow",
+     "text": "Once agreed, inward receipt, storage records, dispatch instructions and onward transport are coordinated."
+    }
+   ],
+   "note": "Warehousing is subject to facility and space availability, accepted material classification, suitable packaging, documentation, handling requirements, insurance terms and an agreed operating scope. Temperature-controlled storage is not implied."
+  },
+  "options": {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "description": "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation.",
+   "groups": [
+    {
+     "title": "Freight payment",
+     "items": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ]
+    },
+    {
+     "title": "Delivery arrangement",
+     "items": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ]
+    },
+    {
+     "title": "Controlled delivery",
+     "items": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "description": "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response.",
+   "items": [
+    {
+     "q": "What does the warehousing service include?",
+     "a": "The agreed scope may include inward receipt, packaged-goods storage, consolidation, dispatch staging, basic records and onward FTL or PTL distribution."
+    },
+    {
+     "q": "Can drums and carboys be stored?",
+     "a": "Properly packaged drums or carboys may be considered only after the exact material, classification, packaging condition, documents and facility suitability are reviewed."
+    },
+    {
+     "q": "Can Vidhi Transport distribute goods from the warehouse?",
+     "a": "Accepted inventory can be reviewed for onward FTL, PTL, Godown-to-Door or Godown-to-Godown movement, subject to route and service availability."
+    },
+    {
+     "q": "What information is required for a warehousing quotation?",
+     "a": "Share the product description, classification, packaging, quantity, dimensions, weight, expected storage period, inward plan and outward dispatch frequency."
+    }
+   ]
+  },
+  "related": [
+   "part-truck-load",
+   "full-truck-load",
+   "first-mile-last-mile"
+  ],
+  "card": {
+   "tag": "Storage and onward dispatch",
+   "name": "Warehousing & Distribution",
+   "summary": "Practical warehousing, consolidation, inventory staging and onward distribution for accepted packaged industrial goods.",
+   "highlights": [
+    "Inward receipt and agreed storage support",
+    "Consolidation and dispatch staging",
+    "FTL and PTL distribution coordination"
+   ],
+   "linkText": "Explore Warehousing"
+  }
+ }
+]

@@ -1,0 +1,62 @@
+{
+ "path": "/branches/rabale.html",
+ "title": "Rabale Industrial Transport Branch | Vidhi Transport",
+ "description": "Contact the Vidhi Transport Rabale branch for industrial freight, FTL, PTL, and dispatch support in Maharashtra. Phone +91 63598 93358.",
+ "hero": {
+  "kicker": "Maharashtra industrial transport branch",
+  "title": "Rabale transport branch.",
+  "subtitle": null,
+  "intro": [
+   "Direct local coordination for industrial freight, full truckload, and part truckload requirements."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Your local dispatch contact",
+   "title": "Industrial freight support in Rabale.",
+   "subtitle": "Rabale",
+   "intro": [
+    "Our Rabale branch supports freight conversations for industrial businesses operating in and around the Maharashtra manufacturing corridor. Contact the branch directly to discuss pickup, delivery, route availability, and movement requirements."
+   ],
+   "cards": [
+    {
+     "title": "Industrial areas and nearby locations",
+     "body": [],
+     "list": [],
+     "chips": [
+      "Rabale MIDC",
+      "Ghansoli",
+      "Mahape",
+      "TTC Industrial Area"
+     ]
+    },
+    {
+     "title": "Services to discuss with the branch",
+     "body": [
+      "SS-397, Near Gaon Devi Mandir, Behind Mohit Hotel, MIDC, Rabale, Navi Mumbai, Maharashtra 400701"
+     ],
+     "list": [
+      "Full truckload movement and dedicated vehicle requirements",
+      "Part truckload and consolidated industrial freight",
+      "Dispatch coordination, documentation, and local branch support",
+      "Specialised cargo enquiries, subject to operational suitability"
+     ],
+     "chips": [],
+     "kicker": "Maharashtra contact",
+     "href": "tel:+916359893358",
+     "linkText": "Call branch"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 63598 93358",
+     "href": "tel:+916359893358"
+    },
+    {
+     "text": "View approximate location",
+     "href": "https://www.google.com/maps/search/?api=1&query=SS-397%2C+Near+Gaon+Devi+Mandir%2C+Behind+Mohit+Hotel%2C+MIDC%2C+Rabale%2C+Navi+Mumbai%2C+Maharashtra+400701"
+    }
+   ]
+  }
+ ]
+}

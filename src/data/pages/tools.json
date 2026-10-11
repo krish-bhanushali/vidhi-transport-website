@@ -1,0 +1,153 @@
+{
+ "path": "/tools.html",
+ "title": "Customer Tools: Tracking, Pickup & Quotes | Vidhi Transport",
+ "description": "Track an LR, request pickup, prepare a freight quote or find a Vidhi Transport branch across Gujarat and Maharashtra.",
+ "hero": {
+  "kicker": "Customer tools",
+  "title": "Start the right logistics task in one click.",
+  "subtitle": null,
+  "intro": [
+   "Track an LR, request a pickup, prepare a freight quotation or find the closest Vidhi Transport branch across Gujarat and Maharashtra."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Choose a task",
+   "title": "A practical freight service desk",
+   "subtitle": null,
+   "intro": [
+    "Each page keeps the important fields visible and prepares a complete message for your preferred contact channel."
+   ],
+   "cards": [
+    {
+     "title": "Track LR",
+     "body": [
+      "Use your lorry receipt number to request the latest shipment record directly from the Vidhi ERP tracking service."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01",
+     "href": "/lr-track.html",
+     "linkText": "Track a shipment"
+    },
+    {
+     "title": "Request pickup",
+     "body": [
+      "Prepare origin, destination, cargo, packages, weight, date and handling details for an operations review."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02",
+     "href": "/pickup-request.html",
+     "linkText": "Prepare pickup"
+    },
+    {
+     "title": "Request quote",
+     "body": [
+      "Send a route-specific business enquiry for PTL, FTL, container, specialised freight or warehousing support."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03",
+     "href": "/contact_us.html#quote",
+     "linkText": "Prepare quote"
+    },
+    {
+     "title": "Find a branch",
+     "body": [
+      "View addresses, direct phone numbers, capabilities and nearby service areas for all 14 listed locations."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "14",
+     "href": "/branch-locator.html",
+     "linkText": "Explore network"
+    }
+   ]
+  },
+  {
+   "kicker": "Support and reference",
+   "title": "Continue with the right support channel",
+   "subtitle": null,
+   "intro": [
+    "Use a dedicated page for an inquiry, service complaint, dispatch-document check or infrastructure review."
+   ],
+   "cards": [
+    {
+     "title": "Business inquiry",
+     "body": [
+      "Share a new freight, network or service requirement through the published inquiry channel."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "05",
+     "href": "/inquiry.html",
+     "linkText": "Send an inquiry"
+    },
+    {
+     "title": "Service complaint",
+     "body": [
+      "Register an issue with the LR number, route, contact information and factual incident details."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "06",
+     "href": "/service-complaint.html",
+     "linkText": "Report an issue"
+    },
+    {
+     "title": "Dispatch guidance",
+     "body": [
+      "Review a practical GST and E-way Bill preparation checklist with links to official systems."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "07",
+     "href": "/tax-forms.html",
+     "linkText": "Review guidance"
+    },
+    {
+     "title": "Infrastructure",
+     "body": [
+      "Understand the branch, planning, handling and shipment-visibility systems behind each movement."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "08",
+     "href": "/our-infrastructure.html",
+     "linkText": "View capability"
+    }
+   ]
+  },
+  {
+   "kicker": "Before you begin",
+   "title": "Keep six shipment facts ready.",
+   "subtitle": null,
+   "intro": [
+    "Accurate information gives the operations team a better basis for route, vehicle and service assessment."
+   ],
+   "list": [
+    "Origin and destination Exact industrial areas and PIN codes.",
+    "Material Specific cargo description and classification.",
+    "Packages Type, count, dimensions and stackability.",
+    "Weight Actual total gross weight.",
+    "Timing Ready date and delivery requirement.",
+    "Handling Forklift, crane, dock or labour needs."
+   ]
+  }
+ ],
+ "closing": {
+  "kicker": "Not sure which tool?",
+  "title": "Start with the shipment details.",
+  "subtitle": null,
+  "intro": [
+   "Our contact page helps you prepare one complete business enquiry."
+  ],
+  "ctas": [
+   {
+    "text": "Prepare an enquiry",
+    "href": "/contact_us.html#quote"
+   }
+  ]
+ }
+}

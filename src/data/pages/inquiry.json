@@ -1,0 +1,130 @@
+{
+ "path": "/inquiry.html",
+ "title": "Freight Inquiry & Logistics Support | Vidhi Transport",
+ "description": "Send Vidhi Transport a freight inquiry for PTL, FTL, project cargo, containers, warehousing, routes, pickup planning or general service support.",
+ "hero": {
+  "kicker": "Quotes and service support",
+  "title": "Give us the details behind the movement.",
+  "subtitle": "Three details make the first reply more useful.",
+  "intro": [
+   "Send a route-specific freight inquiry for PTL, FTL, chemical and industrial freight, project cargo, containers, warehousing or general support.",
+   "A short but precise shipment brief helps the team route your inquiry correctly."
+  ],
+  "list": [
+   "Exact pickup and delivery locations with PIN codes",
+   "Material, packaging, package count, dimensions and weight",
+   "Ready date, urgency and loading or unloading needs"
+  ],
+  "ctas": [
+   {
+    "text": "Open inquiry form",
+    "href": "#inquiry-form"
+   },
+   {
+    "text": "Use detailed quote form",
+    "href": "/contact_us.html#quote"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Prepare before sending",
+   "title": "A complete enquiry moves faster.",
+   "subtitle": null,
+   "intro": [
+    "Do not rely only on a city pair or approximate weight. Industrial freight decisions depend on the actual goods, packaging, handling conditions and receiving arrangement."
+   ],
+   "cards": [
+    {
+     "title": "Route",
+     "body": [
+      "Share the exact pickup and delivery industrial areas, PIN codes, gate conditions and receiving hours."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Cargo",
+     "body": [
+      "Name the material and provide classification, packaging, package count, dimensions, gross weight and stackability."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Timing",
+     "body": [
+      "Provide the ready date, delivery requirement, urgency and whether forklift, crane, dock or labour is available."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Freight inquiry form",
+   "title": "Send an inquiry",
+   "subtitle": null,
+   "intro": [
+    "Complete the form below and review your information before sending. Please do not enter passwords, banking credentials or unrelated confidential documents.",
+    "If the embedded form is blocked by the browser, open the same form in a separate tab."
+   ],
+   "ctas": [
+    {
+     "text": "Open form directly",
+     "href": "https://docs.google.com/forms/d/e/1FAIpQLSdFkAUVWAK8TZXkM-nXbHUvYo0liFqx_WbNgfGcQvyl3C0Cwg/viewform"
+    }
+   ],
+   "id": "inquiry-form"
+  },
+  {
+   "kicker": "Alternative enquiry route",
+   "title": "Prefer WhatsApp or email?",
+   "subtitle": "Need a person?",
+   "intro": [
+    "The detailed contact page prepares a structured business message containing the route, cargo, packaging, weight, service, billing and delivery choices. You remain in control of the message and review it before sending through your chosen application.",
+    "For an existing consignment, include the LR number. For new freight, keep the route and cargo profile ready."
+   ],
+   "ctas": [
+    {
+     "text": "Prepare a detailed quote request",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Call +91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "Email customer care",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Freight inquiry questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "Which details help Vidhi Transport answer a freight inquiry?",
+     "a": "Provide exact origin and destination, cargo description, packaging, package count, dimensions, total weight, ready date, loading and unloading needs, and the required delivery arrangement."
+    },
+    {
+     "q": "Can I use the inquiry form for both PTL and FTL?",
+     "a": "Yes. If you are unsure which service fits, describe the shipment accurately and ask the operations team to recommend the practical movement option."
+    },
+    {
+     "q": "Does submitting the inquiry confirm a booking?",
+     "a": "No. Submission begins a review. Freight rate, service acceptance, vehicle placement, pickup date, transit expectation and delivery arrangement require separate confirmation."
+    },
+    {
+     "q": "What should I do if the embedded form does not load?",
+     "a": "Use the button below the form to open it directly, or use the main contact and quotation page to prepare a WhatsApp or email enquiry."
+    }
+   ]
+  }
+ ]
+}

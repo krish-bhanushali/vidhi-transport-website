@@ -1,0 +1,62 @@
+{
+ "path": "/branches/bhiwandi.html",
+ "title": "Bhiwandi Industrial Transport Branch | Vidhi Transport",
+ "description": "Contact the Vidhi Transport Bhiwandi branch for industrial freight, FTL, PTL, and dispatch support in Maharashtra. Phone +91 63598 93366.",
+ "hero": {
+  "kicker": "Maharashtra industrial transport branch",
+  "title": "Bhiwandi transport branch.",
+  "subtitle": null,
+  "intro": [
+   "Direct local coordination for industrial freight, full truckload, and part truckload requirements."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Your local dispatch contact",
+   "title": "Industrial freight support in Bhiwandi.",
+   "subtitle": "Bhiwandi",
+   "intro": [
+    "Our Bhiwandi branch supports freight conversations for industrial businesses operating in and around the Maharashtra manufacturing corridor. Contact the branch directly to discuss pickup, delivery, route availability, and movement requirements."
+   ],
+   "cards": [
+    {
+     "title": "Industrial areas and nearby locations",
+     "body": [],
+     "list": [],
+     "chips": [
+      "Anjur Phata",
+      "Bhiwandi warehousing belt",
+      "Kalyan",
+      "Thane"
+     ]
+    },
+    {
+     "title": "Services to discuss with the branch",
+     "body": [
+      "Gala No. 1, New Madhvi Compound, Near Narayan Talpatriwala, Anjur Road, Anjur Phata, Bhiwandi, Maharashtra 421302"
+     ],
+     "list": [
+      "Full truckload movement and dedicated vehicle requirements",
+      "Part truckload and consolidated industrial freight",
+      "Dispatch coordination, documentation, and local branch support",
+      "Specialised cargo enquiries, subject to operational suitability"
+     ],
+     "chips": [],
+     "kicker": "Maharashtra contact",
+     "href": "tel:+916359893366",
+     "linkText": "Call branch"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 63598 93366",
+     "href": "tel:+916359893366"
+    },
+    {
+     "text": "View approximate location",
+     "href": "https://www.google.com/maps/search/?api=1&query=Gala+No.+1%2C+New+Madhvi+Compound%2C+Near+Narayan+Talpatriwala%2C+Anjur+Road%2C+Anjur+Phata%2C+Bhiwandi%2C+Maharashtra+421302"
+    }
+   ]
+  }
+ ]
+}

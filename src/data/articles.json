@@ -1,0 +1,502 @@
+[
+ {
+  "path": "/blog/ftl-vs-ptl-industrial-freight.html",
+  "slug": "ftl-vs-ptl-industrial-freight",
+  "title": "FTL vs PTL Transport: Industrial Freight Guide | Vidhi",
+  "description": "Compare full truckload and part load transport by cargo size, handling, transit, route and cost. A practical guide for industrial dispatch teams.",
+  "category": "Freight Planning",
+  "h1": "FTL vs PTL: How to Choose for an Industrial Dispatch",
+  "lede": "A practical comparison of full truckload and part load transport using shipment size, handling, timing, route and cost—not guesswork.",
+  "author": "Vidhi Transport Editorial Team",
+  "datePublished": "2026-09-07",
+  "readTime": "4 min read",
+  "disclaimer": "General guidance only. Confirm cargo-specific, regulatory and safety requirements before dispatch.",
+  "lead": "Full truckload (FTL) and part load transport (PTL) solve different dispatch problems. The right choice depends on more than the weight of a consignment: volume, number of packages, material characteristics, loading access, delivery deadline and route frequency all matter. This guide gives dispatch teams a practical framework for sharing the right information and selecting an appropriate movement type.",
+  "blocks": [
+   {
+    "type": "h2",
+    "id": "what-full-truckload-transport-means",
+    "text": "What full truckload transport means"
+   },
+   {
+    "type": "p",
+    "text": "In an FTL movement, a vehicle is planned primarily for one customer's consignment or one defined movement. It is often considered for high-volume cargo, consignments that occupy most of the usable vehicle space, direct plant-to-consignee movements, or cargo that needs fewer handling points."
+   },
+   {
+    "type": "p",
+    "text": "Dedicated does not automatically mean faster in every situation. Vehicle availability, loading readiness, route restrictions, permits, delivery appointments and unloading capacity can still influence the schedule. A useful quotation request therefore includes the material description, actual weight, package dimensions, pickup and delivery locations, dispatch date and site constraints."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Suitable when the shipment needs most or all of a vehicle",
+     "Useful for direct movements with fewer consolidation points",
+     "Vehicle type can be matched to cargo and access requirements",
+     "Commercials depend on route, vehicle, cargo and operating conditions"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "what-part-load-transport-means",
+    "text": "What part load transport means"
+   },
+   {
+    "type": "p",
+    "text": "PTL combines compatible consignments from more than one customer within a planned network movement. It can be a practical option when a shipment does not require a complete vehicle and the route is supported through the carrier's branch or consolidation network."
+   },
+   {
+    "type": "p",
+    "text": "Because a part load may pass through collection, consolidation and distribution stages, packaging and identification matter. Every package should be suitable for road movement and handling, and shipment documents should match the physical consignment. Transit planning should account for the route, branch connections, receiving hours and any special handling restriction."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Appropriate for smaller commercial consignments",
+     "Uses shared vehicle capacity on supported routes",
+     "Packaging and package identification are especially important",
+     "Pickup and delivery commitments should be confirmed for the exact route"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "a-five-factor-decision-checklist",
+    "text": "A five-factor decision checklist"
+   },
+   {
+    "type": "p",
+    "text": "Use these five factors together. Selecting only by weight can lead to the wrong vehicle or service plan."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Space: share package count, dimensions and whether cargo can be safely stacked",
+     "Handling: identify fragile, high-value, regulated or non-stackable material before booking",
+     "Time: state the required pickup and delivery window rather than saying only ‘urgent’",
+     "Route: provide exact industrial areas and PIN codes, not only city names",
+     "Cost: compare the complete movement requirement, including pickup, delivery and handling needs"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "when-ftl-may-be-the-better-fit",
+    "text": "When FTL may be the better fit"
+   },
+   {
+    "type": "p",
+    "text": "FTL may deserve consideration when the consignment fills substantial vehicle capacity, must move directly, requires a particular body type, has controlled loading arrangements or cannot be combined with other cargo. It can also suit recurring plant-to-warehouse lanes where dispatch quantities are predictable."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Large or high-volume dispatch",
+     "Non-stackable cargo consuming significant floor space",
+     "Defined vehicle or body requirement",
+     "Direct consignee appointment",
+     "Project or site movement needing dedicated coordination"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "when-ptl-may-be-the-better-fit",
+    "text": "When PTL may be the better fit"
+   },
+   {
+    "type": "p",
+    "text": "PTL may be practical when the consignment is smaller than vehicle capacity, the origin and destination are served by the transport network, and the cargo is packed for shared handling. Dispatch teams should confirm the number of handling stages, expected transit range and delivery type for the specific lane."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Small or medium commercial consignment",
+     "Regular industrial corridor with branch connectivity",
+     "Flexible but defined delivery planning",
+     "Cargo packed and labelled for consolidation",
+     "Need to avoid paying for unused dedicated capacity"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "information-to-send-with-a-transport-enquiry",
+    "text": "Information to send with a transport enquiry"
+   },
+   {
+    "type": "p",
+    "text": "A complete enquiry lets the operations team evaluate both FTL and PTL without repeated calls. Include the consignor and consignee locations, PIN codes, material description, package type, count, dimensions, gross weight, invoice value where relevant, proposed dispatch date, loading and unloading method, delivery terms and any material document required for assessment."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Origin, destination and PIN codes",
+     "Material, packaging and total packages",
+     "Actual weight and dimensions",
+     "Stackable or non-stackable status",
+     "Dispatch date and receiving hours",
+     "Special handling or documentation needs"
+    ]
+   }
+  ],
+  "note": "Service and cargo acceptance depend on the exact material, packaging, documentation, route, vehicle availability, applicable requirements and operational approval.",
+  "tags": [
+   "FTL",
+   "PTL",
+   "Industrial Freight",
+   "Gujarat",
+   "Maharashtra"
+  ],
+  "faqs": [
+   {
+    "q": "Is PTL always cheaper than FTL?",
+    "a": "Not necessarily. The result depends on chargeable weight or volume, route, handling, pickup and delivery needs, cargo type and current operating conditions. Request both options when the shipment could reasonably suit either mode."
+   },
+   {
+    "q": "Can drums and carboys move as part load?",
+    "a": "Some properly packaged and eligible materials may be considered, but acceptance depends on the material classification, SDS and other documents, packaging condition, compatibility, route and carrier approval. Share complete cargo information before dispatch."
+   },
+   {
+    "q": "What details help select a vehicle for FTL?",
+    "a": "Provide package dimensions, total weight, loading method, stackability, cargo characteristics, site access, route and delivery constraints. The operations team can then assess a suitable vehicle category."
+   }
+  ]
+ },
+ {
+  "path": "/blog/drum-carboy-transport-checklist.html",
+  "slug": "drum-carboy-transport-checklist",
+  "title": "Drum & Carboy Transport Checklist | Industrial Freight",
+  "description": "Plan eligible drum and carboy road freight with a practical checklist covering material details, SDS, closures, pallets, labels, handling and delivery access.",
+  "category": "Chemical Freight",
+  "h1": "Drum and Carboy Transport: A Dispatch-Planning Checklist",
+  "lede": "What to confirm before offering packaged industrial material for road transport—from material identity and documents to closures, pallets and handling.",
+  "author": "Vidhi Transport Editorial Team",
+  "datePublished": "2026-09-07",
+  "readTime": "4 min read",
+  "disclaimer": "General guidance only. Confirm cargo-specific, regulatory and safety requirements before dispatch.",
+  "lead": "Packaged industrial liquids and materials require complete information before a transporter can assess the movement. Saying ‘ten drums’ is not enough: the material identity, classification, packaging type, gross weight, closures, labels, documents, loading method and route can all change what is operationally and legally appropriate. This checklist helps consignors prepare an enquiry; it does not replace applicable law, manufacturer instructions, safety advice or carrier acceptance.",
+  "blocks": [
+   {
+    "type": "h2",
+    "id": "1-identify-the-material-accurately",
+    "text": "1. Identify the material accurately"
+   },
+   {
+    "type": "p",
+    "text": "Use the exact product or material name shown on the commercial and safety documents. Tell the transporter whether the shipment is regulated, hazardous, temperature-sensitive, high-value, corrosive, flammable or otherwise subject to special conditions. Never rely on a broad label such as ‘chemical’ when a specific classification is required."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Product or material name",
+     "SDS version and relevant classification",
+     "UN number or hazard class where applicable",
+     "Emergency and handling information",
+     "Any segregation or compatibility restriction"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "2-describe-every-package",
+    "text": "2. Describe every package"
+   },
+   {
+    "type": "p",
+    "text": "State whether the consignment uses steel drums, plastic drums, carboys, jerry cans, IBCs, cartons or another packaging system. Include package capacity, filled weight, total package count, dimensions and whether the packages are palletised. Photographs can help an operations team understand the proposed handling condition, but they do not replace inspection or documentation."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Packaging material and rated capacity",
+     "Net and gross weight per package",
+     "Total packages and shipment weight",
+     "Pallet dimensions and package arrangement",
+     "Stackability and orientation restrictions"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "3-check-closures-condition-and-containment",
+    "text": "3. Check closures, condition and containment"
+   },
+   {
+    "type": "p",
+    "text": "Packages should be compatible with their contents, correctly closed, free from visible damage or leakage and prepared according to applicable rules and the packaging manufacturer's instructions. Do not offer bulging, corroded, wet, poorly sealed or unlabelled containers for routine collection. Secondary containment, absorbent material or overpack requirements should be determined by qualified personnel for the actual product."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Caps, bungs and seals secure",
+     "No visible leakage, residue or deformation",
+     "Labels readable and matched to documents",
+     "Pallets sound and load secured",
+     "Any required overpack or containment confirmed"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "4-plan-forklift-and-manual-handling",
+    "text": "4. Plan forklift and manual handling"
+   },
+   {
+    "type": "p",
+    "text": "Tell the transporter how the packages will be loaded and unloaded. Palletised drums or carboys may require a suitable forklift, trained operator, sound pallets and adequate dock or ground conditions. Loose packages need a handling plan that accounts for weight, shape and risk. Never assume a driver or vehicle carries every handling device."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Forklift or loading equipment at origin",
+     "Equipment and labour at destination",
+     "Dock height, gate width and turning access",
+     "Pallet entry direction and total pallet weight",
+     "Appointment, induction or PPE requirements"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "5-match-documents-to-the-shipment",
+    "text": "5. Match documents to the shipment"
+   },
+   {
+    "type": "p",
+    "text": "Commercial and transport documents should describe the physical consignment consistently. Depending on the material and movement, the shipper may need invoices, e-way bill information, SDS, declarations, permits or emergency information. The consignor remains responsible for accurate declaration and legally compliant packaging and documentation."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Invoice and e-way bill details where applicable",
+     "LR instructions and consignee information",
+     "Current SDS and product declaration",
+     "Required permits or supporting certificates",
+     "Emergency contact and receiving contact"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "6-share-route-and-site-constraints-before-booking",
+    "text": "6. Share route and site constraints before booking"
+   },
+   {
+    "type": "p",
+    "text": "Provide the exact pickup and delivery addresses, PIN codes, branch or industrial estate names, operating hours and vehicle restrictions. A route to a port, congested industrial estate or controlled plant can require additional planning. Confirm whether delivery is door to door, godown to door, godown to godown, DACC or COD, and whether any billing instruction applies."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Exact addresses and PIN codes",
+     "Vehicle size or timing restrictions",
+     "Delivery appointment and contact",
+     "Billing basis: paid, to-pay or account billing",
+     "Delivery option and document-release instruction"
+    ]
+   }
+  ],
+  "note": "Service and cargo acceptance depend on the exact material, packaging, documentation, route, vehicle availability, applicable requirements and operational approval.",
+  "tags": [
+   "Drums",
+   "Carboys",
+   "Chemical Freight",
+   "Packaging",
+   "SDS"
+  ],
+  "faqs": [
+   {
+    "q": "Does Vidhi Transport accept every chemical consignment?",
+    "a": "No. Acceptance depends on the exact material, classification, route, packaging, documents, legal requirements, operational capability and specific approval. Share the current SDS and full shipment details for assessment."
+   },
+   {
+    "q": "Can carboys be sent loose in a truck?",
+    "a": "The correct packing and securing method depends on the container, product and applicable requirements. Use compatible, sound packaging and obtain qualified packing advice. The transporter must review the proposed presentation before acceptance."
+   },
+   {
+    "q": "Should I send photographs with the enquiry?",
+    "a": "Photographs of packages, pallets, labels and loading access can improve planning, but they do not replace accurate descriptions, safety documents, inspection or regulatory compliance."
+   }
+  ]
+ },
+ {
+  "path": "/blog/gujarat-maharashtra-dispatch-checklist.html",
+  "slug": "gujarat-maharashtra-dispatch-checklist",
+  "title": "Industrial Dispatch Checklist: Gujarat to Maharashtra",
+  "description": "Prepare an industrial road-freight dispatch across Gujarat and Maharashtra with this checklist for locations, packaging, documents, LR and delivery terms.",
+  "category": "Dispatch Operations",
+  "h1": "Gujarat–Maharashtra Industrial Dispatch Checklist",
+  "lede": "A before-booking checklist for plant, warehouse and branch dispatches covering locations, cargo, LR instructions, delivery terms and receiving readiness.",
+  "author": "Vidhi Transport Editorial Team",
+  "datePublished": "2026-09-07",
+  "readTime": "4 min read",
+  "disclaimer": "General guidance only. Confirm cargo-specific, regulatory and safety requirements before dispatch.",
+  "lead": "A clear dispatch brief reduces avoidable calls, vehicle mismatch and delivery confusion. This is especially important across connected GIDC and MIDC corridors where a city name may cover several industrial estates, gates or receiving points. Before requesting a pickup or quotation, gather the information below and assign one responsible contact at each end.",
+  "blocks": [
+   {
+    "type": "h2",
+    "id": "confirm-the-exact-origin-and-destination",
+    "text": "Confirm the exact origin and destination"
+   },
+   {
+    "type": "p",
+    "text": "Provide complete addresses, PIN codes and industrial area names. ‘Ahmedabad to Mumbai’ is too broad for reliable planning; Aslali to Rabale MIDC is materially more useful. Include a Google Maps pin when an entrance is difficult to find, but retain the full written address in the documents."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Consignor and consignee legal names",
+     "Street address, industrial area and PIN code",
+     "Gate or warehouse identifier",
+     "Pickup and receiving contacts",
+     "Operating hours and weekly closure"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "describe-the-physical-consignment",
+    "text": "Describe the physical consignment"
+   },
+   {
+    "type": "p",
+    "text": "The vehicle and movement type depend on the physical shipment, not only invoice value. Count every package and provide gross weight and dimensions. State whether cargo is loose, palletised, stackable, fragile, oversized or needs mechanical handling."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Material description",
+     "Package type and count",
+     "Gross weight and dimensions",
+     "Stacking and orientation limits",
+     "Loading and unloading equipment"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "choose-a-movement-and-delivery-basis",
+    "text": "Choose a movement and delivery basis"
+   },
+   {
+    "type": "p",
+    "text": "Ask the transporter to assess part load or full truckload when you are uncertain. Separately confirm the delivery arrangement: door to door, godown to door or godown to godown. If delivery is against consignee copy, cash on delivery or another document or payment condition, state it before the LR is prepared."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "PTL or FTL assessment",
+     "Paid, to-pay or account billing",
+     "Door-to-door or godown-based delivery",
+     "DACC or COD instruction where available",
+     "Urgency and acceptable delivery window"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "prepare-the-commercial-and-transport-documents",
+    "text": "Prepare the commercial and transport documents"
+   },
+   {
+    "type": "p",
+    "text": "The exact documents depend on the goods, route and transaction. Ensure names, quantities, weights and addresses match across the invoice, e-way bill and transport instructions. For regulated or specialised material, supply accurate declarations and the current supporting documents before vehicle placement."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Invoice or delivery challan",
+     "E-way bill where applicable",
+     "Material or safety documents where relevant",
+     "Consignee purchase or delivery reference",
+     "LR instructions and contact details"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "make-the-site-ready-before-vehicle-reporting",
+    "text": "Make the site ready before vehicle reporting"
+   },
+   {
+    "type": "p",
+    "text": "Confirm that cargo, labour, forklift or crane, gate documentation and loading space will be ready at the agreed time. Delays can affect route plans and subsequent collections. At destination, confirm unloading equipment, appointment requirements and whether the consignee can accept the proposed vehicle category."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Cargo packed, labelled and counted",
+     "Loading labour and equipment available",
+     "Vehicle access and parking confirmed",
+     "Security or induction process communicated",
+     "Receiver ready with unloading arrangement"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "record-the-lr-and-escalation-contacts",
+    "text": "Record the LR and escalation contacts"
+   },
+   {
+    "type": "p",
+    "text": "Once the consignment is booked, retain the LR number and check that the consignor, consignee, package count and delivery instructions are correct. Share the LR number—not an incomplete description—when requesting a status update. Maintain an operations contact and an authorised commercial contact for exceptions."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Verify LR details before vehicle departure",
+     "Save the LR number with the dispatch record",
+     "Use the same reference in emails and calls",
+     "Report discrepancies promptly",
+     "Do not share confidential documents in public channels"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "use-the-closest-branch-for-local-coordination",
+    "text": "Use the closest branch for local coordination"
+   },
+   {
+    "type": "p",
+    "text": "Vidhi Transport lists branch contacts across Ahmedabad, Vadodara, Nandesari, Dahej, Ankleshwar, Panoli, Sachin, Vapi, Sarigam and Umergam, Bhiwandi, Navi Mumbai, Rabale, Tarapur and Vasai. Service-area references describe nearby coordination coverage; they do not guarantee a physical branch or automatic service acceptance in every locality."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "Check the branch locator for the nearest office",
+     "Confirm the exact pickup and delivery PIN codes",
+     "Ask whether the lane supports PTL, FTL or both",
+     "Verify special cargo requirements before dispatch"
+    ]
+   }
+  ],
+  "note": "Service and cargo acceptance depend on the exact material, packaging, documentation, route, vehicle availability, applicable requirements and operational approval.",
+  "tags": [
+   "Dispatch Checklist",
+   "LR",
+   "GIDC",
+   "MIDC",
+   "Road Transport"
+  ],
+  "faqs": [
+   {
+    "q": "What information is essential for a transport quote?",
+    "a": "Share exact origin and destination, material, packaging, package count, weight, dimensions, proposed date, loading method and delivery terms. Add special handling and regulatory information where applicable."
+   },
+   {
+    "q": "What is an LR number?",
+    "a": "An LR or lorry receipt number is the transport reference assigned to a consignment. Keep it available for shipment communication and tracking enquiries."
+   },
+   {
+    "q": "Does a service-area name guarantee pickup?",
+    "a": "No. It shows the industrial area commonly coordinated by a nearby branch. Pickup and delivery depend on the exact address, cargo, route, timing, vehicle availability and operating feasibility."
+   }
+  ]
+ }
+]

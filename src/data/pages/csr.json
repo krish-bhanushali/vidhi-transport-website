@@ -1,0 +1,166 @@
+{
+ "path": "/csr.html",
+ "title": "CSR & Responsible Logistics | Vidhi Transport Co.",
+ "description": "Read Vidhi Transport's responsibility approach across environmental awareness, road safety, people, ethical conduct and transparent reporting.",
+ "hero": {
+  "kicker": "CSR & responsibility",
+  "title": "Responsibility belongs in everyday logistics decisions.",
+  "subtitle": null,
+  "intro": [
+   "Our responsibility framework focuses on practical areas connected to road transport: resource awareness, safety, respect for people, ethical conduct and honest communication about progress."
+  ],
+  "list": [
+   "Environmental awareness and efficient planning",
+   "Road safety and responsible handling",
+   "Dignity and respect across the transport chain",
+   "Transparent, verifiable public information"
+  ],
+  "ctas": [
+   {
+    "text": "View Go Green",
+    "href": "/certifications.html#go-green"
+   },
+   {
+    "text": "View governance",
+    "href": "/governance.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Our approach",
+   "title": "Start with the decisions closest to the road.",
+   "subtitle": null,
+   "intro": [
+    "Corporate responsibility is most useful when it shapes ordinary operating choices. For a transport business, that includes thoughtful planning, attention to handling and safety requirements, respect for drivers and operating teams, and accurate communication with customers and partners.",
+    "Vidhi Transport's public approach is evidence-led. We distinguish between ongoing principles, verified initiatives and future ambitions so customers and stakeholders can understand what is currently supported."
+   ],
+   "callout": {
+    "title": "Practical.",
+    "text": "Responsibility connected to the work we actually perform"
+   }
+  },
+  {
+   "kicker": "Responsibility framework",
+   "title": "Four areas that guide our thinking.",
+   "subtitle": null,
+   "intro": [
+    "Each area is tied to transport operations and can be strengthened over time through verified actions, records and published updates."
+   ],
+   "cards": [
+    {
+     "title": "Environment",
+     "body": [
+      "Encourage route and load planning that considers avoidable movement, resource use and the Go Green initiative."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/certifications.html#go-green",
+     "linkText": "View initiative"
+    },
+    {
+     "title": "Road & cargo safety",
+     "body": [
+      "Keep vehicle suitability, cargo information, handling needs and route constraints visible during planning."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "People & dignity",
+     "body": [
+      "Promote respectful communication with drivers, employees, customers, vendors and branch teams."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Ethical conduct",
+     "body": [
+      "Represent services, credentials, responsibilities and business relationships accurately."
+     ],
+     "list": [],
+     "chips": []
+    }
+   ]
+  },
+  {
+   "kicker": "Go Green",
+   "title": "Environmental awareness with operational context.",
+   "subtitle": null,
+   "intro": [
+    "The Go Green initiative provides a focal point for environmental thinking within Vidhi Transport."
+   ],
+   "list": [
+    "Plan suitable movement Match shipment size and timing to an appropriate freight option.",
+    "Reduce avoidable movement Use clear pickup and delivery information to support better coordination.",
+    "Handle resources thoughtfully Encourage care with documentation, packaging information and operating materials.",
+    "Publish verified progress Support environmental claims with approved evidence before publication."
+   ],
+   "ctas": [
+    {
+     "text": "Review Go Green information",
+     "href": "/certifications.html#go-green"
+    }
+   ]
+  },
+  {
+   "kicker": "Responsible reporting",
+   "title": "Clarity before claims.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Describe the action",
+     "body": [
+      "State what an initiative covers, who it applies to and the period being reported."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Keep evidence",
+     "body": [
+      "Retain approved certificates, records or supporting documentation for published information."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Update transparently",
+     "body": [
+      "Review public statements when programme scope, validity or results change.",
+      "Disclosure boundary: This page does not claim statutory CSR projects, expenditure or measured environmental outcomes unless supporting information has been approved for publication."
+     ],
+     "list": [],
+     "chips": []
+    }
+   ]
+  },
+  {
+   "kicker": "Useful details",
+   "title": "CSR and responsibility questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the current scope of Vidhi Transport's public responsibility information."
+   ],
+   "faqs": [
+    {
+     "q": "What does CSR mean at Vidhi Transport?",
+     "a": "It means considering environmental awareness, safety, people and ethical conduct in decisions connected to road-logistics operations. This page describes the framework without claiming unverified programmes or outcomes."
+    },
+    {
+     "q": "What is the Go Green initiative?",
+     "a": "Go Green is a highlighted Vidhi Transport environmental initiative. Its supporting information should be reviewed on the Credentials page, where approved certificate or programme details can be published."
+    },
+    {
+     "q": "Does this page publish CSR spending or statutory reports?",
+     "a": "No statutory CSR expenditure, committee or project report is represented here. Any such document should be published only after its applicability, approval and reporting period are verified."
+    },
+    {
+     "q": "How can someone contact Vidhi Transport about responsibility matters?",
+     "a": "Use the contact page or email customercare@vidhitransport.com and identify the environmental, safety, people or governance matter so it can be directed appropriately."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[
+  { "name": "Chemical, petrochemical & specialty chemical transport", "cargo": "Packaged chemical drums, carboys and IBCs", "services": ["chemical-industrial-freight", "part-truck-load", "full-truck-load", "reverse-logistics"] },
+  { "name": "Pharmaceuticals & healthcare", "cargo": "Pharmaceutical cartons and packaged materials", "services": ["part-truck-load", "full-truck-load", "warehousing"] },
+  { "name": "Engineering & machinery", "cargo": "Crated machinery, equipment and fabricated parts", "services": ["full-truck-load", "odc-construction-cargo", "project-cargo"] },
+  { "name": "Packaging & industrial materials", "cargo": "Industrial packaging, reusable containers and materials", "services": ["part-truck-load", "reverse-logistics", "first-mile-last-mile"] },
+  { "name": "Manufacturing inputs & industrial raw materials", "cargo": "Raw materials and urgent factory inputs", "services": ["full-truck-load", "part-truck-load", "port-container-transport"] },
+  { "name": "Distribution & industrial trading support", "cargo": "Onward distribution and trading consignments", "services": ["warehousing", "first-mile-last-mile", "part-truck-load"] }
+]

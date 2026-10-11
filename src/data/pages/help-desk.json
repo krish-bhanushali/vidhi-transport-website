@@ -1,0 +1,147 @@
+{
+ "path": "/help-desk.html",
+ "title": "Customer Help Desk: LR Tracking, Branches & Support | Vidhi",
+ "description": "Use the Vidhi Transport Help Desk for live LR tracking, branch contacts, pickup requests, freight inquiries, service complaints and dispatch guidance.",
+ "hero": {
+  "kicker": "Customer support centre",
+  "title": "The right help, without searching the whole website.",
+  "subtitle": "Keep the shipment reference ready.",
+  "intro": [
+   "Track a shipment, contact a branch, prepare a pickup, send an inquiry or register a service issue from one clear support page.",
+   "The operations team can respond more effectively when your request identifies the actual movement."
+  ],
+  "list": [
+   "LR number for an existing consignment",
+   "Origin, destination and cargo for a new request",
+   "Authorised name, company and callback number"
+  ],
+  "ctas": [
+   {
+    "text": "Track an LR",
+    "href": "/lr-track.html"
+   },
+   {
+    "text": "Call customer care",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Choose the next action",
+   "title": "Customer tools and support resources",
+   "subtitle": null,
+   "intro": [
+    "These are separate paths because a live shipment, new quotation, branch question and service complaint need different information. Choose the closest match and include accurate shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Track an LR",
+     "body": [
+      "Enter the receipt number to view the route, booking date, ERP status update and estimated delivery returned by the tracking service."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/lr-track.html",
+     "linkText": "Track shipment"
+    },
+    {
+     "title": "Find a branch",
+     "body": [
+      "View direct branch contacts, exact addresses, capabilities and nearby industrial service areas across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/branch-locator.html",
+     "linkText": "Open branch locator"
+    },
+    {
+     "title": "Request pickup",
+     "body": [
+      "Prepare origin, destination, cargo, packaging, weight, date and handling details for an operations review."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/pickup-request.html",
+     "linkText": "Prepare pickup"
+    },
+    {
+     "title": "Send an inquiry",
+     "body": [
+      "Use our inquiry form for a freight question, lane request, commercial query or general service support."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/inquiry.html",
+     "linkText": "Open inquiry"
+    },
+    {
+     "title": "Register a complaint",
+     "body": [
+      "Report damage, non-delivery, document, POD, charge, delivery-mode or other consignment issues with the LR reference."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/service-complaint.html",
+     "linkText": "Open complaint form"
+    },
+    {
+     "title": "GST & E-way Bill",
+     "body": [
+      "Review a practical pre-dispatch documentation checklist and continue to official government resources for current requirements."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/tax-forms.html",
+     "linkText": "View guidance"
+    }
+   ]
+  },
+  {
+   "kicker": "Not sure where to begin?",
+   "title": "Start with what you already have.",
+   "subtitle": "Speak to customer care.",
+   "intro": [
+    "For urgent operational clarification, call during the published customer-care hours. Keep the LR number or complete shipment brief ready."
+   ],
+   "list": [
+    "You have an LR number Use live tracking first, then contact customer care if the result needs clarification.",
+    "You have a new shipment Use pickup or inquiry and provide the precise route, cargo, packages, weight and date.",
+    "You have a service issue Use the complaint form so the LR, issue type and response contact stay together."
+   ],
+   "ctas": [
+    {
+     "text": "Call +91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "Email customer care",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Help Desk questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "How can I check the status of a Vidhi Transport consignment?",
+     "a": "Open Track LR and enter the numeric LR number from the transport receipt. If the live ERP service is unavailable, keep the LR number ready and contact customer care."
+    },
+    {
+     "q": "Where can I find a direct branch phone number?",
+     "a": "The branch locator lists addresses, direct phone numbers, capabilities and nearby service areas for 14 locations across Gujarat and Maharashtra."
+    },
+    {
+     "q": "How do I register a service complaint?",
+     "a": "Use the service complaint form and provide the LR number, issue type, description, route and an authorised contact. Complete information helps the team identify and investigate the consignment."
+    },
+    {
+     "q": "Can the Help Desk confirm a freight rate or vehicle?",
+     "a": "No. Use the freight inquiry or quotation form to submit the actual cargo and route. Price, vehicle placement, schedule and cargo acceptance require separate operating confirmation."
+    }
+   ]
+  }
+ ]
+}

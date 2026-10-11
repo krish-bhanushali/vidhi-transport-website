@@ -1,0 +1,208 @@
+{
+ "path": "/careers.html",
+ "title": "Careers at Vidhi Transport | Logistics Opportunities",
+ "description": "Explore career areas at Vidhi Transport Co. across logistics operations, fleet coordination, customer service, sales and administration.",
+ "hero": {
+  "kicker": "Careers at Vidhi Transport",
+  "title": "Build a career where every day keeps industry moving.",
+  "subtitle": null,
+  "intro": [
+   "Logistics rewards practical thinking, clear communication and people who take ownership. Learn where your experience may fit within Vidhi Transport's operations across Gujarat and Maharashtra."
+  ],
+  "list": [
+   "Operations and branch coordination",
+   "Fleet, driver and dispatch support",
+   "Customer service and documentation",
+   "Sales, accounts and administration"
+  ],
+  "ctas": [
+   {
+    "text": "Send your profile",
+    "href": "mailto:customercare@vidhitransport.com?subject=Career%20Profile%20-%20Vidhi%20Transport"
+   },
+   {
+    "text": "Meet the company",
+    "href": "/about-us.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Work that matters",
+   "title": "The shipment moves because people notice the details.",
+   "subtitle": null,
+   "intro": [
+    "Transport depends on teams who can understand a requirement, coordinate across locations, keep records clear and respond calmly when conditions change. Vidhi Transport welcomes profiles from people who value accountability and customer service.",
+    "We consider experience from logistics as well as transferable skills from industrial operations, fleet support, customer coordination, sales, accounts and administration. Actual openings, responsibilities, location and employment terms are confirmed only during an official recruitment conversation."
+   ],
+   "callout": {
+    "title": "Real work.",
+    "text": "Practical roles across branches, dispatches and customer coordination"
+   }
+  },
+  {
+   "kicker": "Career areas",
+   "title": "Where your skills may contribute.",
+   "subtitle": null,
+   "intro": [
+    "These are functional areas within a road-logistics business, not advertised vacancies. Send a profile for consideration against future confirmed needs."
+   ],
+   "cards": [
+    {
+     "title": "Operations",
+     "body": [
+      "Branch coordination, shipment planning, dispatch follow-up and lane communication."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Fleet & Dispatch",
+     "body": [
+      "Vehicle coordination, trip readiness, driver communication and operating records."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Customer Service",
+     "body": [
+      "Enquiries, shipment updates, issue recording and customer communication."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Sales",
+     "body": [
+      "Industrial account development, requirement discovery and relationship support."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Accounts & Admin",
+     "body": [
+      "Documentation, billing support, records and office coordination."
+     ],
+     "list": [],
+     "chips": []
+    }
+   ]
+  },
+  {
+   "kicker": "What we value",
+   "title": "Good logistics habits travel well.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Ownership",
+     "body": [
+      "Take responsibility for the information, follow-up and commitments connected to your work."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Respect",
+     "body": [
+      "Communicate professionally with customers, drivers, vendors, colleagues and branch teams."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Accuracy",
+     "body": [
+      "Treat shipment details, contact information and operating records with care."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Adaptability",
+     "body": [
+      "Think clearly when routes, timing, capacity or customer requirements change."
+     ],
+     "list": [],
+     "chips": []
+    }
+   ]
+  },
+  {
+   "kicker": "Application process",
+   "title": "A simple way to introduce yourself.",
+   "subtitle": null,
+   "intro": [
+    "A complete profile helps the team understand your experience and contact you if a suitable, confirmed requirement becomes available."
+   ],
+   "cards": [
+    {
+     "title": "Prepare your CV",
+     "body": [
+      "Include recent experience, responsibilities, education, current city and languages."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Name your role area",
+     "body": [
+      "Mention operations, fleet, customer service, sales, accounts or another relevant function."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Email your profile",
+     "body": [
+      "Send it to customercare@vidhitransport.com with your preferred location and contact number.",
+      "Recruitment note: This page accepts expressions of interest. A role is open only when Vidhi Transport confirms the position, location, selection process and employment terms through an official contact."
+     ],
+     "list": [],
+     "chips": []
+    }
+   ]
+  },
+  {
+   "kicker": "Introduce yourself",
+   "title": "Send a profile for future suitable roles.",
+   "subtitle": null,
+   "intro": [
+    "Use a clear subject line such as \"Career Profile - Operations - Ankleshwar\" and attach your current CV."
+   ],
+   "ctas": [
+    {
+     "text": "Email your CV",
+     "href": "mailto:customercare@vidhitransport.com?subject=Career%20Profile%20-%20Vidhi%20Transport"
+    }
+   ]
+  },
+  {
+   "kicker": "Useful details",
+   "title": "Career application questions.",
+   "subtitle": null,
+   "intro": [
+    "Please rely only on contact details published on the Vidhi Transport website when discussing an application."
+   ],
+   "faqs": [
+    {
+     "q": "Are there current vacancies at Vidhi Transport?",
+     "a": "This page invites expressions of interest and does not represent a specific vacancy unless Vidhi Transport confirms one directly. Suitable profiles may be reviewed when a relevant requirement arises."
+    },
+    {
+     "q": "How should I apply?",
+     "a": "Email your current CV to customercare@vidhitransport.com with the role area and preferred work location in the subject line. Include your phone number, relevant experience and availability."
+    },
+    {
+     "q": "Which locations can I mention in my application?",
+     "a": "You may mention a preferred location in Gujarat or Maharashtra. Opportunities depend on confirmed staffing requirements at the head office, branches and operating locations."
+    },
+    {
+     "q": "Does Vidhi Transport charge candidates a recruitment fee?",
+     "a": "Candidates should verify every recruitment conversation through Vidhi Transport's published customer-care number or email before sharing documents. No fee commitment is stated on this page."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,569 @@
+{
+ "path": "/branch-locator.html",
+ "title": "Transport Branch Locator Gujarat & Maharashtra | Vidhi",
+ "description": "Find 14 Vidhi Transport branch addresses, direct phone numbers, capabilities and nearby service areas across Gujarat and Maharashtra.",
+ "hero": {
+  "kicker": "Branch network",
+  "title": "Local teams along important industrial corridors.",
+  "subtitle": "14 branch locations",
+  "intro": [
+   "Find exact addresses, direct branch phones, operational capabilities and nearby service areas across Gujarat and Maharashtra.",
+   "Nine locations in Gujarat and five in Maharashtra, with branch-backed area pages for useful local route information."
+  ],
+  "ctas": [
+   {
+    "text": "Choose a branch",
+    "href": "#branch-directory"
+   },
+   {
+    "text": "Plan a route",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Open customer tools",
+    "href": "/tools.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Quick directory",
+   "title": "Jump directly to a branch card.",
+   "subtitle": null,
+   "intro": [
+    "No search or runtime filtering is required; every address and service-area reference is present in the HTML."
+   ],
+   "id": "branch-directory"
+  },
+  {
+   "kicker": "Gujarat network",
+   "title": "9 listed locations",
+   "subtitle": "5 listed locations",
+   "chips": [
+    "Dahej–Bharuch industrial belt"
+   ],
+   "cards": [
+    {
+     "title": "Dahej Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Trailer movement",
+      "Container transport",
+      "Urgent freight coordination",
+      "Dahej GIDC",
+      "Dahej PCPIR",
+      "Bharuch",
+      "Vilayat",
+      "Vagra",
+      "Saykha"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "South Gujarat industrial corridor"
+     ],
+     "href": "tel:+919978977263",
+     "linkText": "+91 99789 77263"
+    },
+    {
+     "title": "Ankleshwar Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Container transport",
+      "Urgent freight coordination",
+      "Warehousing support",
+      "Ankleshwar GIDC",
+      "Panoli",
+      "Jhagadia",
+      "Valia",
+      "Bharuch",
+      "Dahej"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "Surat industrial corridor"
+     ],
+     "href": "tel:+916359893342",
+     "linkText": "+91 63598 93342"
+    },
+    {
+     "title": "Sachin (Surat) Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Container transport",
+      "Urgent freight coordination",
+      "Single-window support",
+      "Surat",
+      "Sachin GIDC",
+      "Palsana",
+      "Kamrej",
+      "Hazira",
+      "Bharuch"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "South Gujarat industrial corridor"
+     ],
+     "href": "tel:+919426390748",
+     "linkText": "+91 94263 90748"
+    },
+    {
+     "title": "Panoli Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Container transport",
+      "Urgent freight coordination",
+      "Warehousing support",
+      "Panoli GIDC",
+      "Ankleshwar",
+      "Jhagadia",
+      "Valia",
+      "Kosamba",
+      "Bharuch"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "Vapi–Daman–Silvassa industrial belt"
+     ],
+     "href": "tel:+916359893342",
+     "linkText": "+91 63598 93342"
+    },
+    {
+     "title": "Vapi Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Trailer movement",
+      "Container transport",
+      "Warehousing support",
+      "Vapi GIDC",
+      "Sarigam",
+      "Umergam",
+      "Silvassa",
+      "Daman",
+      "Hazira"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "Gujarat–Maharashtra border corridor"
+     ],
+     "href": "tel:+916359893351",
+     "linkText": "+91 63598 93351"
+    },
+    {
+     "title": "Sarigam and Umergaon Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Trailer movement",
+      "Container transport",
+      "Warehousing support",
+      "Sarigam",
+      "Umergam",
+      "Vapi",
+      "Silvassa",
+      "Daman",
+      "Tarapur"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "Central Gujarat industrial corridor"
+     ],
+     "href": "tel:+919377447457",
+     "linkText": "+91 93774 47457"
+    },
+    {
+     "title": "Vadodara Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Trailer movement",
+      "Container transport",
+      "Warehousing support",
+      "Vadodara",
+      "Nandesari",
+      "Padra",
+      "Halol",
+      "Karjan",
+      "Anand"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "Vadodara industrial belt"
+     ],
+     "href": "tel:+916359893349",
+     "linkText": "+91 63598 93349"
+    },
+    {
+     "title": "Nandesari GIDC Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Trailer movement",
+      "Container transport",
+      "Urgent freight coordination",
+      "Nandesari GIDC",
+      "Vadodara",
+      "Padra",
+      "Halol",
+      "Karjan",
+      "Anand"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "Ahmedabad freight gateway"
+     ],
+     "href": "tel:+916359893307",
+     "linkText": "+91 63598 93307"
+    },
+    {
+     "title": "Ahmedabad Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Trailer movement",
+      "Container transport",
+      "Urgent freight coordination",
+      "Ahmedabad",
+      "Aslali",
+      "Sarkhej",
+      "Vatva GIDC",
+      "Naroda",
+      "Odhav"
+     ],
+     "chips": [
+      "Gujarat",
+      "Capabilities",
+      "Nearby service areas",
+      "Mumbai Metropolitan Region"
+     ],
+     "href": "tel:+916359893347",
+     "linkText": "+91 63598 93347",
+     "kicker": "Maharashtra network"
+    },
+    {
+     "title": "Bhiwandi Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Urgent freight coordination",
+      "E-commerce support",
+      "Warehousing support",
+      "Bhiwandi",
+      "Anjur",
+      "Wadpe",
+      "Wada",
+      "Vasai",
+      "Palghar"
+     ],
+     "chips": [
+      "Maharashtra",
+      "Capabilities",
+      "Nearby service areas",
+      "Navi Mumbai and port corridor"
+     ],
+     "href": "tel:+916359893366",
+     "linkText": "+91 63598 93366"
+    },
+    {
+     "title": "Navi Mumbai Branch and Head Office",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Container transport",
+      "Urgent freight coordination",
+      "E-commerce support",
+      "Navi Mumbai",
+      "Vashi",
+      "Mahape",
+      "Rabale",
+      "Taloja",
+      "JNPT"
+     ],
+     "chips": [
+      "Maharashtra",
+      "Capabilities",
+      "Nearby service areas",
+      "TTC industrial area"
+     ],
+     "href": "tel:+919377555777",
+     "linkText": "+91 93775 55777"
+    },
+    {
+     "title": "Rabale MIDC Branch",
+     "body": [],
+     "list": [
+      "Container transport",
+      "Full Truckload Transport",
+      "Part Load Transport",
+      "Trailer movement",
+      "Single-window support",
+      "Rabale MIDC",
+      "Navi Mumbai",
+      "Mahape",
+      "Taloja",
+      "Khopoli",
+      "Khalapur"
+     ],
+     "chips": [
+      "Maharashtra",
+      "Capabilities",
+      "Nearby service areas",
+      "Palghar industrial belt"
+     ],
+     "href": "tel:+916359893358",
+     "linkText": "+91 63598 93358"
+    },
+    {
+     "title": "Tarapur Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Urgent freight coordination",
+      "E-commerce support",
+      "Warehousing support",
+      "Tarapur MIDC",
+      "Boisar",
+      "Palghar",
+      "Vasai",
+      "Bhiwandi",
+      "Wada"
+     ],
+     "chips": [
+      "Maharashtra",
+      "Capabilities",
+      "Nearby service areas",
+      "Mumbai–Palghar industrial corridor"
+     ],
+     "href": "tel:+916359893355",
+     "linkText": "+91 63598 93355"
+    },
+    {
+     "title": "Vasai Branch",
+     "body": [],
+     "list": [
+      "Part Load Transport",
+      "Full Truckload Transport",
+      "Urgent freight coordination",
+      "E-commerce support",
+      "Warehousing support",
+      "Vasai East",
+      "Sativali",
+      "Palghar",
+      "Tarapur",
+      "Bhiwandi",
+      "Wada"
+     ],
+     "chips": [
+      "Maharashtra",
+      "Capabilities",
+      "Nearby service areas"
+     ],
+     "href": "tel:+916359893369",
+     "linkText": "+91 63598 93369"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-dahej.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-ankleshwar.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-sachin-surat.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-panoli.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "+91 63598 93340",
+     "href": "tel:+916359893340"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-vapi.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "+91 63598 93350",
+     "href": "tel:+916359893350"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-sarigam-umergam.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-vadodara.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-nandesari.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-ahmedabad.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-bhiwandi.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-navi-mumbai.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-rabale.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-tarapur-boisar.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    },
+    {
+     "text": "Area and route details",
+     "href": "/areas/transporter-in-vasai.html"
+    },
+    {
+     "text": "Request a quote",
+     "href": "/contact_us.html#quote"
+    }
+   ]
+  },
+  {
+   "kicker": null,
+   "title": null,
+   "subtitle": null,
+   "intro": [
+    "They identify nearby or connected localities coordinated by the listed branch; they do not always indicate a separate physical office. Confirm availability for the exact PIN code, cargo and date."
+   ],
+   "chips": [
+    "Service-area tags are coverage references."
+   ]
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Branch network questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "Where does Vidhi Transport have branches?",
+     "a": "Vidhi Transport lists 14 branch locations across Gujarat and Maharashtra, including Ahmedabad, Vadodara, Nandesari, Dahej, Ankleshwar, Panoli, Sachin, Vapi, Sarigam and Umergaon, Bhiwandi, Navi Mumbai, Rabale, Tarapur and Vasai."
+    },
+    {
+     "q": "Can I contact a Vidhi Transport branch directly?",
+     "a": "Yes. Each branch card provides a direct phone number and exact address. Contact the branch to confirm the actual pickup, delivery, route and cargo requirement."
+    },
+    {
+     "q": "Does every service-area tag represent a physical office?",
+     "a": "No. Service-area tags show nearby or connected localities coordinated by a branch. They do not claim a separate office or guaranteed pickup in every listed area."
+    },
+    {
+     "q": "Are all services available at every branch?",
+     "a": "Capabilities vary by branch, cargo, route, documents, timing and vehicle availability. Use the branch contact or quotation form to confirm the exact requirement."
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "kicker": "Need help choosing?",
+  "title": "Send the route. We’ll connect the team.",
+  "subtitle": null,
+  "intro": [
+   "Share origin, destination, cargo and timing for a branch or service recommendation."
+  ],
+  "ctas": [
+   {
+    "text": "Prepare an enquiry",
+    "href": "/contact_us.html#quote"
+   }
+  ]
+ }
+}

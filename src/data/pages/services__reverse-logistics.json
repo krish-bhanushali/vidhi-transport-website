@@ -1,0 +1,247 @@
+{
+ "path": "/services/reverse-logistics.html",
+ "title": "Reverse Logistics Gujarat & Maharashtra | Vidhi Transport",
+ "description": "Reverse logistics for accepted rejected goods, returns and reusable industrial packaging across Gujarat and Maharashtra, with document-led coordination.",
+ "hero": {
+  "kicker": "Returns and recovery movement",
+  "title": "Reverse Logistics",
+  "subtitle": null,
+  "intro": [
+   "Coordinated return movement for rejected goods, reusable packaging and industrial materials across the operating network."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Call +91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "Reverse Logistics at a glance",
+   "subtitle": null,
+   "chips": [
+    "Direction",
+    "Consignee to origin",
+    "Typical use",
+    "Returns and recovery",
+    "Core region",
+    "Gujarat–Maharashtra",
+    "Priority",
+    "Clear documentation"
+   ]
+  },
+  {
+   "kicker": "Plan the return route clearly",
+   "title": "Reverse movement with documented instructions.",
+   "subtitle": "Share the operating details.",
+   "intro": [
+    "Reverse Logistics moves accepted goods or packaging back from the consignee, distributor, branch or project location to a nominated facility. Typical requirements include rejected consignments, returnable packaging and reusable industrial containers.",
+    "Return movements require clear ownership, condition, documentation and delivery instructions. Vidhi Transport coordinates the agreed route after reviewing the material, packaging and acceptance requirements."
+   ],
+   "cards": [
+    {
+     "title": "What this service can include",
+     "body": [],
+     "list": [
+      "Return movement for accepted rejected or undelivered goods",
+      "Reusable drum, carboy, pallet and packaging return support",
+      "Pickup coordination from consignee or nominated location",
+      "Return-document and delivery-instruction checks",
+      "Branch-network coordination across supported routes",
+      "Linkage with forward freight planning where agreed"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Often suitable for",
+     "body": [
+      "A useful quotation starts with these basics:"
+     ],
+     "list": [
+      "Return pickup and destination",
+      "Material and package condition",
+      "Package count and weight",
+      "Return authorization or instructions",
+      "Contact person at both locations"
+     ],
+     "chips": [
+      "Rejected consignments",
+      "Returnable industrial packaging",
+      "Distributor and consignee returns",
+      "Reusable transport materials"
+     ],
+     "kicker": "Plan this shipment",
+     "href": "/contact_us.html#quote",
+     "linkText": "Request a quote"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "subtitle": null,
+   "intro": [
+    "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Confirm return authority",
+     "body": [
+      "Share the reason for return, material condition and instructions from the responsible parties."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Plan pickup",
+     "body": [
+      "The team reviews packaging, documents, route, pickup access and delivery acceptance."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Complete the return",
+     "body": [
+      "After booking approval, collection and return delivery are coordinated against the agreed instructions.",
+      "Important: Returned goods and packaging must meet agreed acceptance, packaging, documentation and safe-handling requirements before pickup."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "subtitle": null,
+   "intro": [
+    "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment",
+     "body": [],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangement",
+     "body": [],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery",
+     "body": [],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "billing-delivery-options"
+  },
+  {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response."
+   ],
+   "faqs": [
+    {
+     "q": "What can reverse logistics include?",
+     "a": "It can include accepted rejected goods, undelivered consignments, reusable packaging and industrial return materials moving back to an agreed destination."
+    },
+    {
+     "q": "Can empty drums or carboys be returned?",
+     "a": "Properly prepared reusable drums, carboys or other packaging may be considered after the material history, condition, documentation and route are reviewed."
+    },
+    {
+     "q": "What documents are required for a return shipment?",
+     "a": "Requirements vary by material and transaction. Share the return authorization, invoice or delivery references and any cargo-specific documents for review."
+    },
+    {
+     "q": "Can forward and return movements be planned together?",
+     "a": "Where route and operational conditions permit, the team can review forward and reverse requirements as one coordinated movement plan."
+    }
+   ]
+  },
+  {
+   "kicker": "Continue exploring",
+   "title": "Related logistics services.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Flexible transport for smaller and recurring industrial consignments that do not require an entire vehicle."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/part-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "First-Mile & Last-Mile Support",
+     "body": [
+      "Coordinated movement between factories, warehouses, branches, godowns and industrial consignee locations where service is available."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/first-mile-last-mile.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Chemical & Industrial Freight",
+     "body": [
+      "Transport coordination for accepted packaged chemicals, industrial inputs, machinery and finished goods across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/chemical-industrial-freight.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "See all services",
+     "href": "/services.html"
+    }
+   ]
+  }
+ ]
+}

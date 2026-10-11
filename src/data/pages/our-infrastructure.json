@@ -1,0 +1,223 @@
+{
+ "path": "/our-infrastructure.html",
+ "title": "Transport Infrastructure, Network & Operations | Vidhi",
+ "description": "Explore Vidhi Transport's branch network, vehicle planning, handling coordination, live LR support and industrial logistics capabilities in Gujarat and Maharashtra.",
+ "hero": {
+  "kicker": "Network and operating capability",
+  "title": "Infrastructure is the system behind every dispatch.",
+  "subtitle": "Plan from the real operating requirement.",
+  "intro": [
+   "Branches, vehicle planning, handling interfaces, documentation and shipment visibility work together to support industrial movement across Gujarat and Maharashtra.",
+   "Capability is matched to the cargo, route, site, timing and handling requirement, with availability confirmed for each shipment."
+  ],
+  "list": [
+   "Vehicle and route matched to the actual cargo",
+   "Loading, handling and site responsibilities agreed early",
+   "Branch contacts and live LR support kept accessible"
+  ],
+  "ctas": [
+   {
+    "text": "Explore services",
+    "href": "/services.html"
+   },
+   {
+    "text": "View branch network",
+    "href": "/branch-locator.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "A connected operating base",
+   "title": "Practical capability across the freight journey.",
+   "subtitle": null,
+   "intro": [
+    "Vidhi brings branch coordination, cargo handling, route planning and shipment visibility into one operating network. Shipment-specific vehicle, space and handling requirements are confirmed by the responsible operations team.",
+    "Direct branch details and service-area context across key Gujarat and Maharashtra industrial regions.",
+    "From PTL and FTL to project cargo, port containers, reverse logistics and warehousing.",
+    "The tracking page requests the latest available shipment record directly from the Vidhi ERP service."
+   ],
+   "facts": [
+    {
+     "label": "Published network",
+     "value": "14 listed locations"
+    },
+    {
+     "label": "Service range",
+     "value": "9 service categories"
+    },
+    {
+     "label": "Customer visibility",
+     "value": "Live LR support"
+    }
+   ]
+  },
+  {
+   "kicker": "Vehicle and movement planning",
+   "title": "The equipment follows the requirement.",
+   "subtitle": null,
+   "intro": [
+    "No vehicle type is assumed from a service label alone. Dimensions, weight, packaging, classification, route, body requirement, access and timing determine what can be considered."
+   ],
+   "cards": [
+    {
+     "title": "FTL vehicle planning",
+     "body": [
+      "Dedicated capacity for accepted larger, scheduled and direct industrial dispatches."
+     ],
+     "list": [
+      "Vehicle selected around cargo and route",
+      "Pickup and delivery access review",
+      "Loading and unloading scope alignment"
+     ],
+     "chips": []
+    },
+    {
+     "title": "PTL network movement",
+     "body": [
+      "Consolidated transport for accepted smaller consignments moving through operating corridors."
+     ],
+     "list": [
+      "Package, weight and stackability review",
+      "Branch and lane coordination",
+      "Godown or door arrangement confirmation"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Project and ODC review",
+     "body": [
+      "Requirement-led planning for machinery, equipment and cargo that needs technical movement coordination."
+     ],
+     "list": [
+      "Dimensions, weights and drawings",
+      "Route, site and access feasibility",
+      "Vehicle, permit and lifting interfaces"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Containers and warehousing",
+     "body": [
+      "Port-linked container movements and practical staging or distribution support where available."
+     ],
+     "list": [
+      "Factory and port schedule alignment",
+      "Inward, storage and outward scope",
+      "Availability confirmed case by case"
+     ],
+     "chips": []
+    }
+   ]
+  },
+  {
+   "kicker": "Handling and operations",
+   "title": "Four interfaces that shape execution.",
+   "subtitle": null,
+   "intro": [
+    "Good road freight depends on clear responsibility at every handoff. These controls help the branch, vehicle, shipper and consignee work from the same operating brief."
+   ],
+   "cards": [
+    {
+     "title": "Documentation",
+     "body": [
+      "Align the cargo description, package data, route, transport documents and applicable regulatory information before dispatch."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Loading interface",
+     "body": [
+      "Confirm dock, forklift, crane, rigging, labour, loading window and who is responsible at origin."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Movement control",
+     "body": [
+      "Coordinate the accepted route, contacts, vehicle requirement and exception communication through the responsible team."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    },
+    {
+     "title": "Delivery interface",
+     "body": [
+      "Confirm receiving hours, access, unloading support, delivery terms and authorised consignee contact."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "04"
+    }
+   ]
+  },
+  {
+   "kicker": "Operational support",
+   "title": "Use the network, tracking and storage pages.",
+   "subtitle": null,
+   "intro": [
+    "Each supporting page provides more useful detail than a broad infrastructure claim and creates a clear next step for the customer."
+   ],
+   "cards": [
+    {
+     "title": "Branch network",
+     "body": [
+      "View published addresses, direct numbers, capabilities and nearby service areas for each listed location."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/branch-locator.html",
+     "linkText": "Explore network"
+    },
+    {
+     "title": "Live LR tracking",
+     "body": [
+      "Enter a numeric LR number to request route, dates and the latest available ERP status record."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/lr-track.html",
+     "linkText": "Track LR"
+    },
+    {
+     "title": "Warehousing support",
+     "body": [
+      "Review storage, inward, staging, consolidation and outward distribution support, subject to facility approval."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/warehousing.html",
+     "linkText": "View warehousing"
+    }
+   ]
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Infrastructure questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "How is a vehicle selected for a shipment?",
+     "a": "Vehicle planning depends on the cargo, route, timing, body type, capacity, access and availability confirmed for the actual requirement."
+    },
+    {
+     "q": "Which vehicle types can be considered?",
+     "a": "Depending on feasibility and availability, enquiries may involve vehicles for PTL or FTL, container-linked movements, machinery, project cargo or over-dimensional requirements. Exact equipment is confirmed only after technical review."
+    },
+    {
+     "q": "Is handling equipment included automatically?",
+     "a": "No. Forklift, crane, rigging, dock, labour and loading or unloading responsibilities must be stated and agreed before booking. Availability varies by location and operating scope."
+    },
+    {
+     "q": "How does the branch network support movement?",
+     "a": "Published branches provide local contact and coordination across Gujarat and Maharashtra industrial corridors. Actual route, service, pickup and delivery availability remain subject to confirmation."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "path": "/certifications.html",
+ "title": "Go Green, IBA Approved & ISO Certified | Vidhi Transport",
+ "description": "Review Vidhi Transport's Go Green initiative, IBA approval and ISO certification, and request current supporting documents for verification.",
+ "hero": {
+  "kicker": "Trust and responsibility",
+  "title": "Three credentials presented with the right context.",
+  "subtitle": null,
+  "intro": [
+   "Vidhi Transport highlights its Go Green initiative, IBA approval and ISO certification. Request the current supporting documents when completing procurement or vendor checks."
+  ],
+  "list": [
+   "Review the current document and validity period.",
+   "Match the legal entity name before relying on a credential.",
+   "Publish the exact ISO standard only after checking the certificate."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Company credentials",
+   "title": "Clear signals, not unexplained badges",
+   "subtitle": null,
+   "intro": [
+    "The three items serve different purposes. Go Green is an operating initiative; IBA approval and ISO certification rely on their current supporting documents."
+   ],
+   "cards": [
+    {
+     "title": "Go Green",
+     "body": [
+      "A practical commitment to more considered logistics through route planning, load consolidation and the reduction of avoidable movement where operationally possible."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "mailto:customercare@vidhitransport.com?subject=Go%20Green%20supporting%20information",
+     "linkText": "Request supporting information",
+     "id": "go-green",
+     "kicker": "Environmental initiative"
+    },
+    {
+     "title": "IBA Approved",
+     "body": [
+      "An important procurement and finance-related trust signal. Ask for the current IBA approval document and confirm its applicability for your organisation or consignment."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "mailto:customercare@vidhitransport.com?subject=IBA%20approval%20document%20request",
+     "linkText": "Request current document",
+     "id": "iba-approved",
+     "kicker": "Transporter approval"
+    },
+    {
+     "title": "ISO Certified",
+     "body": [
+      "The public label remains intentionally general until the precise ISO standard, certificate number, issuing body, scope and validity are verified against the current certificate."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "mailto:customercare@vidhitransport.com?subject=ISO%20certificate%20document%20request",
+     "linkText": "Request current certificate",
+     "id": "iso-certified",
+     "kicker": "Management-system certification"
+    }
+   ]
+  },
+  {
+   "kicker": "Vendor onboarding",
+   "title": "Need documents for your approval process?",
+   "subtitle": null,
+   "intro": [
+    "Tell us which current supporting document your procurement or compliance team requires."
+   ],
+   "ctas": [
+    {
+     "text": "Contact the team",
+     "href": "/contact_us.html#quote"
+    }
+   ]
+  }
+ ]
+}

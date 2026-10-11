@@ -1,0 +1,45 @@
+{
+ "path": "/Clientele.html",
+ "title": "Industries Served: Chemical, Pharma & Manufacturing | Vidhi",
+ "description": "Industrial road freight support for chemicals, pharmaceuticals, engineering, packaging, manufacturing, and industrial distribution businesses.",
+ "hero": {
+  "kicker": "Industrial sectors we support",
+  "title": "Freight built around the realities of your industry.",
+  "subtitle": null,
+  "intro": [
+   "We work with operational requirements common to manufacturing, chemicals, pharmaceuticals, engineering, and industrial distribution."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Cargo context matters",
+   "title": "Different sectors. One need for dependable coordination.",
+   "subtitle": null,
+   "intro": [
+    "Every sector has its own dispatch rhythm, packaging requirements, handling expectations, and customer communication needs."
+   ],
+   "chips": [
+    "Chemicals & speciality chemicals",
+    "Pharmaceuticals & healthcare",
+    "Engineering & machinery",
+    "Packaging & industrial materials",
+    "Manufacturing & factory inputs",
+    "Distribution & industrial trading"
+   ]
+  },
+  {
+   "kicker": "No invented customer claims",
+   "title": "Customer trust deserves accuracy.",
+   "subtitle": null,
+   "intro": [
+    "We do not publish client logos, testimonials, shipment volumes, or case studies without the customer's permission and verified supporting information. If you need references or credential documents, speak with our team directly."
+   ],
+   "ctas": [
+    {
+     "text": "Speak with our team",
+     "href": "/contact_us.html"
+    }
+   ]
+  }
+ ]
+}

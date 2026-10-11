@@ -1,0 +1,247 @@
+{
+ "path": "/services/odc-construction-cargo.html",
+ "title": "ODC & Construction Cargo Transport | Vidhi Transport",
+ "description": "ODC and construction cargo transport planning for equipment, machinery and fabricated structures, subject to route, permit and vehicle feasibility.",
+ "hero": {
+  "kicker": "Specialised project movement",
+  "title": "ODC & Construction Cargo",
+  "subtitle": null,
+  "intro": [
+   "Route-led movement planning for over-dimensional equipment, construction machinery, fabricated structures and project cargo."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Call +91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "ODC & Construction Cargo at a glance",
+   "subtitle": null,
+   "chips": [
+    "Cargo",
+    "Oversized or project",
+    "Planning",
+    "Route and equipment",
+    "Core region",
+    "Subject to feasibility",
+    "Requirements",
+    "Permits where applicable"
+   ]
+  },
+  {
+   "kicker": "Dimensions define the movement",
+   "title": "Specialised cargo starts with route and vehicle feasibility.",
+   "subtitle": "Share the operating details.",
+   "intro": [
+    "Over-dimensional and construction cargo cannot be planned from weight alone. Exact length, width, height, loading method, support points and route access determine the suitable vehicle and movement plan.",
+    "Vidhi Transport coordinates accepted movements after feasibility review. Permits, escorts, lifting arrangements and site preparation remain subject to the specific cargo, route and agreed scope."
+   ],
+   "cards": [
+    {
+     "title": "What this service can include",
+     "body": [],
+     "list": [
+      "Cargo-dimension, weight and support-point review",
+      "Route, turning-radius and access assessment",
+      "Trailer or specialised vehicle planning",
+      "Permit and escort coordination where required",
+      "Loading and unloading responsibility alignment",
+      "Project-site contact and schedule coordination"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Often suitable for",
+     "body": [
+      "A useful quotation starts with these basics:"
+     ],
+     "list": [
+      "Exact cargo dimensions and weight",
+      "Technical drawing or clear photographs",
+      "Loading and unloading method",
+      "Origin and destination access details",
+      "Target movement date"
+     ],
+     "chips": [
+      "Construction machinery",
+      "Fabricated structures",
+      "Industrial equipment",
+      "Over-dimensional cargo"
+     ],
+     "kicker": "Plan this shipment",
+     "href": "/contact_us.html#quote",
+     "linkText": "Request a quote"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "subtitle": null,
+   "intro": [
+    "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Define the cargo",
+     "body": [
+      "Share verified dimensions, weight, drawings, lifting points and loading method."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Assess feasibility",
+     "body": [
+      "The team reviews vehicle options, route access, permits, escorts and site conditions."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Coordinate the project",
+     "body": [
+      "Accepted scope, schedule, responsibilities and movement communication are confirmed before dispatch.",
+      "Important: ODC movement is always subject to engineering details, route survey, statutory permissions, equipment availability and an agreed operating scope."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "subtitle": null,
+   "intro": [
+    "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment",
+     "body": [],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangement",
+     "body": [],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery",
+     "body": [],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "billing-delivery-options"
+  },
+  {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response."
+   ],
+   "faqs": [
+    {
+     "q": "What does ODC mean in transport?",
+     "a": "ODC means over-dimensional cargo—cargo whose dimensions require special vehicle, route or permission planning beyond a standard movement."
+    },
+    {
+     "q": "Which details are essential for an ODC quotation?",
+     "a": "Verified length, width, height, weight, drawings or photographs, lifting method, route and site-access information are essential."
+    },
+    {
+     "q": "Are route surveys and permits always required?",
+     "a": "Requirements depend on cargo dimensions, selected route and applicable rules. The need for surveys, permits or escorts is assessed case by case."
+    },
+    {
+     "q": "Can construction machinery be transported?",
+     "a": "Construction machinery may be considered after its dimensions, weight, condition, loading method, route and destination access are reviewed."
+    }
+   ]
+  },
+  {
+   "kicker": "Continue exploring",
+   "title": "Related logistics services.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "Dedicated vehicles for high-volume loads, scheduled plant dispatches and time-sensitive industrial consignments across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/full-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Container Transport to Ports",
+     "body": [
+      "Container transport coordination between industrial locations and JNPT (Nhava Sheva), Hazira and Mundra ports."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/port-container-transport.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "First-Mile & Last-Mile Support",
+     "body": [
+      "Coordinated movement between factories, warehouses, branches, godowns and industrial consignee locations where service is available."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/first-mile-last-mile.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "See all services",
+     "href": "/services.html"
+    }
+   ]
+  }
+ ]
+}

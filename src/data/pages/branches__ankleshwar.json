@@ -1,0 +1,62 @@
+{
+ "path": "/branches/ankleshwar.html",
+ "title": "Ankleshwar Industrial Transport Branch | Vidhi Transport",
+ "description": "Contact the Vidhi Transport Ankleshwar branch for industrial freight, FTL, PTL, and dispatch support in Gujarat. Phone +91 63598 93342.",
+ "hero": {
+  "kicker": "Gujarat industrial transport branch",
+  "title": "Ankleshwar transport branch.",
+  "subtitle": null,
+  "intro": [
+   "Direct local coordination for industrial freight, full truckload, and part truckload requirements."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Your local dispatch contact",
+   "title": "Industrial freight support in Ankleshwar.",
+   "subtitle": "Ankleshwar",
+   "intro": [
+    "Our Ankleshwar branch supports freight conversations for industrial businesses operating in and around the Gujarat manufacturing corridor. Contact the branch directly to discuss pickup, delivery, route availability, and movement requirements."
+   ],
+   "cards": [
+    {
+     "title": "Industrial areas and nearby locations",
+     "body": [],
+     "list": [],
+     "chips": [
+      "Ankleshwar GIDC",
+      "Panoli",
+      "Jhagadia",
+      "Bharuch"
+     ]
+    },
+    {
+     "title": "Services to discuss with the branch",
+     "body": [
+      "Plot No. 2006/18, Near Asian Paints Chokdi, Ankleshwar, Gujarat 393002"
+     ],
+     "list": [
+      "Full truckload movement and dedicated vehicle requirements",
+      "Part truckload and consolidated industrial freight",
+      "Dispatch coordination, documentation, and local branch support",
+      "Specialised cargo enquiries, subject to operational suitability"
+     ],
+     "chips": [],
+     "kicker": "Gujarat contact",
+     "href": "tel:+916359893342",
+     "linkText": "Call branch"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 63598 93342",
+     "href": "tel:+916359893342"
+    },
+    {
+     "text": "View approximate location",
+     "href": "https://www.google.com/maps/search/?api=1&query=Plot+No.+2006%2F18%2C+Near+Asian+Paints+Chokdi%2C+Ankleshwar%2C+Gujarat+393002"
+    }
+   ]
+  }
+ ]
+}

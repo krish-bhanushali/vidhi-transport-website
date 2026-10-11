@@ -1,0 +1,62 @@
+{
+ "path": "/branches/ahmedabad.html",
+ "title": "Ahmedabad Industrial Transport Branch | Vidhi Transport",
+ "description": "Contact the Vidhi Transport Ahmedabad branch for industrial freight, FTL, PTL, and dispatch support in Gujarat. Phone +91 63598 93347.",
+ "hero": {
+  "kicker": "Gujarat industrial transport branch",
+  "title": "Ahmedabad transport branch.",
+  "subtitle": null,
+  "intro": [
+   "Direct local coordination for industrial freight, full truckload, and part truckload requirements."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Your local dispatch contact",
+   "title": "Industrial freight support in Ahmedabad.",
+   "subtitle": "Ahmedabad",
+   "intro": [
+    "Our Ahmedabad branch supports freight conversations for industrial businesses operating in and around the Gujarat manufacturing corridor. Contact the branch directly to discuss pickup, delivery, route availability, and movement requirements."
+   ],
+   "cards": [
+    {
+     "title": "Industrial areas and nearby locations",
+     "body": [],
+     "list": [],
+     "chips": [
+      "Aslali",
+      "Narol",
+      "Vatva GIDC",
+      "Changodar"
+     ]
+    },
+    {
+     "title": "Services to discuss with the branch",
+     "body": [
+      "Ambica Estate, NH 8, Aslali, Ahmedabad, Gujarat 382427"
+     ],
+     "list": [
+      "Full truckload movement and dedicated vehicle requirements",
+      "Part truckload and consolidated industrial freight",
+      "Dispatch coordination, documentation, and local branch support",
+      "Specialised cargo enquiries, subject to operational suitability"
+     ],
+     "chips": [],
+     "kicker": "Gujarat contact",
+     "href": "tel:+916359893347",
+     "linkText": "Call branch"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 63598 93347",
+     "href": "tel:+916359893347"
+    },
+    {
+     "text": "View approximate location",
+     "href": "https://www.google.com/maps/search/?api=1&query=Ambica+Estate%2C+NH+8%2C+Aslali%2C+Ahmedabad%2C+Gujarat+382427"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,247 @@
+{
+ "path": "/services/port-container-transport.html",
+ "title": "Container Transport to JNPT, Hazira & Mundra | Vidhi",
+ "description": "Factory-to-port and port-to-factory container transport coordination for JNPT (Nhava Sheva), Hazira and Mundra, subject to terminal conditions.",
+ "hero": {
+  "kicker": "Port-linked container movement",
+  "title": "Container Transport to Ports",
+  "subtitle": null,
+  "intro": [
+   "Container transport coordination between industrial locations and JNPT (Nhava Sheva), Hazira and Mundra ports."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Call +91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "Container Transport to Ports at a glance",
+   "subtitle": null,
+   "chips": [
+    "Ports",
+    "JNPT, Hazira, Mundra",
+    "Directions",
+    "Factory ↔ Port",
+    "Container",
+    "Loaded or agreed empty",
+    "Priority",
+    "Schedule and documents"
+   ]
+  },
+  {
+   "kicker": "Connect plants with port gates",
+   "title": "Container movement aligned to port and factory schedules.",
+   "subtitle": "Share the operating details.",
+   "intro": [
+    "Port-linked container transport requires alignment between the factory or warehouse, vehicle, container status, documentation and terminal schedule. Vidhi Transport coordinates accepted road movements to or from supported port locations.",
+    "JNPT and Nhava Sheva refer to the same port complex. Current service references therefore use JNPT (Nhava Sheva), together with Hazira and Mundra, without presenting Nhava Sheva as a separate port."
+   ],
+   "cards": [
+    {
+     "title": "What this service can include",
+     "body": [],
+     "list": [
+      "Factory-to-port and port-to-factory road movement",
+      "JNPT (Nhava Sheva), Hazira and Mundra coordination",
+      "Loaded or empty container movement where agreed",
+      "Container-size, weight and vehicle requirement review",
+      "Terminal schedule and document coordination",
+      "Industrial pickup and delivery communication"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Often suitable for",
+     "body": [
+      "A useful quotation starts with these basics:"
+     ],
+     "list": [
+      "Port or terminal and movement direction",
+      "Container size, type and status",
+      "Cargo and gross-weight details",
+      "Factory address and operating window",
+      "Required terminal date or slot"
+     ],
+     "chips": [
+      "Export container movement",
+      "Import container delivery",
+      "Factory and warehouse connections",
+      "Loaded or agreed empty containers"
+     ],
+     "kicker": "Plan this shipment",
+     "href": "/contact_us.html#quote",
+     "linkText": "Request a quote"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "subtitle": null,
+   "intro": [
+    "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Share port details",
+     "body": [
+      "Provide terminal, container type, movement direction, cargo weight and required date."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Align the schedule",
+     "body": [
+      "The team checks vehicle, factory timing, port conditions, documentation and operating availability."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Coordinate road movement",
+     "body": [
+      "Once accepted, vehicle reporting, pickup or drop and stakeholder communication are managed to the agreed scope.",
+      "Important: Port transport is subject to container status, documentation, terminal or slot conditions, road restrictions, detention terms and vehicle availability. Customs clearance is not implied unless separately agreed."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "subtitle": null,
+   "intro": [
+    "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment",
+     "body": [],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangement",
+     "body": [],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery",
+     "body": [],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "billing-delivery-options"
+  },
+  {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response."
+   ],
+   "faqs": [
+    {
+     "q": "Are JNPT and Nhava Sheva different ports?",
+     "a": "No. JNPT is commonly known as Nhava Sheva. This service page refers to the location as JNPT (Nhava Sheva)."
+    },
+    {
+     "q": "Which ports are covered by this service?",
+     "a": "Vidhi Transport can review accepted container movements linked to JNPT (Nhava Sheva), Hazira and Mundra, subject to route and operational availability."
+    },
+    {
+     "q": "Can both import and export containers be coordinated?",
+     "a": "Factory-to-port export movements and port-to-factory import movements may be considered after container, document, terminal and schedule details are reviewed."
+    },
+    {
+     "q": "What information is required for a container quote?",
+     "a": "Share the port or terminal, container size and type, loaded or empty status, cargo weight, factory address, movement direction and required date."
+    }
+   ]
+  },
+  {
+   "kicker": "Continue exploring",
+   "title": "Related logistics services.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "Dedicated vehicles for high-volume loads, scheduled plant dispatches and time-sensitive industrial consignments across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/full-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "ODC & Construction Cargo",
+     "body": [
+      "Route-led movement planning for over-dimensional equipment, construction machinery, fabricated structures and project cargo."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/odc-construction-cargo.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "First-Mile & Last-Mile Support",
+     "body": [
+      "Coordinated movement between factories, warehouses, branches, godowns and industrial consignee locations where service is available."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/first-mile-last-mile.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "See all services",
+     "href": "/services.html"
+    }
+   ]
+  }
+ ]
+}

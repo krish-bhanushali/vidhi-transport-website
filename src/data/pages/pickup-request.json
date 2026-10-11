@@ -1,0 +1,63 @@
+{
+ "path": "/pickup-request.html",
+ "title": "Request Freight Pickup | Vidhi Transport Gujarat & Maharashtra",
+ "description": "Prepare a road-freight pickup request with origin, destination, cargo, package, weight and handling details for Vidhi Transport.",
+ "hero": {
+  "kicker": "Pickup request",
+  "title": "Tell us what is ready, where and when.",
+  "subtitle": null,
+  "intro": [
+   "Prepare a complete pickup message for the Vidhi Transport operations team. A request is confirmed only after the team reviews and accepts it."
+  ],
+  "list": [
+   "Keep package count, weight and dimensions ready.",
+   "Use exact pickup and destination PIN codes.",
+   "State any forklift, crane or dock requirement.",
+   "Declare regulated or specialised material accurately."
+  ],
+  "ctas": [
+   {
+    "text": "+91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "What happens next",
+   "title": null,
+   "subtitle": null,
+   "list": [
+    "Send the prepared request Choose WhatsApp, email or copy.",
+    "Operations review The team checks route, cargo and availability.",
+    "Clarification if needed Special handling or documents may be requested.",
+    "Pickup confirmation Proceed only after receiving confirmation."
+   ],
+   "ctas": [
+    {
+     "text": "Find a direct branch contact",
+     "href": "/branch-locator.html"
+    }
+   ]
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Pickup request questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "Does submitting a pickup request confirm a vehicle?",
+     "a": "No. The prepared request must be sent to Vidhi Transport, and the team must review the cargo, route, schedule and vehicle availability before confirming the pickup."
+    },
+    {
+     "q": "Which cargo details should I include?",
+     "a": "Include the exact material, package type and count, total weight, dimensions, stackability, loading method and any classification, document or handling requirement."
+    },
+    {
+     "q": "Can I request PTL and FTL assessment together?",
+     "a": "Yes. Select ‘Please recommend’ and provide complete shipment information so the team can assess the practical movement options."
+    }
+   ]
+  }
+ ]
+}

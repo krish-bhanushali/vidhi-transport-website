@@ -1,0 +1,247 @@
+{
+ "path": "/services/full-truck-load.html",
+ "title": "Full Truckload Transport Gujarat & Maharashtra | Vidhi",
+ "description": "Dedicated full truckload transport for industrial freight between Gujarat and Maharashtra, with vehicle, route, pickup and delivery coordination.",
+ "hero": {
+  "kicker": "Dedicated vehicle transport",
+  "title": "Full Truckload Transport",
+  "subtitle": null,
+  "intro": [
+   "Dedicated vehicles for high-volume loads, scheduled plant dispatches and time-sensitive industrial consignments across Gujarat and Maharashtra."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Call +91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "Full Truckload Transport at a glance",
+   "subtitle": null,
+   "chips": [
+    "Movement",
+    "Dedicated vehicle",
+    "Best suited",
+    "Larger consignments",
+    "Core region",
+    "Gujarat–Maharashtra",
+    "Support",
+    "Pickup to delivery"
+   ]
+  },
+  {
+   "kicker": "Capacity aligned to your consignment",
+   "title": "Dedicated capacity for larger industrial dispatches.",
+   "subtitle": "Share the operating details.",
+   "intro": [
+    "Full Truckload transport gives one consignment the planned carrying capacity of a dedicated vehicle. It is commonly used when shipment volume, weight, handling needs or dispatch timing makes consolidation impractical.",
+    "Vidhi Transport coordinates the vehicle, pickup, route and delivery plan with the consignor and consignee. Final vehicle placement depends on cargo details, route conditions and operational availability."
+   ],
+   "cards": [
+    {
+     "title": "What this service can include",
+     "body": [],
+     "list": [
+      "Dedicated vehicle aligned to the accepted consignment",
+      "Vehicle selection based on cargo weight and dimensions",
+      "Plant-to-plant, warehouse and godown movement planning",
+      "Pickup and delivery coordination across the branch network",
+      "Dispatch-document and consignee instruction coordination",
+      "Movement updates through the operating team"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Often suitable for",
+     "body": [
+      "A useful quotation starts with these basics:"
+     ],
+     "list": [
+      "Pickup and delivery locations",
+      "Cargo description and packaging",
+      "Approximate weight and dimensions",
+      "Preferred vehicle or body type",
+      "Expected dispatch date"
+     ],
+     "chips": [
+      "High-volume industrial loads",
+      "Scheduled factory dispatches",
+      "Bulk packaged goods",
+      "Time-sensitive full-vehicle movement"
+     ],
+     "kicker": "Plan this shipment",
+     "href": "/contact_us.html#quote",
+     "linkText": "Request a quote"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "subtitle": null,
+   "intro": [
+    "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Share the load",
+     "body": [
+      "Provide origin, destination, cargo, weight, dimensions and dispatch timing."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Confirm the plan",
+     "body": [
+      "The operating team checks vehicle suitability, route coverage and commercial terms."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Coordinate movement",
+     "body": [
+      "After acceptance, pickup, transit communication and delivery are coordinated with both parties.",
+      "Important: FTL acceptance and vehicle placement are subject to exact cargo details, documentation, route feasibility and vehicle availability."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "subtitle": null,
+   "intro": [
+    "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment",
+     "body": [],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangement",
+     "body": [],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery",
+     "body": [],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "billing-delivery-options"
+  },
+  {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response."
+   ],
+   "faqs": [
+    {
+     "q": "What is Full Truckload transport?",
+     "a": "Full Truckload, or FTL, uses a dedicated vehicle for an accepted consignment instead of combining it with other customers’ freight."
+    },
+    {
+     "q": "When should a business choose FTL instead of Part Load?",
+     "a": "FTL is usually more practical for larger loads, dedicated schedules, special handling requirements or consignments that use most of a vehicle’s capacity."
+    },
+    {
+     "q": "Which details are needed for an FTL quotation?",
+     "a": "Share pickup and delivery locations, cargo description, packaging, approximate weight, dimensions, preferred vehicle and dispatch date."
+    },
+    {
+     "q": "Does Vidhi Transport provide FTL between Gujarat and Maharashtra?",
+     "a": "Vidhi Transport coordinates accepted FTL movements across its Gujarat and Maharashtra industrial network, subject to route and vehicle availability."
+    }
+   ]
+  },
+  {
+   "kicker": "Continue exploring",
+   "title": "Related logistics services.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Flexible transport for smaller and recurring industrial consignments that do not require an entire vehicle."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/part-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Chemical & Industrial Freight",
+     "body": [
+      "Transport coordination for accepted packaged chemicals, industrial inputs, machinery and finished goods across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/chemical-industrial-freight.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Container Transport to Ports",
+     "body": [
+      "Container transport coordination between industrial locations and JNPT (Nhava Sheva), Hazira and Mundra ports."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/port-container-transport.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "See all services",
+     "href": "/services.html"
+    }
+   ]
+  }
+ ]
+}

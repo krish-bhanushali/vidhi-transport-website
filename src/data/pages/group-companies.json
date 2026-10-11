@@ -1,0 +1,160 @@
+{
+ "path": "/group-companies.html",
+ "title": "Group of Companies | Vidhi Transport Co.",
+ "description": "Review the verified business identity, logistics capabilities and transparent group-company disclosure approach of Vidhi Transport Co.",
+ "hero": {
+  "kicker": "Group of Companies",
+  "title": "One confirmed operating identity, clearly presented.",
+  "subtitle": null,
+  "intro": [
+   "This page helps customers and procurement teams understand which business is represented by this website, what it provides and how any future group relationship will be disclosed."
+  ],
+  "list": [
+   "Industrial road logistics",
+   "Gujarat and Maharashtra coverage",
+   "FTL, PTL and specialised freight",
+   "One published customer-care channel"
+  ],
+  "ctas": [
+   {
+    "text": "View capabilities",
+    "href": "/services.html"
+   },
+   {
+    "text": "View governance",
+    "href": "/governance.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Confirmed operating identity",
+   "title": "Vidhi Transport Co.",
+   "subtitle": null,
+   "intro": [
+    "Vidhi Transport Co. provides road-logistics services for industrial customers across Gujarat and Maharashtra. The website presents the company's services, 14 listed branch locations, customer-care contacts and published credentials.",
+    "Disclosure policy: Only a business whose legal identity, relationship and service responsibility have been verified is listed as a group company. Vidhi Transport Co. is the currently confirmed operating identity for this website."
+   ],
+   "list": [
+    "Full Truckload",
+    "Part Load",
+    "Reverse Logistics",
+    "Industrial Freight",
+    "ODC Cargo",
+    "Port Containers",
+    "Warehousing & Distribution"
+   ],
+   "ctas": [
+    {
+     "text": "Explore all services",
+     "href": "/services.html"
+    }
+   ]
+  },
+  {
+   "kicker": "Connected capabilities",
+   "title": "A single window into the operating network.",
+   "subtitle": null,
+   "intro": [
+    "Customers can evaluate transport capabilities, branch coverage and assurance information without relying on vague or unverified business descriptions."
+   ],
+   "cards": [
+    {
+     "title": "Transport capabilities",
+     "body": [
+      "Review FTL, PTL, reverse logistics, industrial freight, ODC, container and warehousing support."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services.html",
+     "linkText": "View services"
+    },
+    {
+     "title": "Branch network",
+     "body": [
+      "Find published branch contacts and nearby service areas across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/branch-locator.html",
+     "linkText": "Explore network"
+    },
+    {
+     "title": "Credentials",
+     "body": [
+      "Review IBA approval, ISO certification and Go Green information in one place."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/certifications.html",
+     "linkText": "View credentials"
+    }
+   ]
+  },
+  {
+   "kicker": "Transparent disclosure",
+   "title": "What must be clear before another entity is listed.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Legal identity",
+     "body": [
+      "The approved legal or trade name and its relationship to Vidhi Transport."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Defined scope",
+     "body": [
+      "The services, geography and responsibilities the entity actually provides."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Customer responsibility",
+     "body": [
+      "Which business contracts, invoices, operates or supports the stated service."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Verified contact",
+     "body": [
+      "An authorised contact route for commercial and due-diligence questions."
+     ],
+     "list": [],
+     "chips": []
+    }
+   ]
+  },
+  {
+   "kicker": "Useful details",
+   "title": "Group and legal-identity questions.",
+   "subtitle": null,
+   "intro": [
+    "This page intentionally presents only verified business information."
+   ],
+   "faqs": [
+    {
+     "q": "Which company is confirmed on this website?",
+     "a": "Vidhi Transport Co. is the confirmed operating identity currently represented on this website. No additional legal entity is presented as a group company without verified information."
+    },
+    {
+     "q": "Is warehousing a separate group company?",
+     "a": "No separate warehousing legal entity is represented on this page. Warehousing and distribution appear as Vidhi Transport service capabilities, subject to facility availability and an agreed scope."
+    },
+    {
+     "q": "How will another group company be added?",
+     "a": "Its official legal name, relationship to Vidhi Transport, service scope, responsibility and approved contact information should be verified before publication."
+    },
+    {
+     "q": "Where can a procurement team request legal or onboarding documents?",
+     "a": "Contact Vidhi Transport through customercare@vidhitransport.com or the published customer-care number and identify the specific document required for vendor onboarding."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "path": "/areas/transporter-in-rabale.html",
+ "title": "Transporter in Rabale MIDC & Mahape | Vidhi Transport",
+ "description": "Contact Vidhi Transport's Rabale MIDC branch for PTL, FTL, trailer and container transport across Rabale, Mahape, Taloja, Khopoli and Navi Mumbai.",
+ "hero": {
+  "kicker": "TTC industrial area",
+  "title": "Industrial transporter in Rabale",
+  "subtitle": "Rabale MIDC Branch",
+  "intro": [
+   "The Rabale MIDC branch supports industrial pickups and deliveries in the TTC belt, including Mahape, Navi Mumbai and Taloja. It can coordinate part-load, dedicated, trailer and container movements after the team reviews cargo dimensions, packaging, terminal or site requirements and route conditions.",
+   "Customer care: 8:00 AM–10:00 PM IST, daily"
+  ],
+  "ctas": [
+   {
+    "text": "Call Rabale MIDC Branch",
+    "href": "tel:+916359893358"
+   },
+   {
+    "text": "Request a freight quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "+91 63598 93358",
+    "href": "tel:+916359893358"
+   },
+   {
+    "text": "View detailed branch page",
+    "href": "/branch-locator.html#branch-rabale"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Branch capabilities",
+   "title": "Road freight coordinated from Rabale",
+   "subtitle": null,
+   "intro": [
+    "Capabilities vary by cargo, route, vehicle availability and branch approval. Share complete shipment details before arranging dispatch."
+   ],
+   "cards": [
+    {
+     "title": "Container transport",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    },
+    {
+     "title": "Trailer movement",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "04"
+    },
+    {
+     "title": "Single-window support",
+     "body": [
+      "Ask the branch to assess this service for the exact cargo, route and schedule."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "05"
+    }
+   ],
+   "id": "services"
+  },
+  {
+   "kicker": "Nearby coverage",
+   "title": "Industrial areas coordinated by this branch",
+   "subtitle": "Industrial supply chains we understand",
+   "intro": [
+    "These labels describe nearby or connected service areas. They do not claim a separate physical branch or guarantee automatic pickup in every locality.",
+    "Material acceptance is assessed case by case, especially for regulated, hazardous, oversized or specialised cargo."
+   ],
+   "list": [
+    "Rabale MIDC",
+    "Navi Mumbai",
+    "Mahape",
+    "Taloja",
+    "Khopoli",
+    "Khalapur",
+    "Engineering",
+    "Chemicals",
+    "Electronics",
+    "Packaging",
+    "Industrial distribution"
+   ],
+   "id": "coverage"
+  },
+  {
+   "kicker": "Connected corridors",
+   "title": "Common route enquiries from Rabale",
+   "subtitle": null,
+   "intro": [
+    "Ask for the exact origin and destination PIN codes so the team can confirm the operational route."
+   ],
+   "list": [
+    "01 Rabale to Taloja and JNPT",
+    "02 Rabale to Bhiwandi and Vasai",
+    "03 Rabale to Khopoli, Vapi and Gujarat"
+   ],
+   "id": "routes"
+  },
+  {
+   "kicker": "Prepare your enquiry",
+   "title": "Six details that lead to a useful freight response",
+   "subtitle": null,
+   "intro": [
+    "A precise request lets the team assess PTL, FTL, container or specialised movement without unnecessary back-and-forth."
+   ],
+   "list": [
+    "Exact locations Origin, destination, industrial area and PIN codes.",
+    "Cargo Material description and any classification or handling requirement.",
+    "Packages Type, count, dimensions, weight and stackability.",
+    "Equipment Forklift, crane, dock or labour available at both ends.",
+    "Timing Ready date, receiving hours and delivery appointment.",
+    "Terms Paid, to-pay or billing; door, godown, DACC or COD options."
+   ],
+   "id": "prepare"
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Questions about transport in Rabale",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "Does Vidhi Transport have a branch serving Rabale?",
+     "a": "Yes. Rabale MIDC Branch is listed at SS-397, Near Gaon Devi Mandir, Behind Mohit Hotel, MIDC, Rabale, Navi Mumbai, Maharashtra 400701. Call +91 63598 93358 to confirm the exact pickup, delivery, cargo and timing requirement."
+    },
+    {
+     "q": "Which nearby areas are coordinated from Rabale MIDC Branch?",
+     "a": "The listed service areas include Rabale MIDC, Navi Mumbai, Mahape, Taloja, Khopoli, Khalapur. These are coverage references, not claims of a separate physical office in every locality."
+    },
+    {
+     "q": "Which transport services can I request in Rabale?",
+     "a": "The branch can assess requirements for Container transport, Full Truckload Transport, Part Load Transport, Trailer movement, Single-window support. Availability and acceptance depend on the cargo, route, documentation, schedule and operational approval."
+    },
+    {
+     "q": "What should I share for a freight quote from Rabale?",
+     "a": "Share exact origin and destination with PIN codes, material description, packaging, package count, actual weight and dimensions, dispatch date, loading method, delivery option and any special handling or regulatory information."
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "kicker": "Move from Rabale",
+  "title": "Tell us what needs to move.",
+  "subtitle": null,
+  "intro": [
+   "Share the shipment profile and our team will review the appropriate route and service."
+  ],
+  "ctas": [
+   {
+    "text": "Prepare an enquiry",
+    "href": "/contact_us.html#quote"
+   }
+  ]
+ }
+}

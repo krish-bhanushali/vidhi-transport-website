@@ -1,0 +1,247 @@
+{
+ "path": "/services/part-truck-load.html",
+ "title": "Part Load Transport Gujarat & Maharashtra | Vidhi",
+ "description": "Part load transport for smaller industrial consignments across Gujarat and Maharashtra, including packaged drums, carboys, cartons and pallets.",
+ "hero": {
+  "kicker": "Consolidated industrial freight",
+  "title": "Part Load Transport",
+  "subtitle": null,
+  "intro": [
+   "Flexible transport for smaller and recurring industrial consignments that do not require an entire vehicle."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Call +91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "Part Load Transport at a glance",
+   "subtitle": null,
+   "chips": [
+    "Movement",
+    "Consolidated freight",
+    "Best suited",
+    "Smaller loads",
+    "Core region",
+    "Gujarat–Maharashtra",
+    "Packaging",
+    "Drums to pallets"
+   ]
+  },
+  {
+   "kicker": "Pay for practical load space",
+   "title": "Consolidated movement for smaller industrial loads.",
+   "subtitle": "Share the operating details.",
+   "intro": [
+    "Part Load Transport combines compatible accepted consignments moving through the network. It helps businesses move smaller quantities without booking the full carrying capacity of a vehicle.",
+    "The operating plan considers packaging, cargo compatibility, route, handling requirements and delivery instructions. Transit and delivery timing can differ from dedicated FTL because the movement is consolidated."
+   ],
+   "cards": [
+    {
+     "title": "What this service can include",
+     "body": [],
+     "list": [
+      "Consolidated movement for smaller accepted consignments",
+      "Support for packaged drums, carboys, cartons, bags and pallets",
+      "Recurring factory and distributor dispatch coordination",
+      "Godown and door-delivery arrangements where available",
+      "Freight Paid, To Pay or agreed account billing",
+      "Consignment-level documentation and delivery instructions"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Often suitable for",
+     "body": [
+      "A useful quotation starts with these basics:"
+     ],
+     "list": [
+      "Pickup and delivery locations",
+      "Number and type of packages",
+      "Total approximate weight",
+      "Cargo classification and documents",
+      "Delivery and billing instructions"
+     ],
+     "chips": [
+      "Smaller industrial consignments",
+      "Recurring distributor dispatches",
+      "Packaged drums and carboys",
+      "Cartons, bags and pallets"
+     ],
+     "kicker": "Plan this shipment",
+     "href": "/contact_us.html#quote",
+     "linkText": "Request a quote"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "subtitle": null,
+   "intro": [
+    "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Describe the consignment",
+     "body": [
+      "Share package count, packaging type, weight, route and cargo description."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Check compatibility",
+     "body": [
+      "The team reviews network coverage, handling needs, cargo compatibility and delivery terms."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Book and coordinate",
+     "body": [
+      "Once accepted, the consignment is booked into the suitable network movement and tracked to delivery.",
+      "Important: PTL schedules depend on consolidation, branch connectivity, cargo compatibility, documentation and destination-service availability."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "subtitle": null,
+   "intro": [
+    "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment",
+     "body": [],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangement",
+     "body": [],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery",
+     "body": [],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "billing-delivery-options"
+  },
+  {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response."
+   ],
+   "faqs": [
+    {
+     "q": "What is Part Load Transport?",
+     "a": "Part Load Transport, also called PTL, consolidates compatible consignments so a customer can move a smaller load without booking a complete vehicle."
+    },
+    {
+     "q": "What packaging can be considered for PTL?",
+     "a": "Depending on cargo acceptance and route, PTL may include properly packaged drums, carboys, cartons, bags, pallets and other industrial packages."
+    },
+    {
+     "q": "Can PTL be delivered Door to Door?",
+     "a": "Door-to-Door, Godown-to-Door and Godown-to-Godown arrangements may be available depending on the route, destination and agreed booking terms."
+    },
+    {
+     "q": "How is PTL different from FTL?",
+     "a": "PTL shares network capacity with compatible freight, while FTL allocates a dedicated vehicle to one accepted consignment."
+    }
+   ]
+  },
+  {
+   "kicker": "Continue exploring",
+   "title": "Related logistics services.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "Dedicated vehicles for high-volume loads, scheduled plant dispatches and time-sensitive industrial consignments across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/full-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Chemical & Industrial Freight",
+     "body": [
+      "Transport coordination for accepted packaged chemicals, industrial inputs, machinery and finished goods across Gujarat and Maharashtra."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/chemical-industrial-freight.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "First-Mile & Last-Mile Support",
+     "body": [
+      "Coordinated movement between factories, warehouses, branches, godowns and industrial consignee locations where service is available."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/first-mile-last-mile.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "See all services",
+     "href": "/services.html"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "path": "/service-complaint.html",
+ "title": "Register a Transport Service Complaint | Vidhi Transport",
+ "description": "Register a Vidhi Transport service complaint using your LR number, issue details, route and contact information for consignment investigation.",
+ "hero": {
+  "kicker": "Consignment issue support",
+  "title": "Register the issue with the shipment reference.",
+  "subtitle": "A complaint needs evidence and context.",
+  "intro": [
+   "Use this form to report a service issue. Accurate LR, route, contact and incident details give the team a clearer starting point for investigation.",
+   "Do not send sensitive originals through a public web form. The team can request supporting material through an authorised channel."
+  ],
+  "list": [
+   "LR number and shipment route",
+   "A factual description of what happened and when",
+   "An authorised contact number and email address"
+  ],
+  "ctas": [
+   {
+    "text": "Go to complaint form",
+    "href": "#complaint-form"
+   },
+   {
+    "text": "Track LR first",
+    "href": "/lr-track.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "What happens next",
+   "title": "Review starts with the LR.",
+   "subtitle": "Call with the LR number.",
+   "intro": [
+    "Customer care is published as available 8:00 AM–10:00 PM IST, daily."
+   ],
+   "list": [
+    "Reference check The team identifies the consignment and shipment record.",
+    "Issue review Operations may request supporting information through an authorised channel.",
+    "Response The appropriate branch or service contact follows up on the registered details."
+   ],
+   "ctas": [
+    {
+     "text": "Call +91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "Email support",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ],
+   "id": "complaint-form"
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Service complaint questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "Which reference should I include in a transport complaint?",
+     "a": "Include the LR number exactly as printed on the transport receipt. Also provide the origin, destination, issue type and an authorised contact who can answer follow-up questions."
+    },
+    {
+     "q": "What information helps investigate damage or shortage?",
+     "a": "Describe what was received, when it was noticed, the package condition and the expected resolution. Keep the LR, invoice, delivery records and relevant photographs available if the team requests them through an authorised channel."
+    },
+    {
+     "q": "Does submitting the form guarantee a claim or resolution?",
+     "a": "No. Submission registers the information for review. Liability, claim eligibility, required documents, timelines and resolution depend on the shipment records, applicable terms and investigation."
+    },
+    {
+     "q": "What should I do for an urgent delivery issue?",
+     "a": "Submit complete details, then call customer care with the LR number. Do not submit passwords, banking credentials or sensitive originals through the public form."
+    }
+   ]
+  }
+ ]
+}

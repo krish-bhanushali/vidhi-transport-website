@@ -1,0 +1,154 @@
+{
+ "path": "/governance.html",
+ "title": "Governance & Ethical Conduct | Vidhi Transport Co.",
+ "description": "Learn about Vidhi Transport's governance principles for ethical conduct, compliance records, operational controls, vendor fairness and escalation.",
+ "hero": {
+  "kicker": "Governance",
+  "title": "Clear responsibilities build dependable business relationships.",
+  "subtitle": null,
+  "intro": [
+   "Our governance approach centres on ethical conduct, accurate records, responsible operating decisions and accessible channels for questions or escalation."
+  ],
+  "list": [
+   "Honest representation of services and credentials",
+   "Clear records and authorised documentation",
+   "Responsible safety and cargo decisions",
+   "Accessible customer and stakeholder escalation"
+  ],
+  "ctas": [
+   {
+    "text": "Contact the company",
+    "href": "/contact_us.html"
+   },
+   {
+    "text": "Review credentials",
+    "href": "/certifications.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Our approach",
+   "title": "Governance should be visible in how work is handled.",
+   "subtitle": null,
+   "intro": [
+    "For customers and partners, governance is experienced through accurate information, consistent documentation, appropriate authority and a clear route to raise questions. These principles guide how Vidhi Transport aims to manage business relationships and operating decisions.",
+    "Formal documents are published only when their applicability, approval, version and public status are confirmed. That protects customers from relying on outdated or unapproved information."
+   ],
+   "callout": {
+    "title": "Accountable.",
+    "text": "Clear conduct, records and escalation across business relationships"
+   }
+  },
+  {
+   "kicker": "Operating principles",
+   "title": "Six areas of business accountability.",
+   "subtitle": null,
+   "intro": [
+    "These cards explain the behaviours expected around customer work, internal records and partner interactions."
+   ],
+   "cards": [
+    {
+     "title": "Ethical conduct",
+     "body": [
+      "Act honestly, avoid misleading claims and address conflicts or concerns through an appropriate channel."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Compliance & records",
+     "body": [
+      "Maintain relevant operating and commercial information with appropriate review and authority."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Safety controls",
+     "body": [
+      "Consider cargo, handling, vehicle and route requirements before accepting or planning movement."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Customer information",
+     "body": [
+      "Use shipment and contact information for legitimate service coordination and business purposes."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Vendor fairness",
+     "body": [
+      "Communicate scope, expectations and responsibilities clearly with transport and service partners."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Escalation access",
+     "body": [
+      "Keep published contact channels available for service, document and conduct-related questions."
+     ],
+     "list": [],
+     "chips": []
+    }
+   ]
+  },
+  {
+   "kicker": "Controls in practice",
+   "title": "Useful checks before information becomes a commitment.",
+   "subtitle": null,
+   "list": [
+    "Confirm authority Commercial terms and formal documents should come from an authorised company contact.",
+    "Confirm scope Service coverage, cargo acceptance and handling needs are reviewed for the specific requirement.",
+    "Confirm evidence Certification, approval and sustainability claims should match current supporting records.",
+    "Record escalation Provide shipment, branch or document context when raising a concern for review."
+   ]
+  },
+  {
+   "kicker": "Governance enquiry",
+   "title": "Need to verify a document or raise a concern?",
+   "subtitle": null,
+   "intro": [
+    "Use a published contact channel and include enough context for the matter to be reviewed by the relevant team.",
+    "Verification matters: Do not rely on a policy, certificate, payment request or company representation received from an unknown source. Confirm it using the phone number or email published on this website."
+   ],
+   "ctas": [
+    {
+     "text": "Email an enquiry",
+     "href": "mailto:customercare@vidhitransport.com?subject=Governance%20Enquiry%20-%20Vidhi%20Transport"
+    }
+   ]
+  },
+  {
+   "kicker": "Useful details",
+   "title": "Governance and verification questions.",
+   "subtitle": null,
+   "intro": [
+    "Clear routes for due diligence help customers and partners make informed decisions."
+   ],
+   "faqs": [
+    {
+     "q": "What governance information is available on this page?",
+     "a": "The page describes Vidhi Transport's operating principles for ethical conduct, records, safety, customer information, vendor relationships and escalation. It does not represent statutory filings that have not been approved for publication."
+    },
+    {
+     "q": "Where can procurement teams verify company credentials?",
+     "a": "Use the Credentials page for Vidhi Transport's IBA approval, ISO certification and Go Green information. Request current supporting documents when completing formal vendor onboarding."
+    },
+    {
+     "q": "How can a concern be raised?",
+     "a": "Use the contact page, call +91 98253 21589, or email customercare@vidhitransport.com. Provide the relevant shipment, branch, document or interaction details so the matter can be directed appropriately."
+    },
+    {
+     "q": "Are annual returns and corporate policies published here?",
+     "a": "Only approved and applicable records should be published. This page does not label any annual return, statutory policy or committee as available when it has not been verified."
+    }
+   ]
+  }
+ ]
+}

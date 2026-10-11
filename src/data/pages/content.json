@@ -1,0 +1,124 @@
+{
+ "path": "/content.html",
+ "title": "Industrial Road Logistics Insights | Vidhi Transport",
+ "description": "Practical guides for industrial dispatch teams planning road freight across Gujarat and Maharashtra.",
+ "hero": {
+  "kicker": "Vidhi Transport insights",
+  "title": "Useful road-freight guidance for dispatch teams.",
+  "subtitle": null,
+  "intro": [
+   "Practical guides for industrial dispatch teams planning road freight across Gujarat and Maharashtra.",
+   "Each guide addresses a real booking, packaging, documentation or delivery question for industrial road transport."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Latest articles",
+   "title": "Plan the next dispatch with better information",
+   "subtitle": null,
+   "intro": [
+    "Operational guidance is general. Confirm requirements for the actual cargo, route and applicable law before dispatch."
+   ],
+   "chips": [
+    "Freight Planning"
+   ],
+   "cards": [
+    {
+     "title": "FTL vs PTL: How to Choose for an Industrial Dispatch",
+     "body": [
+      "A practical comparison of full truckload and part load transport using shipment size, handling, timing, route and cost—not guesswork."
+     ],
+     "list": [],
+     "chips": [
+      "4 min read",
+      "Chemical Freight"
+     ],
+     "href": "/blog/ftl-vs-ptl-industrial-freight.html",
+     "linkText": "Read guide"
+    },
+    {
+     "title": "Drum and Carboy Transport: A Dispatch-Planning Checklist",
+     "body": [
+      "What to confirm before offering packaged industrial material for road transport—from material identity and documents to closures, pallets and handling."
+     ],
+     "list": [],
+     "chips": [
+      "4 min read",
+      "Dispatch Operations"
+     ],
+     "href": "/blog/drum-carboy-transport-checklist.html",
+     "linkText": "Read guide"
+    },
+    {
+     "title": "Gujarat–Maharashtra Industrial Dispatch Checklist",
+     "body": [
+      "A before-booking checklist for plant, warehouse and branch dispatches covering locations, cargo, LR instructions, delivery terms and receiving readiness."
+     ],
+     "list": [],
+     "chips": [
+      "4 min read"
+     ],
+     "href": "/blog/gujarat-maharashtra-dispatch-checklist.html",
+     "linkText": "Read guide"
+    }
+   ]
+  },
+  {
+   "kicker": "Topics we cover",
+   "title": "Freight decisions, explained plainly",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Movement planning",
+     "body": [
+      "FTL, PTL, route and delivery-option decisions."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Packaging readiness",
+     "body": [
+      "Practical preparation for industrial consignments."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Dispatch documents",
+     "body": [
+      "LR information and shipment-document checklists."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    },
+    {
+     "title": "Branch corridors",
+     "body": [
+      "Real Gujarat and Maharashtra service areas."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "04"
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "kicker": "Need a route-specific answer?",
+  "title": "Discuss the actual shipment.",
+  "subtitle": null,
+  "intro": [
+   "Use the guide to prepare your details, then ask our team to review the requirement."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   }
+  ]
+ }
+}

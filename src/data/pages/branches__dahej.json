@@ -1,0 +1,62 @@
+{
+ "path": "/branches/dahej.html",
+ "title": "Dahej Industrial Transport Branch | Vidhi Transport",
+ "description": "Contact the Vidhi Transport Dahej branch for industrial freight, FTL, PTL, and dispatch support in Gujarat. Phone +91 99789 77263.",
+ "hero": {
+  "kicker": "Gujarat industrial transport branch",
+  "title": "Dahej transport branch.",
+  "subtitle": null,
+  "intro": [
+   "Direct local coordination for industrial freight, full truckload, and part truckload requirements."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Your local dispatch contact",
+   "title": "Industrial freight support in Dahej.",
+   "subtitle": "Dahej",
+   "intro": [
+    "Our Dahej branch supports freight conversations for industrial businesses operating in and around the Gujarat manufacturing corridor. Contact the branch directly to discuss pickup, delivery, route availability, and movement requirements."
+   ],
+   "cards": [
+    {
+     "title": "Industrial areas and nearby locations",
+     "body": [],
+     "list": [],
+     "chips": [
+      "Dahej GIDC",
+      "Dahej PCPIR",
+      "Vilayat",
+      "Vagra"
+     ]
+    },
+    {
+     "title": "Services to discuss with the branch",
+     "body": [
+      "IPCL Main Road, Near Krishna Service Station, New Wadia Road, Dahej, Bharuch, Gujarat 392130"
+     ],
+     "list": [
+      "Full truckload movement and dedicated vehicle requirements",
+      "Part truckload and consolidated industrial freight",
+      "Dispatch coordination, documentation, and local branch support",
+      "Specialised cargo enquiries, subject to operational suitability"
+     ],
+     "chips": [],
+     "kicker": "Gujarat contact",
+     "href": "tel:+919978977263",
+     "linkText": "Call branch"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 99789 77263",
+     "href": "tel:+919978977263"
+    },
+    {
+     "text": "View approximate location",
+     "href": "https://www.google.com/maps/search/?api=1&query=IPCL+Main+Road%2C+Near+Krishna+Service+Station%2C+New+Wadia+Road%2C+Dahej%2C+Bharuch%2C+Gujarat+392130"
+    }
+   ]
+  }
+ ]
+}

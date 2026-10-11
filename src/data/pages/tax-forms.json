@@ -1,0 +1,141 @@
+{
+ "path": "/tax-forms.html",
+ "title": "GST & E-Way Bill Dispatch Guidance | Vidhi Transport",
+ "description": "Review a practical GST and E-way Bill documentation checklist for road freight, with official portal links and Vidhi Transport dispatch contacts.",
+ "hero": {
+  "kicker": "Dispatch documentation reference",
+  "title": "Prepare the documents before the vehicle moves.",
+  "subtitle": "Use official guidance for compliance decisions.",
+  "intro": [
+   "A practical reference for information commonly reviewed around GST-era road freight. Applicability must be verified for the actual transaction and current rules.",
+   "This Vidhi page helps prepare a transport discussion; it is not a tax opinion or legal determination."
+  ],
+  "list": [
+   "Confirm the document applicable to the transaction",
+   "Check party, goods, route and transport information",
+   "Resolve errors before dispatch—not after the vehicle leaves"
+  ],
+  "ctas": [
+   {
+    "text": "Official E-Way Bill portal",
+    "href": "https://ewaybillgst.gov.in/"
+   },
+   {
+    "text": "Contact a branch",
+    "href": "/branch-locator.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Common discussion points",
+   "title": "Documents and shipment information",
+   "subtitle": "Review the actual record.",
+   "intro": [
+    "Requirements can change and exceptions may apply. Verify the actual movement through official government resources and your qualified GST or legal adviser.",
+    "The correct set depends on the commercial transaction and current rules. These cards identify information that commonly needs to be aligned before an industrial consignment is handed over for road movement."
+   ],
+   "chips": [
+    "General reference only"
+   ],
+   "cards": [
+    {
+     "title": "Invoice or bill of supply",
+     "body": [
+      "Use the document applicable to the transaction and ensure party, item, value and address information is internally consistent."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery challan",
+     "body": [
+      "Some non-sale or other eligible movements may use a delivery challan. Confirm whether it applies to the specific transaction."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "E-way Bill information",
+     "body": [
+      "Where required, verify the current record, parties, dispatch and delivery locations, goods details and transport information before movement."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    },
+    {
+     "title": "LR and transport brief",
+     "body": [
+      "Keep the cargo, package, weight, route, handling, contact and agreed delivery information aligned with the transport booking."
+     ],
+     "list": [
+      "Parties and addresses Confirm names, GSTIN details where applicable, bill-to and ship-to information, states and PIN codes.",
+      "Goods and value Confirm description, classification, quantity, package details and transaction information.",
+      "Transport details Align the transporter, origin, destination and vehicle information required by the authorised workflow.",
+      "Timing and validity Verify current validity and update requirements before movement or a vehicle change."
+     ],
+     "chips": [],
+     "num": "04",
+     "kicker": "Pre-dispatch check"
+    }
+   ]
+  },
+  {
+   "kicker": "Authoritative resources",
+   "title": "Continue to the official systems.",
+   "subtitle": "Confirm the dispatch brief.",
+   "intro": [
+    "Portal notices, user guides and advisories are more authoritative than an old static checklist. Use them for current processes, then confirm the transport information required by the Vidhi branch handling the shipment.",
+    "Share the approved documents and accurate cargo, package, route and contact details with the responsible branch before vehicle placement."
+   ],
+   "ctas": [
+    {
+     "text": "Official E-Way Bill System",
+     "href": "https://ewaybillgst.gov.in/"
+    },
+    {
+     "text": "Official GST Portal",
+     "href": "https://www.gst.gov.in/"
+    },
+    {
+     "text": "E-Way Bill guides and documentation",
+     "href": "https://docs.ewaybillgst.gov.in/"
+    },
+    {
+     "text": "Find the responsible branch",
+     "href": "/branch-locator.html"
+    },
+    {
+     "text": "Call +91 98253 21589",
+     "href": "tel:+919825321589"
+    }
+   ]
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "GST and E-way Bill questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "Does this page provide tax or legal advice?",
+     "a": "No. It is a general dispatch-preparation reference. GST and E-way Bill applicability depends on the transaction, goods, value, parties, route, exemptions and current law. Confirm requirements with the official portals and a qualified adviser."
+    },
+    {
+     "q": "Which shipment documents should I discuss with the transport branch?",
+     "a": "Discuss the applicable invoice, bill of supply or delivery challan, E-way Bill information where required, cargo description, package details, pickup and delivery addresses and authorised contacts."
+    },
+    {
+     "q": "Who is responsible for generating or updating an E-way Bill?",
+     "a": "Responsibility depends on the transaction and authorised workflow. The consignor, consignee and transporter should agree who will generate and update the required record before movement, using current official guidance."
+    },
+    {
+     "q": "Where should I verify current E-way Bill requirements?",
+     "a": "Use the official E-Way Bill System and GST Portal, or consult a qualified tax professional. Do not rely on an old downloaded checklist for a current compliance decision."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "path": "/branches/vadodara.html",
+ "title": "Vadodara Industrial Transport Branch | Vidhi Transport",
+ "description": "Contact the Vidhi Transport Vadodara branch for industrial freight, FTL, PTL, and dispatch support in Gujarat. Phone +91 63598 93349.",
+ "hero": {
+  "kicker": "Gujarat industrial transport branch",
+  "title": "Vadodara transport branch.",
+  "subtitle": null,
+  "intro": [
+   "Direct local coordination for industrial freight, full truckload, and part truckload requirements."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Your local dispatch contact",
+   "title": "Industrial freight support in Vadodara.",
+   "subtitle": "Vadodara",
+   "intro": [
+    "Our Vadodara branch supports freight conversations for industrial businesses operating in and around the Gujarat manufacturing corridor. Contact the branch directly to discuss pickup, delivery, route availability, and movement requirements."
+   ],
+   "cards": [
+    {
+     "title": "Industrial areas and nearby locations",
+     "body": [],
+     "list": [],
+     "chips": [
+      "Nandesari",
+      "Savli",
+      "Makarpura GIDC",
+      "Fertilizer Nagar"
+     ]
+    },
+    {
+     "title": "Services to discuss with the branch",
+     "body": [
+      "Survey No. 761, Godown No. 4/3, Opp. Gujarat State Fertilizers & Chemicals Ltd., Fertilizer Nagar, Vadodara, Gujarat 390010"
+     ],
+     "list": [
+      "Full truckload movement and dedicated vehicle requirements",
+      "Part truckload and consolidated industrial freight",
+      "Dispatch coordination, documentation, and local branch support",
+      "Specialised cargo enquiries, subject to operational suitability"
+     ],
+     "chips": [],
+     "kicker": "Gujarat contact",
+     "href": "tel:+916359893349",
+     "linkText": "Call branch"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 63598 93349",
+     "href": "tel:+916359893349"
+    },
+    {
+     "text": "View approximate location",
+     "href": "https://www.google.com/maps/search/?api=1&query=Survey+No.+761%2C+Godown+No.+4%2F3%2C+Opp.+Gujarat+State+Fertilizers+%26+Chemicals+Ltd.%2C+Fertilizer+Nagar%2C+Vadodara%2C+Gujarat+390010"
+    }
+   ]
+  }
+ ]
+}

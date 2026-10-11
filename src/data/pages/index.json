@@ -1,0 +1,270 @@
+{
+ "path": "/",
+ "title": "Part Load & Chemical Transport Gujarat–Maharashtra | Vidhi",
+ "description": "Vidhi Transport provides part load, full truckload, chemical freight, reverse logistics, warehousing and distribution across Gujarat and Maharashtra.",
+ "hero": {
+  "kicker": null,
+  "title": "Chemical and industrial freight. Delivered with certainty.",
+  "subtitle": null,
+  "intro": [
+   "Part load (PTL) and full truckload (FTL) transport across Gujarat and Maharashtra's GIDC and MIDC manufacturing corridors."
+  ],
+  "ctas": [
+   {
+    "text": "Get a freight quote",
+    "href": "#quote"
+   },
+   {
+    "text": "Track LR",
+    "href": "/lr-track.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Our services",
+   "title": "End-to-end logistics built for the chemical industry.",
+   "subtitle": null,
+   "intro": [
+    "Practical freight solutions for part loads, dedicated full truckloads, reverse logistics, chemical distribution, other transport booking, warehousing and last-mile delivery."
+   ],
+   "cards": [
+    {
+     "title": "Full Truckload Transport",
+     "body": [
+      "Dedicated vehicles for high-volume loads, scheduled plant dispatch, and time-sensitive industrial consignments."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/full-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Cost-conscious consolidated freight for smaller consignments and repeat industrial dispatch requirements."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/part-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Reverse Logistics",
+     "body": [
+      "Cost-conscious return movement for rejected goods, reusable packaging and industrial materials, subject to cargo and route requirements."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Warehousing and Distribution",
+     "body": [
+      "Industrial storage, dispatch coordination, onward distribution and last-mile support where available."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/warehousing.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "Explore all services",
+     "href": "/services.html"
+    }
+   ],
+   "id": "services"
+  },
+  {
+   "kicker": "Western India network",
+   "title": "A stronger link between industry and movement.",
+   "subtitle": null,
+   "intro": [
+    "Our branch network connects key GIDC and MIDC estates across Gujarat and Maharashtra with practical lane-level coordination."
+   ],
+   "list": [
+    "South Gujarat chemical, pharma, and manufacturing clusters.",
+    "Mumbai-region warehousing, MIDC, and industrial dispatch hubs.",
+    "Direct branch contacts for pickup, delivery, and local support."
+   ],
+   "chips": [
+    "Operating corridor",
+    "Gujarat Maharashtra",
+    "Dahej",
+    "Panoli",
+    "Jhagadia",
+    "Vapi",
+    "Silvassa",
+    "Bhiwandi",
+    "Taloja",
+    "Rabale"
+   ],
+   "ctas": [
+    {
+     "text": "Locate your nearest branch",
+     "href": "/branch-locator.html"
+    }
+   ]
+  },
+  {
+   "kicker": "Industries we serve",
+   "title": "Logistics that understands your cargo.",
+   "subtitle": null,
+   "intro": [
+    "From packaged chemical drums, carboys, IBCs and pharmaceutical cartons to industrial packaging, raw materials and urgent factory inputs, we plan movement around real dispatch requirements."
+   ],
+   "chips": [
+    "Chemical, petrochemical & specialty chemical transport",
+    "Pharmaceuticals & healthcare",
+    "Engineering & machinery",
+    "Packaging & industrial materials",
+    "Manufacturing inputs & industrial raw materials",
+    "Distribution & industrial trading support"
+   ],
+   "ctas": [
+    {
+     "text": "Explore the industries we support",
+     "href": "/Clientele.html"
+    }
+   ]
+  },
+  {
+   "kicker": "Experience that shows up",
+   "title": "Built around the realities of chemical and industrial transport.",
+   "subtitle": null,
+   "intro": [
+    "Industrial dispatch requires responsive coordination, practical documentation and teams that understand factory schedules—including support beyond standard working hours. That is the operating mindset behind Vidhi Transport."
+   ],
+   "cards": [
+    {
+     "title": "Credibility that matters",
+     "body": [
+      "IBA approval and ISO certification help support customer confidence."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Industrial corridor fluency",
+     "body": [
+      "Hands-on familiarity with manufacturing clusters, branch coordination, and dispatch windows."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "A more conscious approach",
+     "body": [
+      "Our Go Green initiative supports thoughtful route planning and responsible operations."
+     ],
+     "list": [],
+     "chips": []
+    }
+   ],
+   "ctas": [
+    {
+     "text": "Meet Vidhi Transport",
+     "href": "/about-us.html"
+    }
+   ]
+  },
+  {
+   "kicker": "How it works",
+   "title": "From requirement to movement.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Share your requirement",
+     "body": [
+      "Tell us the pickup point, destination, cargo type, approximate weight, and desired dispatch date."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "We coordinate the route",
+     "body": [
+      "We lift immediately, or schedule the movement for the next available dispatch window, depending on your requirement."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Move with clear support",
+     "body": [
+      "Dispatch and branch contacts remain available for practical coordination throughout the movement."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Useful before you book",
+   "title": "Clear answers for your next dispatch.",
+   "subtitle": null,
+   "intro": [
+    "Questions about routes, freight options, or credentials? Start here, then speak directly with our team."
+   ],
+   "faqs": [
+    {
+     "q": "Which regions does Vidhi Transport serve?",
+     "a": "Vidhi Transport serves industrial corridors across Gujarat and Maharashtra, including Ahmedabad, Vadodara, Ankleshwar, Jhagadia, Saykha, Panoli, Dahej, Sachin, Kadodara, Vapi, Umergaon, Daman, Bhiwandi, Rabale, Navi Mumbai, Ambernath, JNPT and Mundra."
+    },
+    {
+     "q": "What is the difference between full truckload and part truckload transport?",
+     "a": "Full truckload provides a dedicated vehicle for one consignment. Part truckload consolidates smaller consignments so a customer does not need to reserve the entire vehicle."
+    },
+    {
+     "q": "What types of industrial cargo does Vidhi Transport handle?",
+     "a": "We coordinate movement for packaged chemical drums, carboys, IBCs, pharmaceutical cartons, industrial packaging, raw materials, finished goods and machinery, subject to cargo documentation and handling requirements."
+    },
+    {
+     "q": "Does Vidhi Transport provide shipment reports and MIS reports?",
+     "a": "Yes. Shipment reporting and MIS reports are available to help customers monitor freight movement and operational activity."
+    },
+    {
+     "q": "Does Vidhi Transport provide reverse logistics for rejected goods?",
+     "a": "Yes. We coordinate cost-conscious return movement for rejected goods and other reverse-logistics requirements, subject to the cargo and route."
+    },
+    {
+     "q": "Does Vidhi Transport support other transport booking and last-mile delivery?",
+     "a": "Yes. Where operationally available, we can store finished goods and coordinate onward booking or last-mile delivery according to the destination and timeline."
+    },
+    {
+     "q": "How can I request a freight quotation?",
+     "a": "Call Vidhi Transport, use the website enquiry form, or send the pickup location, destination, cargo details and preferred dispatch date through WhatsApp."
+    },
+    {
+     "q": "Where can I verify Vidhi Transport's credentials?",
+     "a": "Visit our Credentials page for information about the Go Green initiative, Indian Banks' Association approval and ISO certification, or contact us for current supporting documents."
+    }
+   ]
+  },
+  {
+   "kicker": "Get your freight moving",
+   "title": "Tell us what needs to move.",
+   "subtitle": null,
+   "intro": [
+    "Share your requirement and our team will receive a ready-to-send WhatsApp enquiry. Nothing is sent until you choose to send it."
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ],
+   "id": "quote"
+  }
+ ]
+}

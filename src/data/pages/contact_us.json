@@ -1,0 +1,91 @@
+{
+ "path": "/contact_us.html",
+ "title": "Contact Vidhi Transport | Freight Quote & Customer Care",
+ "description": "Contact Vidhi Transport customer care or prepare a detailed PTL, FTL, industrial freight, container or warehousing quotation request.",
+ "hero": {
+  "kicker": "Business enquiries",
+  "title": "Give the team enough detail to give you a useful answer.",
+  "subtitle": null,
+  "intro": [
+   "Contact customer care, reach a branch directly or prepare a complete freight quotation request."
+  ],
+  "ctas": [
+   {
+    "text": "+91 98253 21589",
+    "href": "tel:+919825321589"
+   },
+   {
+    "text": "customercare@vidhitransport.com",
+    "href": "mailto:customercare@vidhitransport.com"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "Call customer care",
+   "subtitle": "Contact a branch",
+   "intro": [
+    "Use your LR number for status enquiries.",
+    "Include origin, destination and cargo in the subject.",
+    "Find direct numbers and nearby service areas."
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    },
+    {
+     "text": "View all 14 locations",
+     "href": "/branch-locator.html"
+    }
+   ]
+  },
+  {
+   "kicker": "Useful details",
+   "title": "A quote is only as precise as the brief.",
+   "subtitle": null,
+   "list": [
+    "Use exact PIN codes for both ends.",
+    "State actual gross weight and package dimensions.",
+    "Declare drums, carboys, regulated or hazardous material accurately.",
+    "Tell us whether cargo is stackable.",
+    "Add forklift, crane, dock and vehicle-access constraints."
+   ],
+   "ctas": [
+    {
+     "text": "Read dispatch planning guides",
+     "href": "/content.html"
+    }
+   ],
+   "id": "quote"
+  },
+  {
+   "kicker": "Helpful answers",
+   "title": "Contact and quotation questions",
+   "subtitle": null,
+   "faqs": [
+    {
+     "q": "What details are required for a transport quote?",
+     "a": "Share exact origin and destination, material, packaging, package count, total weight, dimensions, ready date, loading method, delivery terms and any special handling or documentation needs."
+    },
+    {
+     "q": "Can I request part load and full truckload options?",
+     "a": "Yes. Choose ‘Please recommend’ when the shipment could suit either option. The team can assess the movement using the actual cargo and route details."
+    },
+    {
+     "q": "Does sending this enquiry confirm price or vehicle placement?",
+     "a": "No. The enquiry gives Vidhi Transport the information needed to review the requirement. Price, service acceptance, vehicle placement and schedule require separate confirmation."
+    },
+    {
+     "q": "How quickly can I contact customer care?",
+     "a": "Customer care is listed as available 8:00 AM–10:00 PM IST, daily. You can call +91 98253 21589 or email customercare@vidhitransport.com."
+    }
+   ]
+  }
+ ]
+}

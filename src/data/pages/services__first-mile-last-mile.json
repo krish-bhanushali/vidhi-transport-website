@@ -1,0 +1,247 @@
+{
+ "path": "/services/first-mile-last-mile.html",
+ "title": "First-Mile & Last-Mile Transport Support | Vidhi",
+ "description": "First-mile pickup and last-mile industrial delivery support between factories, warehouses, branches and consignees in Gujarat and Maharashtra.",
+ "hero": {
+  "kicker": "Pickup and destination support",
+  "title": "First-Mile & Last-Mile Support",
+  "subtitle": null,
+  "intro": [
+   "Coordinated movement between factories, warehouses, branches, godowns and industrial consignee locations where service is available."
+  ],
+  "ctas": [
+   {
+    "text": "Request a quote",
+    "href": "/contact_us.html#quote"
+   },
+   {
+    "text": "Call +91 98253 21589",
+    "href": "tel:+919825321589"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": null,
+   "title": "First-Mile & Last-Mile Support at a glance",
+   "subtitle": null,
+   "chips": [
+    "Origin",
+    "Factory or warehouse",
+    "Destination",
+    "Branch or consignee",
+    "Core region",
+    "Gujarat–Maharashtra",
+    "Availability",
+    "Route dependent"
+   ]
+  },
+  {
+   "kicker": "Connect each end of the route",
+   "title": "Pickup and delivery support around the main movement.",
+   "subtitle": "Share the operating details.",
+   "intro": [
+    "First-mile support coordinates an accepted consignment from the origin facility to the relevant branch, hub or onward movement. Last-mile support coordinates the final leg from the network to the agreed consignee location.",
+    "Availability depends on local coverage, vehicle access, cargo, timing and delivery conditions. Clear contact details and site instructions help prevent avoidable delays at either end."
+   ],
+   "cards": [
+    {
+     "title": "What this service can include",
+     "body": [],
+     "list": [
+      "Factory and warehouse pickup coordination",
+      "Branch, hub and godown handoff support",
+      "Industrial consignee delivery where available",
+      "Door-to-Door and Godown-to-Door planning",
+      "Contact and site-access instruction coordination",
+      "Connection with accepted FTL, PTL or return freight"
+     ],
+     "chips": []
+    },
+    {
+     "title": "Often suitable for",
+     "body": [
+      "A useful quotation starts with these basics:"
+     ],
+     "list": [
+      "Complete pickup and delivery addresses",
+      "Site contact names and numbers",
+      "Loading and unloading access details",
+      "Package count, weight and dimensions",
+      "Required appointment or timing"
+     ],
+     "chips": [
+      "Factory pickups",
+      "Warehouse dispatches",
+      "Branch-connected freight",
+      "Industrial consignee delivery"
+     ],
+     "kicker": "Plan this shipment",
+     "href": "/contact_us.html#quote",
+     "linkText": "Request a quote"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 98253 21589",
+     "href": "tel:+919825321589"
+    },
+    {
+     "text": "customercare@vidhitransport.com",
+     "href": "mailto:customercare@vidhitransport.com"
+    }
+   ]
+  },
+  {
+   "kicker": "A clear operating sequence",
+   "title": "How we plan this movement.",
+   "subtitle": null,
+   "intro": [
+    "The exact operating plan varies by cargo, route and availability, but every enquiry begins with verified shipment details."
+   ],
+   "cards": [
+    {
+     "title": "Check both locations",
+     "body": [
+      "Share complete addresses, contacts, timings and vehicle-access information."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Connect the movement",
+     "body": [
+      "The team aligns pickup or delivery with the relevant FTL, PTL, branch or hub plan."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Coordinate handover",
+     "body": [
+      "Collection and final delivery are managed against agreed site and consignee instructions.",
+      "Important: First-mile and last-mile service is subject to local coverage, cargo acceptance, vehicle access, time restrictions and operational availability."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    }
+   ]
+  },
+  {
+   "kicker": "Flexible value-added support",
+   "title": "Agree the billing and delivery combination.",
+   "subtitle": null,
+   "intro": [
+    "Commercial and delivery choices can be combined subject to the customer account, route, cargo, documentation and operating confirmation."
+   ],
+   "cards": [
+    {
+     "title": "Freight payment",
+     "body": [],
+     "list": [
+      "Freight Paid",
+      "Freight To Pay",
+      "Account / Contract Billing"
+     ],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Delivery arrangement",
+     "body": [],
+     "list": [
+      "Door to Door",
+      "Godown to Door",
+      "Godown to Godown"
+     ],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Controlled delivery",
+     "body": [],
+     "list": [
+      "Delivery Against Consignee Copy (DACC)",
+      "Cash on Delivery (COD)",
+      "Agreed combinations"
+     ],
+     "chips": [],
+     "num": "03"
+    }
+   ],
+   "id": "billing-delivery-options"
+  },
+  {
+   "kicker": "Service questions",
+   "title": "Frequently asked questions.",
+   "subtitle": null,
+   "intro": [
+    "These answers explain the usual planning approach. Share the exact cargo and route for a shipment-specific response."
+   ],
+   "faqs": [
+    {
+     "q": "What is first-mile transport support?",
+     "a": "First-mile support covers the accepted pickup leg from a factory, warehouse or shipper location into the planned logistics movement."
+    },
+    {
+     "q": "What is last-mile industrial delivery?",
+     "a": "Last-mile support covers the final accepted delivery leg from a branch, hub or godown to the industrial consignee location."
+    },
+    {
+     "q": "Is Door-to-Door delivery available everywhere?",
+     "a": "Availability varies by route, locality, cargo, vehicle access and service conditions. Share the full addresses so the team can check coverage."
+    },
+    {
+     "q": "Which location details help with planning?",
+     "a": "Provide addresses, landmarks, contact people, operating hours, loading or unloading access and any appointment restrictions."
+    }
+   ]
+  },
+  {
+   "kicker": "Continue exploring",
+   "title": "Related logistics services.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Part Load Transport",
+     "body": [
+      "Flexible transport for smaller and recurring industrial consignments that do not require an entire vehicle."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/part-truck-load.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Reverse Logistics",
+     "body": [
+      "Coordinated return movement for rejected goods, reusable packaging and industrial materials across the operating network."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/reverse-logistics.html",
+     "linkText": "Explore service"
+    },
+    {
+     "title": "Container Transport to Ports",
+     "body": [
+      "Container transport coordination between industrial locations and JNPT (Nhava Sheva), Hazira and Mundra ports."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services/port-container-transport.html",
+     "linkText": "Explore service"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "See all services",
+     "href": "/services.html"
+    }
+   ]
+  }
+ ]
+}

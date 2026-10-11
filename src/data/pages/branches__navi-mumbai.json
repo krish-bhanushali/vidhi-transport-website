@@ -1,0 +1,62 @@
+{
+ "path": "/branches/navi-mumbai.html",
+ "title": "Navi Mumbai Transport Branch & Head Office | Vidhi",
+ "description": "Contact the Vidhi Transport Navi Mumbai Head Office branch for industrial freight, FTL, PTL, and dispatch support in Maharashtra. Phone +91 93775 55777.",
+ "hero": {
+  "kicker": "Maharashtra industrial transport branch",
+  "title": "Navi Mumbai Head Office transport branch.",
+  "subtitle": null,
+  "intro": [
+   "Direct local coordination for industrial freight, full truckload, and part truckload requirements."
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Your local dispatch contact",
+   "title": "Industrial freight support in Navi Mumbai Head Office.",
+   "subtitle": "Navi Mumbai Head Office",
+   "intro": [
+    "Our Navi Mumbai Head Office branch supports freight conversations for industrial businesses operating in and around the Maharashtra manufacturing corridor. Contact the branch directly to discuss pickup, delivery, route availability, and movement requirements."
+   ],
+   "cards": [
+    {
+     "title": "Industrial areas and nearby locations",
+     "body": [],
+     "list": [],
+     "chips": [
+      "Vashi",
+      "Navi Mumbai",
+      "Taloja",
+      "Mumbai metropolitan region"
+     ]
+    },
+    {
+     "title": "Services to discuss with the branch",
+     "body": [
+      "803, 8th Floor, Haware Infotech, Near Inorbit Mall, Vashi, Navi Mumbai, Maharashtra 400703"
+     ],
+     "list": [
+      "Full truckload movement and dedicated vehicle requirements",
+      "Part truckload and consolidated industrial freight",
+      "Dispatch coordination, documentation, and local branch support",
+      "Specialised cargo enquiries, subject to operational suitability"
+     ],
+     "chips": [],
+     "kicker": "Maharashtra contact",
+     "href": "tel:+919377555777",
+     "linkText": "Call branch"
+    }
+   ],
+   "ctas": [
+    {
+     "text": "+91 93775 55777",
+     "href": "tel:+919377555777"
+    },
+    {
+     "text": "View approximate location",
+     "href": "https://www.google.com/maps/search/?api=1&query=803%2C+8th+Floor%2C+Haware+Infotech%2C+Near+Inorbit+Mall%2C+Vashi%2C+Navi+Mumbai%2C+Maharashtra+400703"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "path": "/about-us.html",
+ "title": "About Vidhi Transport | 25+ Years in Industrial Logistics",
+ "description": "Learn about Vidhi Transport Co., an IBA-approved and ISO-certified road logistics company serving Gujarat and Maharashtra for 25+ years.",
+ "hero": {
+  "kicker": "Company profile",
+  "title": "Built around the industrial corridors we know.",
+  "subtitle": null,
+  "intro": [
+   "For more than 25 years, Vidhi Transport Co. has supported industrial freight movement across Gujarat and Maharashtra through practical planning, direct coordination and dependable road logistics."
+  ],
+  "list": [
+   "Full truckload and part load transport",
+   "14 branch locations across two states",
+   "Industrial, chemical and project-cargo support",
+   "IBA Approved, ISO Certified and Go Green"
+  ],
+  "ctas": [
+   {
+    "text": "Explore our network",
+    "href": "/branch-locator.html"
+   },
+   {
+    "text": "View services",
+    "href": "/services.html"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "kicker": "Our company story",
+   "title": "Freight service grows through repeat trust, not slogans.",
+   "subtitle": null,
+   "intro": [
+    "Vidhi Transport Co. supports manufacturers, distributors and dispatch teams moving cargo between active industrial clusters in Gujarat and Maharashtra. Our work begins with the shipment itself: where it must be collected, how it should be handled, which movement type fits, and who needs a clear update.",
+    "The network combines local branch contacts with full truckload, part load and specialised freight coordination. That corridor familiarity helps us discuss real operating constraints around industrial estates, plant schedules, delivery points, ports and warehouses.",
+    "We aim to keep the relationship direct and accountable. Customers can reach a team that understands the lane, while our published service, branch and credential information makes vendor evaluation easier."
+   ]
+  },
+  {
+   "kicker": "How we work",
+   "title": "A practical operating model for industrial freight.",
+   "subtitle": null,
+   "intro": [
+    "The model is intentionally straightforward: understand the cargo, select the right movement plan, coordinate the lane and stay reachable throughout the dispatch."
+   ],
+   "cards": [
+    {
+     "title": "Industrial corridor focus",
+     "body": [
+      "Familiarity with manufacturing belts, GIDC and MIDC locations, plant schedules and business-to-business delivery requirements."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Flexible freight planning",
+     "body": [
+      "FTL, PTL and specialised transport options matched to volume, timing, handling and route requirements."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/services.html",
+     "linkText": "Explore services"
+    },
+    {
+     "title": "Direct coordination",
+     "body": [
+      "Accessible branch and customer-care contacts for quotations, pickup planning, shipment questions and delivery follow-up."
+     ],
+     "list": [],
+     "chips": []
+    },
+    {
+     "title": "Documented assurance",
+     "body": [
+      "IBA approval, ISO certification and the Go Green initiative are presented together for easier customer review."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/certifications.html",
+     "linkText": "View credentials"
+    }
+   ]
+  },
+  {
+   "kicker": "Our mission",
+   "title": "Make industrial road movement clear and dependable.",
+   "subtitle": "Be the trusted corridor partner businesses call first.",
+   "intro": [
+    "Support dispatch teams with practical planning, responsible handling, direct communication and consistent execution across the corridors we serve.",
+    "Grow responsibly by strengthening service quality, branch accessibility and long-term relationships with customers, people and transport partners."
+   ]
+  },
+  {
+   "kicker": "Core values",
+   "title": "The standards behind each dispatch.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Reliability",
+     "body": [
+      "Plan carefully, communicate honestly and follow through on agreed responsibilities."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "01"
+    },
+    {
+     "title": "Safety first",
+     "body": [
+      "Consider cargo, handling, vehicle and route requirements before movement begins."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "02"
+    },
+    {
+     "title": "Responsiveness",
+     "body": [
+      "Keep customer and branch contacts accessible when a dispatch needs an answer."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "03"
+    },
+    {
+     "title": "Integrity",
+     "body": [
+      "Represent capabilities, documents and operating commitments accurately."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "04"
+    },
+    {
+     "title": "Partnership",
+     "body": [
+      "Build relationships that support recurring dispatch cycles and shared improvement."
+     ],
+     "list": [],
+     "chips": [],
+     "num": "05"
+    }
+   ]
+  },
+  {
+   "kicker": "Quality in practice",
+   "title": "Useful controls, visible to the customer.",
+   "subtitle": null,
+   "intro": [
+    "Quality is supported by clear shipment information, suitable planning, accessible escalation and the disciplined use of verified documents."
+   ],
+   "list": [
+    "Requirement review Pickup, delivery, cargo and handling details discussed before planning.",
+    "Appropriate movement FTL, PTL or specialised support selected for the stated requirement.",
+    "Branch coordination Published contacts connect customers with the relevant operating location.",
+    "Continuous learning Feedback and recurring-lane experience inform future planning conversations."
+   ]
+  },
+  {
+   "kicker": "More about Vidhi",
+   "title": "People, responsibility and transparent business information.",
+   "subtitle": null,
+   "cards": [
+    {
+     "title": "Careers",
+     "body": [
+      "Learn where logistics professionals can contribute and how to submit a profile."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/careers.html",
+     "linkText": "Explore careers"
+    },
+    {
+     "title": "CSR",
+     "body": [
+      "See the responsibility areas that guide environmental, safety and people-focused decisions."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/csr.html",
+     "linkText": "View CSR approach"
+    },
+    {
+     "title": "Governance",
+     "body": [
+      "Understand our principles for ethical conduct, records, safety and escalation."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/governance.html",
+     "linkText": "View governance"
+    },
+    {
+     "title": "Group of Companies",
+     "body": [
+      "Review the confirmed operating entity and our policy for group disclosures."
+     ],
+     "list": [],
+     "chips": [],
+     "href": "/group-companies.html",
+     "linkText": "View group information"
+    }
+   ]
+  },
+  {
+   "kicker": "Useful details",
+   "title": "Questions about Vidhi Transport.",
+   "subtitle": null,
+   "intro": [
+    "Straight answers for customers, procurement teams and prospective business partners."
+   ],
+   "faqs": [
+    {
+     "q": "Where does Vidhi Transport operate?",
+     "a": "Vidhi Transport serves industrial corridors across Gujarat and Maharashtra through 14 listed branch locations. The branch locator provides current offices, contacts and nearby service areas."
+    },
+    {
+     "q": "What types of freight does Vidhi Transport handle?",
+     "a": "Core services include full truckload, part load, reverse logistics, packaged chemical and industrial freight, first-mile and last-mile support, ODC and construction cargo, port-container transport, warehousing and distribution."
+    },
+    {
+     "q": "Is Vidhi Transport IBA approved and ISO certified?",
+     "a": "Vidhi Transport presents its IBA approval, ISO certification and Go Green initiative on the Credentials page. Customers should review the published certificate details and validity information for procurement checks."
+    },
+    {
+     "q": "How can a business request a transport plan?",
+     "a": "Share the pickup, destination, cargo description, quantity, handling needs and preferred dispatch date through the quotation page. The operations team can then discuss the appropriate movement type."
+    }
+   ]
+  }
+ ]
+}
